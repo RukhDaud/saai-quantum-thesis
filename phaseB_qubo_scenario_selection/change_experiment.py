@@ -85,6 +85,7 @@ def main():
     ap.add_argument("--instances", type=int, default=30)
     ap.add_argument("--k", type=int, default=5)
     ap.add_argument("--out", default="results/change_rq4.csv")
+    ap.add_argument("--start", type=int, default=0, help="first instance index (resume with identical seeds)")
     a = ap.parse_args()
     f = ["n", "k", "seed", "change", "method", "seconds", "variables", "impact_set", "unmet_before", "size", "size_ok",
          "feasible", "pairwise_cov", "best_cov", "cov_ratio", "churn", "best_churn", "selected"]
@@ -92,7 +93,7 @@ def main():
         w = csv.DictWriter(fh, fieldnames=f)
         w.writeheader()
         for n in a.sizes:
-            for i in range(a.instances):
+            for i in range(a.start if n == a.sizes[0] else 0, a.instances):
                 run(n, a.k, BASE + 1000 * n + i, w, do_full_qaoa=(n <= 16 and not NOFQ))
                 fh.flush()
                 print(f"n={n} instance {i + 1}/{a.instances} done", flush=True)
