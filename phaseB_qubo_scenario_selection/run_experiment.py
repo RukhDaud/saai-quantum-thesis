@@ -4,12 +4,13 @@ Every instance uses its own seed; all solvers see the same instance and QUBO."""
 import argparse, csv, time, json, platform, numpy as np
 from qsel.instance import sample_pool, Instance
 from qsel.qubo import build_qubo, all_energies, energy
+from qsel.qubo_v2 import build_qubo_v2
 from qsel import solvers as S
 
-def run_one(n, k, seed, writer, qaoa_p, qaoa_restarts):
+def run_one(n, k, seed, writer, qaoa_p, qaoa_restarts, qubo='v1'):
     rng = np.random.default_rng(seed)
     inst = Instance(sample_pool(n, rng), k)
-    Q, const = build_qubo(inst)
+    Q, const = build_qubo(inst) if qubo == 'v1' else build_qubo_v2(inst)
     t = time.perf_counter(); E = all_energies(Q, const); t_enum = time.perf_counter() - t
     x_opt, e_opt = S.exhaustive(Q, const, E)
     methods = {
@@ -24,7 +25,7 @@ def run_one(n, k, seed, writer, qaoa_p, qaoa_restarts):
         t = time.perf_counter(); out = fn(); dt = time.perf_counter() - t
         if name == 'exhaustive': dt += t_enum
         sel = out[0]; x = [1 if i in sel else 0 for i in range(n)]
-        row = {'n': n, 'k': k, 'seed': seed, 'method': name, 'seconds': round(dt, 4),
+        row = {'n': n, 'k': k, 'seed': seed, 'qubo': qubo, 'method': name, 'seconds': round(dt, 4),
                'qubo_energy': energy(Q, x, const), 'qubo_opt': e_opt,
                'energy_gap': energy(Q, x, const) - e_opt, **inst.evaluate(sel),
                'selected': ' '.join(map(str, sel))}
@@ -40,15 +41,16 @@ def main():
     ap.add_argument('--qaoa_restarts', type=int, default=3)
     ap.add_argument('--base_seed', type=int, default=20260927)
     ap.add_argument('--out', default='results/runs.csv')
+    ap.add_argument('--qubo', choices=['v1', 'v2'], default='v1', help='QUBO formulation (v2 = coverage-aligned)')
     ap.add_argument('--start', type=int, default=0, help='first instance index (to resume an interrupted run with the same seeds)')
     a = ap.parse_args()
-    fields = ['n','k','seed','method','seconds','qubo_energy','qubo_opt','energy_gap','size','size_ok',
+    fields = ['n','k','seed','qubo','method','seconds','qubo_energy','qubo_opt','energy_gap','size','size_ok',
               'pairwise_cov','predicate_cov','boundary_cov','traced_frac','qaoa_p_opt','qaoa_nfev','selected']
     with open(a.out, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=fields); w.writeheader()
         for n in a.sizes:
             for i in range(a.start, a.instances):
-                run_one(n, a.k, a.base_seed + 1000 * n + i, w, a.qaoa_p, a.qaoa_restarts); f.flush()
+                run_one(n, a.k, a.base_seed + 1000 * n + i, w, a.qaoa_p, a.qaoa_restarts, a.qubo); f.flush()
                 print(f'n={n} instance {i+1}/{a.instances} done', flush=True)
     json.dump({'args': vars(a), 'python': platform.python_version(), 'machine': platform.machine()},
               open(a.out.replace('.csv', '_meta.json'), 'w'), indent=1)
