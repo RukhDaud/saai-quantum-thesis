@@ -1,0 +1,16 @@
+{
+ "args": {
+  "sizes": [
+   12,
+   20
+  ],
+  "instances": 1,
+  "k": 5,
+  "qaoa_p": 2,
+  "qaoa_restarts": 3,
+  "base_seed": 20260927,
+  "out": "results/smoke.csv"
+ },
+ "python": "3.11.15",
+ "machine": "x86_64"
+}

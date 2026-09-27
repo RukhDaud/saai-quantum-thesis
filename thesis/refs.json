@@ -1,0 +1,654 @@
+{
+"D1": {
+"ieee": "National Transportation Safety Board, \"NTSB finds automation overreliance contributed to two fatal Ford BlueCruise crashes,\" Press Release NR20260331, Mar. 31, 2026. [Online]. Available: https://www.ntsb.gov/news/press-releases/Pages/NR20260331.aspx",
+"st": "Checked"
+},
+"D2": {
+"ieee": "National Highway Traffic Safety Administration, Office of Defects Investigation, \"ODI resume: Engineering analysis EA26002,\" Mar. 18, 2026. [Online]. Available: https://static.nhtsa.gov/odi/inv/2026/INOA-EA26002-10023.pdf",
+"st": "Checked"
+},
+"D3": {
+"ieee": "J. Stempel and A. Roy, \"Tesla ordered by Florida jury to pay $243 million in fatal Autopilot crash,\" Reuters, Aug. 1, 2025.",
+"st": "Checked"
+},
+"D4": {
+"ieee": "National Highway Traffic Safety Administration, \"Consent order: Cruise crash reporting,\" Press release, Sep. 30, 2024. [Online]. Available: https://www.nhtsa.gov/press-releases/consent-order-cruise-crash-reporting",
+"st": "Checked"
+},
+"D5": {
+"ieee": "Toyota Motor North America, \"Toyota recalls certain Toyota and Lexus vehicles,\" Toyota USA Newsroom, Oct. 2025. [Online]. Available: https://pressroom.toyota.com/toyota-recalls-certain-toyota-and-lexus-vehicles-6/",
+"st": "Found"
+},
+"D6": {
+"ieee": "Toyota Motor North America, \"Toyota recalls certain model year 2025-2026 Lexus LX 600 vehicles,\" Toyota USA Newsroom, Feb. 18, 2026. [Online]. Available: https://pressroom.toyota.com/toyota-recalls-certain-model-year-2025-2026-lexus-lx-600-vehicles/",
+"st": "Found"
+},
+"D7": {
+"ieee": "National Transportation Safety Board, \"Investigation HWY26FH008: Automated vehicle strikes pedestrian in school zone, Santa Monica, California,\" Jan. 23, 2026. [Online]. Available: https://www.ntsb.gov/investigations/Pages/HWY26FH008.aspx",
+"st": "Checked"
+},
+"D26": {
+"ieee": "Assurance Case Working Group, \"Goal Structuring Notation community standard, version 3,\" Safety-Critical Systems Club, SCSC-141C, 2021.",
+"st": "Checked"
+},
+"D40": {
+"ieee": "Road Vehicles - Functional Safety, ISO 26262:2018, International Organization for Standardization, Geneva, Switzerland, 2018.",
+"st": "Checked"
+},
+"D41": {
+"ieee": "Road Vehicles - Safety of the Intended Functionality, ISO 21448:2022, International Organization for Standardization, Geneva, Switzerland, 2022.",
+"st": "Checked"
+},
+"D44": {
+"ieee": "Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles, SAE J3016_202104, SAE International, 2021.",
+"st": "Checked"
+},
+"D54": {
+"ieee": "Systems and Software Engineering - Life Cycle Processes - Requirements Engineering, ISO/IEC/IEEE 29148:2018, 2018.",
+"st": "Checked"
+},
+"D56": {
+"ieee": "Standard for Safety for the Evaluation of Autonomous Products, UL 4600, Ed. 3, UL Standards & Engagement, Mar. 17, 2023.",
+"st": "Checked"
+},
+"D57": {
+"ieee": "Road Vehicles - Safety and Artificial Intelligence, ISO/PAS 8800:2024, International Organization for Standardization, Geneva, Switzerland, 2024.",
+"st": "Checked"
+},
+"D66": {
+"ieee": "Operational Design Domain (ODD) Taxonomy for an Automated Driving System (ADS) - Specification, BSI PAS 1883:2020, British Standards Institution, London, U.K., 2020.",
+"st": "Checked"
+},
+"S14": {
+"ieee": "AUTOSAR, \"AUTOSAR Adaptive Platform, Release R23-11,\" 2023. [Online]. Available: https://www.autosar.org/fileadmin/standards/R23-11/AP/AUTOSAR_AP_TR_ReleaseOverview.pdf",
+"st": "Found"
+},
+"D8": {
+"st": "Checked",
+"ieee": "S. Mitra, C. Păsăreanu, P. Prabhakar, S. A. Seshia, R. Mangal, Y. Li, C. Watson, D. Gopinath, and H. Yu, \"Formal verification techniques for vision-based autonomous systems - A survey,\" in Principles of Verification: Cycling the Probabilistic Landscape, Lecture Notes in Computer Science, vol. 15262. Cham, Switzerland: Springer, 2025, doi: 10.1007/978-3-031-75778-5_5."
+},
+"D10": {
+"ieee": "\"Formalization of operational domain and operational design domain for automated vehicles,\" arXiv:2408.14481, 2024.",
+"st": "Checked"
+},
+"D21": {
+"ieee": "E. M. Clarke, \"The birth of model checking,\" in 25 Years of Model Checking, Lecture Notes in Computer Science, vol. 5000. Berlin, Germany: Springer, 2008, pp. 1-26, doi: 10.1007/978-3-540-69850-0_1.",
+"st": "Checked"
+},
+"D51": {
+"ieee": "E. Bartocci, J. V. Deshmukh, A. Donzé, G. Fainekos, O. Maler, D. Ničković, and S. Sankaranarayanan, \"Specification-based monitoring of cyber-physical systems: A survey on theory, tools and applications,\" in Lectures on Runtime Verification, Lecture Notes in Computer Science, vol. 10457. Cham, Switzerland: Springer, 2018, pp. 135-175, doi: 10.1007/978-3-319-75632-5_5.",
+"st": "Checked"
+},
+"D67": {
+"ieee": "S. Shalev-Shwartz, S. Shammah, and A. Shashua, \"On a formal model of safe and scalable self-driving cars,\" arXiv:1708.06374, 2017.",
+"st": "Checked"
+},
+"S8": {
+"ieee": "D. Beyer and J. Strejček, \"Improvements in software verification and witness validation: SV-COMP 2025,\" in Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2025), Lecture Notes in Computer Science. Cham, Switzerland: Springer, 2025, pp. 151-186, doi: 10.1007/978-3-031-90660-2_9.",
+"st": "Checked"
+},
+"S19": {
+"ieee": "J.-M. Bruel, S. Ebersold, F. Galinier, M. Mazzara, A. Naumchev, and B. Meyer, \"The role of formalism in system requirements,\" ACM Comput. Surv., vol. 54, no. 5, pp. 1-36, 2021, doi: 10.1145/3448975.",
+"st": "Checked"
+},
+"S23": {
+"ieee": "R. Hähnle and M. Huisman, \"Deductive software verification: From pen-and-paper proofs to industrial tools,\" in Computing and Software Science, Lecture Notes in Computer Science, vol. 10000. Cham, Switzerland: Springer, 2019, pp. 345-373, doi: 10.1007/978-3-319-91908-9_18.",
+"st": "Checked"
+},
+"S24": {
+"ieee": "M. Kodetzki, T. Bordis, T. Runge, and I. Schaefer, \"Partial proofs to optimize deductive verification of feature-oriented software product lines,\" in Proc. 18th Int. Working Conf. Variability Modelling of Software-Intensive Systems (VaMoS), 2024, pp. 17-26, doi: 10.1145/3634713.3634714.",
+"st": "Checked"
+},
+"S25": {
+"ieee": "L. S. Brugger, X. Denis, and P. Müller, \"Toward practical deductive verification: Insights from a qualitative survey in industry and academia,\" arXiv:2510.20514, 2025.",
+"st": "Checked"
+},
+"S27": {
+"ieee": "L. Armborst, D. Beyer, M. Huisman, and M. Lingsch-Rosenfeld, \"AutoSV-Annotator: Integrating deductive and automatic software verification,\" in Formal Methods for Industrial Critical Systems (FMICS 2025), Lecture Notes in Computer Science, vol. 16040. Cham, Switzerland: Springer, 2025, pp. 59-77, doi: 10.1007/978-3-032-00942-5_4.",
+"st": "Checked"
+},
+"S28": {
+"ieee": "B. Beckert, T. Bormer, F. Merz, and C. Sinz, \"Integration of bounded model checking and deductive verification,\" in Formal Verification of Object-Oriented Software (FoVeOOS 2011), Lecture Notes in Computer Science, vol. 7421. Berlin, Germany: Springer, 2012, pp. 86-104, doi: 10.1007/978-3-642-31762-0_7.",
+"st": "Checked"
+},
+"S34": {
+"ieee": "I. Dragomir, I. Ober, and C. Percebois, \"Contract-based modeling and verification of timed safety requirements within SysML,\" Softw. Syst. Model., vol. 16, no. 2, pp. 587-624, 2015, doi: 10.1007/s10270-015-0481-1.",
+"st": "Checked"
+},
+"S63": {
+"ieee": "C. Menghi, C. Tsigkanos, P. Pelliccione, C. Ghezzi, and T. Berger, \"Specification patterns for robotic missions,\" IEEE Trans. Softw. Eng., vol. 47, no. 10, pp. 2208-2224, 2021 (IEEE Xplore document 8859226).",
+"st": "Checked"
+},
+"S64": {
+"ieee": "M. Luckcuck, M. Farrell, L. A. Dennis, C. Dixon, and M. Fisher, \"Formal specification and verification of autonomous robotic systems: A survey,\" ACM Comput. Surv., vol. 52, no. 5, pp. 1-41, 2019, doi: 10.1145/3342355.",
+"st": "Checked"
+},
+"D11": {
+"ieee": "H. Xu, Y. Bian, Y. Li, H. Qin, H. Zhou, F. Chang, S. Wang, and Q. Ye, \"Learnable operational design condition monitor for failure prediction in autonomous driving,\" Accid. Anal. Prev., vol. 220, Art. no. 108139, 2025, doi: 10.1016/j.aap.2025.108139.",
+"st": "Checked"
+},
+"D12": {
+"ieee": "F. Schaller, R. Ehlers, I. Aslam, A. Deshpande, R. Gräfe, W. Guedri, N. Habib, N. Maslov, A. Rausch, S. S. Qutub, and M. Zhang, \"Addressing SOTIF with a runtime monitor ensemble for AI-based perception systems,\" Discover Artif. Intell., vol. 6, no. 1, 2026, doi: 10.1007/s44163-026-02186-z.",
+"st": "Checked"
+},
+"D31": {
+"ieee": "B. Schütt, J. Ransiek, T. Braun, and E. Sax, \"1001 ways of scenario generation for testing of self-driving cars: A survey,\" arXiv:2304.10850, 2023.",
+"st": "Checked"
+},
+"D32": {
+"ieee": "W. Ding, C. Xu, M. Arief, H. Lin, B. Li, and D. Zhao, \"A survey on safety-critical driving scenario generation: A methodological perspective,\" IEEE Trans. Intell. Transp. Syst., 2023. arXiv:2202.02215.",
+"st": "Checked"
+},
+"D33": {
+"ieee": "Z. Wang, J. Ma, and E. M.-K. Lai, \"A survey of scenario generation for automated vehicle testing and validation,\" Future Internet, vol. 16, no. 12, Art. no. 480, 2024, doi: 10.3390/fi16120480.",
+"st": "Checked"
+},
+"D48": {
+"ieee": "J. Kim and A. Kaur, \"A survey on adversarial robustness of LiDAR-based machine learning perception in autonomous vehicles,\" arXiv:2411.13778, 2024.",
+"st": "Checked"
+},
+"D49": {
+"ieee": "H. Yin, Z. Zhao, J. H. Yan, and D. Watzenig, \"Certified robustness in automated driving perception: A review,\" Automot. Innov., vol. 8, no. 4, pp. 817-837, 2025, doi: 10.1007/s42154-024-00347-3.",
+"st": "Checked"
+},
+"D50": {
+"ieee": "\"Autonomous driving test method based on digital twin: A survey,\" in Proc. IEEE Int. Conf., 2021 (IEEE Xplore 9628341).",
+"st": "Found"
+},
+"D58": {
+"ieee": "A. Corso, R. J. Moss, M. Koren, R. Lee, and M. J. Kochenderfer, \"A survey of algorithms for black-box safety validation of cyber-physical systems,\" J. Artif. Intell. Res., vol. 72, 2021, doi: 10.1613/jair.1.12716.",
+"st": "Checked"
+},
+"D64": {
+"ieee": "A. Sinha, S. Chand, V. Vu, H. Chen, and V. V. Dixit, \"Crash and disengagement data of autonomous vehicles on public roads in California,\" Sci. Data, vol. 8, no. 1, Art. no. 298, 2021, doi: 10.1038/s41597-021-01083-7.",
+"st": "Checked"
+},
+"S6": {
+"ieee": "A. Forrai, M. Alirezaei, T. Singh, A. Gali, and J. Ploeg, \"Virtual verification and validation of autonomous vehicles: Toolchain and workflow,\" in Modeling and Control of Autonomous Systems. London, U.K.: IntechOpen, 2025, doi: 10.5772/intechopen.1008921.",
+"st": "Checked"
+},
+"S9": {
+"ieee": "B. Cabrero-Daniel and M. Mohamad, \"Challenges of virtual validation and verification for automotive functions,\" in Proc. Euromicro Conf. Software Engineering and Advanced Applications (SEAA), Lecture Notes in Computer Science. Cham, Switzerland: Springer, 2025, pp. 183-200, doi: 10.1007/978-3-032-04190-6_12.",
+"st": "Checked"
+},
+"S29": {
+"ieee": "C. Birchler, S. Khatiri, P. Rani, T. Kehrer, and S. Panichella, \"A roadmap for simulation-based testing of autonomous cyber-physical systems: Challenges and future direction,\" ACM Trans. Softw. Eng. Methodol., vol. 34, no. 5, Art. no. 152, 2025, doi: 10.1145/3711906.",
+"st": "Checked"
+},
+"S30": {
+"ieee": "C. Birchler, T. K. Mohammed, P. Rani, T. Nechita, T. Kehrer, and S. Panichella, \"How does simulation-based testing for self-driving cars match human perception?,\" Proc. ACM Softw. Eng., vol. 1, no. FSE, pp. 929-950, 2024, doi: 10.1145/3643768.",
+"st": "Checked"
+},
+"S31": {
+"ieee": "V. Crespo-Rodriguez, C. Birchler, Neelofar, A. Aleti, and S. Panichella, \"The role of road features and vehicle dynamics in cost-effective autonomous vehicles safety testing: Insights from instance space analysis,\" Inf. Softw. Technol., vol. 195, Art. no. 108123, 2026, doi: 10.1016/j.infsof.2026.108123.",
+"st": "Checked"
+},
+"S33": {
+"ieee": "E. Aljalbout, J. Xing, A. Romero, I. Akinola, C. R. Garrett, E. Heiden, A. Gupta, T. Hermans, Y. Narang, D. Fox, D. Scaramuzza, and F. Ramos, \"The reality gap in robotics: Challenges, solutions, and best practices,\" Annu. Rev. Control Robot. Auton. Syst., 2026 (accepted). arXiv:2510.20808.",
+"st": "Checked"
+},
+"S35": {
+"ieee": "E. Rosenlund, J. Cederbladh, P. E. Strandberg, and D. Krems, \"The role of standardization for simulation in model-based systems engineering: A survey study supplemented with industrial experiences,\" Softw. Syst. Model., 2025, doi: 10.1007/s10270-025-01344-8.",
+"st": "Checked"
+},
+"S36": {
+"ieee": "G. Pappalardo, R. Caponetto, R. Varrica, and S. D. Cafiso, \"Assessing the operational design domain of lane support system for automated vehicles in different weather and road conditions,\" J. Traffic Transp. Eng. (Engl. Ed.), vol. 9, no. 4, pp. 631-644, 2022, doi: 10.1016/j.jtte.2021.12.002.",
+"st": "Checked"
+},
+"D13": {
+"st": "Checked",
+"ieee": "A. Nouri, B. Cabrero-Daniel, F. Törner, H. Sivencrona, and C. Berger, \"Engineering safety requirements for autonomous driving with large language models,\" in Proc. IEEE 32nd Int. Requirements Eng. Conf. (RE), 2024. arXiv:2403.16289."
+},
+"D14": {
+"ieee": "A. Beg, D. O'Donoghue, and R. Monahan, \"A short survey on formalising software requirements using large language models,\" arXiv:2506.11874, 2025.",
+"st": "Checked"
+},
+"D22": {
+"ieee": "U. S. Shah and D. C. Jinwala, \"Resolving ambiguities in natural language software requirements: A comprehensive survey,\" ACM SIGSOFT Softw. Eng. Notes, vol. 40, no. 5, pp. 1-7, 2015, doi: 10.1145/2815021.2815032.",
+"st": "Checked"
+},
+"D23": {
+"ieee": "F. de Bruijn and H. L. Dekkers, \"Ambiguity in natural language software requirements: A case study,\" in Requirements Engineering: Foundation for Software Quality (REFSQ 2010), Lecture Notes in Computer Science. Berlin, Germany: Springer, 2010, pp. 233-247, doi: 10.1007/978-3-642-14192-8_21.",
+"st": "Checked"
+},
+"D24": {
+"ieee": "F. Talha, T. Tahir, and T. Nadeem, \"A semiautomated approach for detecting ambiguities in software requirements using SpanBERT and named entity recognition,\" J. Softw. Evol. Process, vol. 37, no. 8, 2025, doi: 10.1002/smr.70041.",
+"st": "Checked"
+},
+"D25": {
+"ieee": "S. Bashir, A. Ferrari, A. Khan, P. E. Strandberg, Z. Haider, M. Saadatmand, and M. Bohlin, \"Requirements ambiguity detection and explanation with LLMs: An industrial study,\" in Proc. IEEE Int. Conf. Software Maintenance and Evolution (ICSME), Industry Track, 2025 (IEEE Xplore document 11185947).",
+"st": "Checked"
+},
+"D60": {
+"ieee": "L. Del Corro and R. Gemulla, \"ClausIE: Clause-based open information extraction,\" in Proc. 22nd Int. Conf. World Wide Web (WWW), 2013, pp. 355-366, doi: 10.1145/2488388.2488420.",
+"st": "Checked"
+},
+"D61": {
+"ieee": "I. Beltagy, K. Lo, and A. Cohan, \"SciBERT: A pretrained language model for scientific text,\" in Proc. Conf. Empirical Methods Natural Lang. Process. and 9th Int. Joint Conf. Natural Lang. Process. (EMNLP-IJCNLP), Hong Kong, China, 2019, pp. 3615-3620, doi: 10.18653/v1/D19-1371.",
+"st": "Checked"
+},
+"D62": {
+"ieee": "N. Reimers and I. Gurevych, \"Sentence-BERT: Sentence embeddings using Siamese BERT-networks,\" in Proc. Conf. Empirical Methods Natural Lang. Process. and 9th Int. Joint Conf. Natural Lang. Process. (EMNLP-IJCNLP), Hong Kong, China, 2019, pp. 3982-3992, doi: 10.18653/v1/D19-1410.",
+"st": "Checked"
+},
+"S15": {
+"ieee": "H. Hu, L. Zhang, and C. Ye, \"Semantic-based requirements analysis and verification,\" in Proc. Int. Conf. Electronics and Information Engineering (ICEIE), 2010, pp. V1-241-V1-246, doi: 10.1109/ICEIE.2010.5559882.",
+"st": "Checked"
+},
+"S16": {
+"ieee": "S. Lim, A. Henriksson, and J. Zdravkovic, \"Data-driven requirements elicitation: A systematic literature review,\" SN Comput. Sci., vol. 2, no. 1, Art. no. 16, 2021, doi: 10.1007/s42979-020-00416-4.",
+"st": "Checked"
+},
+"S17": {
+"ieee": "K. Mokos, T. Nestoridis, P. Katsaros, and N. Bassiliades, \"Semantic modeling and analysis of natural language system requirements,\" IEEE Access, vol. 10, pp. 84094-84119, 2022 (IEEE Xplore document 9852230).",
+"st": "Checked"
+},
+"S18": {
+"ieee": "H. S. Dar, S. Imtiaz, and M. I. U. Lali, \"Reducing requirements ambiguity via gamification: Comparison with traditional techniques,\" Comput. Intell. Neurosci., vol. 2022, Art. no. 3183411, 2022, doi: 10.1155/2022/3183411.",
+"st": "Checked"
+},
+"S20": {
+"ieee": "A. Tagliaferro, B. Guindani, L. Lestingi, and M. Rossi, \"Towards an agentic LLM-based approach to requirement formalization from unstructured specifications,\" arXiv:2604.18228, 2026.",
+"st": "Checked"
+},
+"S21": {
+"ieee": "M. Alenazi, \"The role of environmental assumptions in shaping requirements technical debt,\" Appl. Sci., vol. 15, no. 14, Art. no. 8028, 2025, doi: 10.3390/app15148028.",
+"st": "Checked"
+},
+"S22": {
+"ieee": "L. Duboc, E. Letier, D. S. Rosenblum, and T. Wicks, \"A case study in eliciting scalability requirements,\" in Proc. 16th IEEE Int. Requirements Eng. Conf. (RE), Barcelona, Spain, 2008, pp. 247-252, doi: 10.1109/RE.2008.22.",
+"st": "Checked"
+},
+"S26": {
+"ieee": "G. Brataas, A. Martini, G. K. Hanssen, and G. Ræder, \"Agile elicitation of scalability requirements for open systems: A case study,\" J. Syst. Softw., vol. 182, Art. no. 111064, 2021, doi: 10.1016/j.jss.2021.111064.",
+"st": "Checked"
+},
+"D46": {
+"ieee": "O. C. Z. Gotel and A. Finkelstein, \"An analysis of the requirements traceability problem,\" in Proc. IEEE Int. Conf. Requirements Eng. (ICRE), Colorado Springs, CO, USA, 1994, pp. 94-101, doi: 10.1109/ICRE.1994.292398.",
+"st": "Checked"
+},
+"D47": {
+"ieee": "J. Cleland-Huang, O. C. Z. Gotel, J. Huffman Hayes, P. Mäder, and A. Zisman, \"Software traceability: Trends and future directions,\" in Proc. Future of Software Engineering (FOSE), 2014, pp. 55-69, doi: 10.1145/2593882.2593891.",
+"st": "Checked"
+},
+"S39": {
+"ieee": "J. Mucha, A. Kaufmann, and D. Riehle, \"A systematic literature review of pre-requirements specification traceability,\" Requir. Eng., vol. 29, no. 2, pp. 119-141, 2024, doi: 10.1007/s00766-023-00412-z.",
+"st": "Checked"
+},
+"S40": {
+"ieee": "D. Fucci, E. Alégroth, and T. Axelsson, \"When traceability goes awry: An industrial experience report,\" J. Syst. Softw., vol. 192, Art. no. 111389, 2022, doi: 10.1016/j.jss.2022.111389.",
+"st": "Checked"
+},
+"S41": {
+"ieee": "S. Maro, J.-P. Steghöfer, and M. Staron, \"Software traceability in the automotive domain: Challenges and solutions,\" J. Syst. Softw., vol. 141, pp. 85-110, 2018, doi: 10.1016/j.jss.2018.03.060.",
+"st": "Checked"
+},
+"S42": {
+"ieee": "M. Ruiz, J. Y. Hu, and F. Dalpiaz, \"Why don't we trace? A study on the barriers to software traceability in practice,\" Requir. Eng., vol. 28, no. 4, pp. 619-637, 2023, doi: 10.1007/s00766-023-00408-9.",
+"st": "Checked"
+},
+"S43": {
+"ieee": "W. Abdeen, M. Unterkalmsteiner, P. Löwenadler, P. Yousefi, and K. Wnuk, \"Empirical evaluation of taxonomic trace links: A case study,\" Empir. Softw. Eng., vol. 31, no. 2, Art. no. 34, 2025, doi: 10.1007/s10664-025-10764-5.",
+"st": "Checked"
+},
+"S44": {
+"ieee": "F. Niu, R. Pan, L. C. Briand, and H. Hu, \"TVR: Automotive system requirement traceability validation and recovery through retrieval-augmented generation,\" arXiv:2504.15427, 2025.",
+"st": "Checked"
+},
+"S45": {
+"ieee": "F. Tian, T. Wang, P. Liang, C. Wang, A. A. Khan, and M. A. Babar, \"The impact of traceability on software maintenance and evolution: A mapping study,\" J. Softw. Evol. Process, vol. 33, no. 10, 2021, doi: 10.1002/smr.2374.",
+"st": "Checked"
+},
+"S67": {
+"ieee": "P. Rempel, P. Mäder, and T. Kuschke, \"An empirical study on project-specific traceability strategies,\" in Proc. 21st IEEE Int. Requirements Eng. Conf. (RE), Rio de Janeiro, Brazil, 2013, pp. 195-204, doi: 10.1109/RE.2013.6636719.",
+"st": "Checked"
+},
+"D27": {
+"ieee": "M. Wagner and C. Carlan, \"The open autonomy safety case framework,\" Safety-Critical Systems eJournal, vol. 3, no. 1, 2024. arXiv:2404.05444.",
+"st": "Checked"
+},
+"D28": {
+"ieee": "M. Chelouati, A. Boussif, J. Beugin, and E.-M. El Koursi, \"Graphical safety assurance case using goal structuring notation (GSN) - challenges, opportunities and a framework for autonomous trains,\" Reliab. Eng. Syst. Saf., vol. 230, Art. no. 108933, 2023, doi: 10.1016/j.ress.2022.108933.",
+"st": "Checked"
+},
+"D29": {
+"ieee": "R. Wei, S. Foster, H. Mei, F. Yan, R. Yang, I. Habli, C. O'Halloran, N. Tudor, T. Kelly, and Y. Nemouchi, \"ACCESS: Assurance case centric engineering of safety-critical systems,\" J. Syst. Softw., 2024, Art. no. 112034, doi: 10.1016/j.jss.2024.112034.",
+"st": "Checked"
+},
+"D15": {
+"ieee": "M. Zhang, Y. Li, T. Yue, and K.-Y. Cai, \"Quantum optimization for software engineering: A survey,\" ACM Trans. Softw. Eng. Methodol., doi: 10.1145/3816147. arXiv:2506.16878.",
+"st": "Checked"
+},
+"D17": {
+"ieee": "H. Araujo, X. Wang, M. Mousavi, and S. Ali, \"Using quantum annealing to generate test cases for cyber-physical systems,\" arXiv:2504.21684, 2025.",
+"st": "Checked"
+},
+"D18": {
+"ieee": "A. Trovato, M. Beseda, and D. Di Nucci, \"A preliminary investigation on the usage of quantum approximate optimization algorithms for test case selection,\" arXiv:2504.18955, 2025.",
+"st": "Checked"
+},
+"D19": {
+"ieee": "X. Wang, A. Muqeet, T. Yue, S. Ali, and P. Arcaini, \"Test case minimization with quantum annealers,\" ACM Trans. Softw. Eng. Methodol., doi: 10.1145/3680467. arXiv:2308.05505.",
+"st": "Checked"
+},
+"D20": {
+"ieee": "N. Innan, B. K. Behera, S. Al-Kuwari, and A. Farouk, \"QNN-VRCS: A quantum neural network for vehicle road cooperation systems,\" arXiv:2412.12705, 2024.",
+"st": "Checked"
+},
+"D34": {
+"ieee": "D. R. Kuhn, R. Bryce, F. Duan, L. Ghandehari, Y. Lei, and R. N. Kacker, \"Combinatorial testing: Theory and practice,\" Adv. Comput., vol. 99, pp. 1-66, 2015, doi: 10.1016/bs.adcom.2015.05.003.",
+"st": "Checked"
+},
+"D35": {
+"ieee": "\"Commonly used coverage measures do not apply well to combinatorial testing,\" NIST publication 913807.",
+"st": "Found"
+},
+"D36": {
+"ieee": "E. Farhi, J. Goldstone, and S. Gutmann, \"A quantum approximate optimization algorithm,\" arXiv:1411.4028, 2014.",
+"st": "Checked"
+},
+"D37": {
+"ieee": "C. C. McGeoch, Adiabatic Quantum Computation and Quantum Annealing: Theory and Practice (Synthesis Lectures on Quantum Computing). Cham, Switzerland: Springer, 2022 (orig. publ. 2014), doi: 10.1007/978-3-031-02518-1.",
+"st": "Checked"
+},
+"D38": {
+"ieee": "S. Yarkoni, E. Raponi, T. Bäck, and S. Schmitt, \"Quantum annealing for industry applications: Introduction and review,\" Rep. Prog. Phys., vol. 85, no. 10, Art. no. 104001, 2022, doi: 10.1088/1361-6633/ac8c54.",
+"st": "Checked"
+},
+"D39": {
+"st": "Checked",
+"ieee": "F. A. Quinton, P. A. S. Myhr, M. Barani, P. Crespo del Granado, and H. Zhang, \"Quantum annealing applications, challenges and limitations for optimisation problems compared to classical solvers,\" Sci. Rep., 2025, doi: 10.1038/s41598-025-96220-2."
+},
+"D42": {
+"ieee": "A. Lucas, \"Ising formulations of many NP problems,\" Front. Phys., vol. 2, Art. no. 5, 2014, doi: 10.3389/fphy.2014.00005.",
+"st": "Checked"
+},
+"D43": {
+"ieee": "J. Preskill, \"Quantum computing in the NISQ era and beyond,\" Quantum, vol. 2, Art. no. 79, 2018, doi: 10.22331/q-2018-08-06-79.",
+"st": "Checked"
+},
+"D63": {
+"ieee": "J. King, S. Yarkoni, M. M. Nevisi, J. P. Hilton, and C. C. McGeoch, \"Benchmarking a quantum annealing processor with the time-to-target metric,\" arXiv:1508.05087, 2015.",
+"st": "Checked"
+},
+"S51": {
+"ieee": "M. Cerezo, A. Arrasmith, R. Babbush, S. C. Benjamin, S. Endo, K. Fujii, J. R. McClean, K. Mitarai, X. Yuan, L. Cincio, and P. J. Coles, \"Variational quantum algorithms,\" Nat. Rev. Phys., vol. 3, no. 9, pp. 625-644, 2021, doi: 10.1038/s42254-021-00348-9.",
+"st": "Checked"
+},
+"S52": {
+"ieee": "A. Montanaro, \"Quantum algorithms: An overview,\" npj Quantum Inf., vol. 2, Art. no. 15023, 2016, doi: 10.1038/npjqi.2015.23.",
+"st": "Checked"
+},
+"S53": {
+"ieee": "L. K. Grover, \"A fast quantum mechanical algorithm for database search,\" in Proc. 28th Annu. ACM Symp. Theory of Computing (STOC), 1996, pp. 212-219, doi: 10.1145/237814.237866.",
+"st": "Checked"
+},
+"S54": {
+"ieee": "P. D. Nation, H. Kang, N. Sundaresan, and J. M. Gambetta, \"Scalable mitigation of measurement errors on quantum computers,\" PRX Quantum, vol. 2, no. 4, Art. no. 040326, 2021, doi: 10.1103/PRXQuantum.2.040326.",
+"st": "Checked"
+},
+"S65": {
+"ieee": "S. Feld, C. Roch, T. Gabor, C. Seidel, F. Neukart, I. Galter, W. Mauerer, and C. Linnhoff-Popien, \"A hybrid solution method for the capacitated vehicle routing problem using a quantum annealer,\" Front. ICT, vol. 6, Art. no. 13, 2019, doi: 10.3389/fict.2019.00013.",
+"st": "Checked"
+},
+"S66": {
+"ieee": "Ö. Salehi, A. Glos, and J. A. Miszczak, \"Unconstrained binary models of the travelling salesman problem variants for quantum optimization,\" Quantum Inf. Process., vol. 21, no. 2, Art. no. 67, 2022, doi: 10.1007/s11128-021-03405-5.",
+"st": "Checked"
+},
+"D16": {
+"ieee": "A. Govindankutty, \"A review of formal methods in quantum-circuit verification,\" Electronics, vol. 15, no. 5, Art. no. 1125, 2026, doi: 10.3390/electronics15051125.",
+"st": "Checked"
+},
+"S55": {
+"ieee": "K. Hietala, R. Rand, S.-H. Hung, X. Wu, and M. Hicks, \"A verified optimizer for quantum circuits,\" Proc. ACM Program. Lang., vol. 5, no. POPL, pp. 1-29, 2021, doi: 10.1145/3434318.",
+"st": "Checked"
+},
+"S57": {
+"ieee": "M. A. Serrano, J. A. Cruz-Lemus, R. Pérez-Castillo, and M. Piattini, \"Quantum software components and platforms: Overview and quality assessment,\" ACM Comput. Surv., vol. 55, no. 8, pp. 1-31, 2022, doi: 10.1145/3548679.",
+"st": "Checked"
+},
+"S58": {
+"ieee": "M. Piattini, M. Serrano, R. Pérez-Castillo, G. Petersen, and J. L. Hevia, \"Toward a quantum software engineering,\" IT Prof., vol. 23, no. 1, pp. 62-66, 2021, doi: 10.1109/MITP.2020.3019522.",
+"st": "Checked"
+},
+"S59": {
+"ieee": "B. Weder, J. Barzen, F. Leymann, and D. Vietz, \"Quantum software development lifecycle,\" in Quantum Software Engineering, M. A. Serrano, R. Pérez-Castillo, and M. Piattini, Eds. Cham, Switzerland: Springer, 2022, pp. 61-83, doi: 10.1007/978-3-031-05324-5_4.",
+"st": "Checked"
+},
+"S60": {
+"ieee": "M. Paltenghi and M. Pradel, \"Bugs in quantum computing platforms: An empirical study,\" Proc. ACM Program. Lang., vol. 6, no. OOPSLA1, pp. 1-27, 2022, doi: 10.1145/3527330.",
+"st": "Checked"
+},
+"S61": {
+"ieee": "S. Ali and T. Yue, \"Quantum software testing: A brief introduction,\" in Proc. IEEE/ACM 45th Int. Conf. Software Engineering: Companion (ICSE-Companion), Melbourne, Australia, 2023, pp. 332-333, doi: 10.1109/ICSE-Companion58688.2023.00093.",
+"st": "Checked"
+},
+"S62": {
+"ieee": "M. Ying, \"Floyd-Hoare logic for quantum programs,\" ACM Trans. Program. Lang. Syst., vol. 33, no. 6, pp. 1-49, 2011, doi: 10.1145/2049706.2049708.",
+"st": "Checked"
+},
+"D9": {
+"ieee": "M. Abboush, C. Knieke, and A. Rausch, \"Advancing real-time validation of automotive software systems via continuous integration and intelligent failure analysis,\" Sci. Rep., vol. 15, Art. no. 32936, 2025, doi: 10.1038/s41598-025-21416-5.",
+"st": "Checked"
+},
+"D45": {
+"ieee": "J. M. Zhang, M. Harman, L. Ma, and Y. Liu, \"Machine learning testing: Survey, landscapes and horizons,\" IEEE Trans. Softw. Eng., vol. 48, no. 1, pp. 1-36, 2022, doi: 10.1109/TSE.2019.2962027.",
+"st": "Checked"
+},
+"D52": {
+"ieee": "L. Huang, W. Yu, W. Ma, W. Zhong, Z. Feng, H. Wang, Q. Chen, W. Peng, X. Feng, B. Qin, and T. Liu, \"A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions,\" ACM Trans. Inf. Syst., vol. 43, no. 2, pp. 1-55, 2024, doi: 10.1145/3703155.",
+"st": "Checked"
+},
+"D53": {
+"ieee": "A. Kuznietsov, B. Gyevnar, C. Wang, S. Peters, and S. V. Albrecht, \"Explainable AI for safe and trustworthy autonomous driving: A systematic review,\" IEEE Trans. Intell. Transp. Syst., 2024, doi: 10.1109/TITS.2024.3474469.",
+"st": "Checked"
+},
+"D55": {
+"ieee": "J. Pérez-Cerrolaza, J. Abella, M. Borg, C. Donzella, J. Cerquides, F. J. Cazorla, C. Englund, M. Tauber, G. Nikolakopoulos, and J. L. Flores, \"Artificial intelligence for safety-critical systems in industrial and transportation domains: A survey,\" ACM Comput. Surv., vol. 56, no. 7, pp. 1-40, 2024, doi: 10.1145/3626314.",
+"st": "Checked"
+},
+"D59": {
+"ieee": "T. Y. Chen, F.-C. Kuo, H. Liu, P.-L. Poon, D. Towey, T. H. Tse, and Z. Q. Zhou, \"Metamorphic testing: A review of challenges and opportunities,\" ACM Comput. Surv., vol. 51, no. 1, pp. 1-27, 2018, doi: 10.1145/3143561.",
+"st": "Checked"
+},
+"S12": {
+"ieee": "C. Ghezzi, M. Ebrahimi, D. Isovic, and M. Sirjani, \"Breaking disciplinary silos: The case of software engineering,\" in Digital Humanism (DIGHUM 2025), Lecture Notes in Computer Science, vol. 16319. Cham, Switzerland: Springer, 2025, pp. 421-435, doi: 10.1007/978-3-032-11108-1_32.",
+"st": "Checked"
+},
+"S37": {
+"ieee": "V. Hassija, V. Chamola, A. Mahapatra, A. Singal, D. Goel, K. Huang, S. Scardapane, I. Spinelli, M. Mahmud, and A. Hussain, \"Interpreting black-box models: A review on explainable artificial intelligence,\" Cogn. Comput., vol. 16, no. 1, pp. 45-74, 2023, doi: 10.1007/s12559-023-10179-8.",
+"st": "Checked"
+},
+"S38": {
+"ieee": "E. Şahin, N. N. Arslan, and D. Özdemir, \"Unlocking the black box: An in-depth review on interpretability, explainability, and reliability in deep learning,\" Neural Comput. Appl., vol. 37, no. 2, pp. 859-965, 2024, doi: 10.1007/s00521-024-10437-2.",
+"st": "Checked"
+},
+"S47": {
+"ieee": "A. Pereira and C. Thomas, \"Challenges of machine learning applied to safety-critical cyber-physical systems,\" Mach. Learn. Knowl. Extr., vol. 2, no. 4, pp. 579-602, 2020, doi: 10.3390/make2040031.",
+"st": "Checked"
+},
+"C1": {
+"ieee": "M. Skoglund, F. Warg, A. Thorsén, H. Hansson, and S. Punnekkat, \"Formalizing operational design domains with the Pkl language,\" arXiv:2509.02221, 2025.",
+"st": "Checked"
+},
+"C2": {
+"ieee": "D. Hillen, M. Lorenz, J. Reich, R. Adler, P. Wolf, S. A. Zafar, and A. Salvi, \"Navigating the landscape of operational design domains: A comprehensive mapping study,\" Next Res., vol. 2, no. 4, Art. no. 101036, 2025, doi: 10.1016/j.nexres.2025.101036.",
+"st": "Checked"
+},
+"C3": {
+"ieee": "M. Aguirre Mehlhorn, A. Richter, and Y. A. W. Shardt, \"Ruling the operational boundaries: A survey on operational design domains of autonomous driving systems,\" IFAC-PapersOnLine, vol. 56, no. 2, pp. 2202-2213, 2023, doi: 10.1016/j.ifacol.2023.10.1128.",
+"st": "Checked"
+},
+"C4": {
+"ieee": "H. Torfah, C. Xie, S. Junges, M. Vazquez-Chanlatte, and S. A. Seshia, \"Learning monitorable operational design domains for assured autonomy,\" in Automated Technology for Verification and Analysis (ATVA 2022), Lecture Notes in Computer Science, vol. 13505. Cham, Switzerland: Springer, 2022, pp. 3-22, doi: 10.1007/978-3-031-19992-9_1.",
+"st": "Checked"
+},
+"C5": {
+"ieee": "L. Mendiboure, M. L. Benzagouta, D. Gruyer, T. Sylla, M. Adedjouma, and A. Hedhli, \"Operational design domain for automated driving systems: Taxonomy definition and application,\" in Proc. IEEE Intelligent Vehicles Symp. (IV), 2023, doi: 10.1109/IV55152.2023.10186765.",
+"st": "Checked"
+},
+"C6": {
+"ieee": "Road Vehicles - Test Scenarios for Automated Driving Systems - Specification for Operational Design Domain, ISO 34503:2023, International Organization for Standardization, Geneva, Switzerland, 2023.",
+"st": "Checked"
+},
+"C7": {
+"ieee": "ASAM e.V., \"ASAM OpenODD, version 1.0.0,\" Apr. 3, 2025. [Online]. Available: https://publications.pages.asam.net/standards/ASAM_OpenODD/ASAM_OpenODD/latest/specification/00_preface/00_introduction.html",
+"st": "Checked"
+},
+"C8": {
+"ieee": "M. Gyllenhammar, R. Johansson, F. Warg, D. Chen, H.-M. Heyn, M. Sanfridson, J. Söderberg, A. Thorsén, and S. Ursing, \"Towards an operational design domain that supports the safety argumentation of an automated driving system,\" in Proc. 10th European Congress on Embedded Real Time Systems (ERTS), Toulouse, France, 2020.",
+"st": "Checked"
+},
+"C9": {
+"ieee": "M. Skoglund, F. Warg, A. Thorsén, S. Punnekkat, and H. Hansson, \"Methodology for test case allocation based on a formalized ODD,\" arXiv:2509.02311, 2025.",
+"st": "Checked"
+},
+"C10": {
+"ieee": "B. V. Balu, F. Geissler, F. Carella, J.-V. Zacchi, J. Jiru, N. Mata, and R. Stolle, \"Towards automated safety requirements derivation using agent-based RAG,\" arXiv:2504.11243, 2025.",
+"st": "Checked"
+},
+"C11": {
+"ieee": "M. Ito, \"ODD description methods for automated driving vehicle and verifiability for safety,\" J. Univers. Comput. Sci., vol. 27, no. 8, pp. 796-810, 2021, doi: 10.3897/jucs.72333.",
+"st": "Checked"
+},
+"C12": {
+"st": "Checked",
+"ieee": "C. W. Lee, N. Nayeer, D. E. Garcia, A. Agrawal, and B. Liu, \"Identifying the operational design domain for an automated driving system through assessed risk,\" in Proc. IEEE Intelligent Vehicles Symp. (IV), 2020, pp. 1317-1322, doi: 10.1109/IV47402.2020.9304552."
+},
+"C13": {
+"ieee": "H. Xu, Y. Li, H. Qin, Y. Bian, S. Jiang, W. Que, and J. Man, \"Ensuring safe operation of autonomous vehicle: A comprehensive survey of operational design condition,\" Accid. Anal. Prev., vol. 227, Art. no. 108366, 2026, doi: 10.1016/j.aap.2025.108366.",
+"st": "Checked"
+},
+"C14": {
+"ieee": "A. Trovato, M. De Stefano, F. Pecorelli, D. Di Nucci, and A. De Lucia, \"Reformulating regression test suite optimization using quantum annealing - an empirical study,\" Int. J. Softw. Tools Technol. Transf., doi: 10.1007/s10009-024-00775-w. arXiv:2411.15963.",
+"st": "Checked"
+},
+"C15": {
+"ieee": "X. Wang, S. Ali, T. Yue, and P. Arcaini, \"Quantum approximate optimization algorithm for test case optimization,\" arXiv:2312.15547, 2023.",
+"st": "Checked"
+},
+"C16": {
+"ieee": "C. E. Tuncali, G. Fainekos, D. Prokhorov, H. Ito, and J. Kapinski, \"Requirements-driven test generation for autonomous vehicles with machine learning components,\" arXiv:1908.01094, 2019.",
+"st": "Checked"
+},
+"C17": {
+"ieee": "T. Menzel, G. Bagschik, and M. Maurer, \"Scenarios for development, test and validation of automated vehicles,\" in Proc. IEEE Intelligent Vehicles Symp. (IV), 2018. arXiv:1801.08598.",
+"st": "Checked"
+},
+"C18": {
+"ieee": "J. He, E. Bartocci, D. Ničković, H. Isakovic, and R. Grosu, \"DeepSTL - From English requirements to signal temporal logic,\" in Proc. 44th Int. Conf. Software Engineering (ICSE), 2022, doi: 10.1145/3510003.3510171.",
+"st": "Checked"
+},
+"C19": {
+"ieee": "A. Nayak, H. P. Timmapathini, V. Murali, K. Ponnalagu, V. G. Venkoparao, and A. Post, \"Req2Spec: Transforming software requirements into formal specifications using natural language processing,\" in Requirements Engineering: Foundation for Software Quality (REFSQ 2022), Lecture Notes in Computer Science, vol. 13216. Cham, Switzerland: Springer, 2022, pp. 87-95, doi: 10.1007/978-3-030-98464-9_8.",
+"st": "Checked"
+},
+"C20": {
+"ieee": "S. Khastgir, S. Brewerton, J. Thomas, and P. Jennings, \"Systems approach to creating test scenarios for automated driving systems,\" Reliab. Eng. Syst. Saf., vol. 215, Art. no. 107610, 2021, doi: 10.1016/j.ress.2021.107610.",
+"st": "Checked"
+},
+"C21": {
+"ieee": "S. Riedmaier, T. Ponn, D. Ludwig, B. Schick, and F. Diermeyer, \"Survey on scenario-based safety assessment of automated vehicles,\" IEEE Access, vol. 8, pp. 87456-87477, 2020, doi: 10.1109/ACCESS.2020.2993730.",
+"st": "Checked"
+},
+"C22": {
+"ieee": "D. J. Fremont, T. Dreossi, S. Ghosh, X. Yue, A. L. Sangiovanni-Vincentelli, and S. A. Seshia, \"Scenic: A language for scenario specification and scene generation,\" in Proc. 40th ACM SIGPLAN Conf. Programming Language Design and Implementation (PLDI), 2019, doi: 10.1145/3314221.3314633.",
+"st": "Checked"
+},
+"C23": {
+"ieee": "K. Elmaaroufi, D. Shanker, A. Cismaru, M. Vazquez-Chanlatte, A. Sangiovanni-Vincentelli, M. Zaharia, and S. A. Seshia, \"Generating probabilistic scenario programs from natural language,\" arXiv:2405.03709, 2024.",
+"st": "Checked"
+},
+"C24": {
+"ieee": "Y. Deng, J. Yao, Z. Tu, M. Zhang, X. Zheng, and T. Zhang, \"TARGET: Automated scenario generation from traffic rules for testing autonomous vehicles,\" arXiv:2305.06018, 2023.",
+"st": "Checked"
+},
+"C25": {
+"ieee": "B. Jian, R. Yu, H. Wang, L. Wang, and Z. Zou, \"Towards lawful autonomous driving: Deriving scenario-aware driving requirements from traffic laws and regulations,\" arXiv:2604.24562, 2026.",
+"st": "Checked"
+},
+"C26": {
+"ieee": "Y. Zhao, J. Zhou, D. Bi, T. Mihalj, J. Hu, and A. Eichberger, \"A survey on the application of large language models in scenario-based testing of automated driving systems,\" IEEE Trans. Intell. Transp. Syst., vol. 27, no. 5, pp. 5001-5023, 2026, doi: 10.1109/TITS.2026.3651004.",
+"st": "Checked"
+},
+"C27": {
+"ieee": "Road Vehicles - Test Scenarios for Automated Driving Systems - Scenario Based Safety Evaluation Framework, ISO 34502:2022, International Organization for Standardization, Geneva, Switzerland, 2022.",
+"st": "Checked"
+},
+"C28": {
+"ieee": "R. Wohlrab, P. Pelliccione, A. Shahrokni, and E. Knauss, \"Why and how your traceability should evolve: Insights from an automotive supplier,\" IEEE Software, 2020 (IEEE Xplore document 9097278). arXiv:2005.09414.",
+"st": "Checked"
+},
+"C29": {
+"ieee": "C. Paterson, R. D. Hawkins, C. Picardi, Y. Jia, R. Calinescu, and I. Habli, \"Safety assurance of machine learning for autonomous systems,\" Reliab. Eng. Syst. Saf., vol. 264, Art. no. 111311, 2025, doi: 10.1016/j.ress.2025.111311.",
+"st": "Checked"
+},
+"C30": {
+"ieee": "R. Hawkins, C. Paterson, C. Picardi, Y. Jia, R. Calinescu, and I. Habli, \"Guidance on the assurance of machine learning in autonomous systems (AMLAS),\" arXiv:2102.01564, 2021.",
+"st": "Checked"
+},
+"C31": {
+"ieee": "C. Amersbach and H. Winner, \"Defining required and feasible test coverage for scenario-based validation of highly automated vehicles,\" in Proc. 22nd IEEE Intelligent Transportation Systems Conf. (ITSC), Auckland, New Zealand, 2019.",
+"st": "Checked"
+},
+"C32": {
+"ieee": "Y. Li, J. Tao, and F. Wotawa, \"Ontology-based test generation for automated and autonomous driving functions,\" Inf. Softw. Technol., vol. 117, Art. no. 106200, 2020, doi: 10.1016/j.infsof.2019.106200.",
+"st": "Checked"
+},
+"C33": {
+"ieee": "F. Klück, Y. Li, J. Tao, and F. Wotawa, \"An empirical comparison of combinatorial testing and search-based testing in the context of automated and autonomous driving systems,\" Inf. Softw. Technol., vol. 160, Art. no. 107225, 2023, doi: 10.1016/j.infsof.2023.107225.",
+"st": "Checked"
+},
+"C34": {
+"ieee": "D. Giannakopoulou, T. Pressburger, A. Mavridou, and J. Schumann, \"Automated formalization of structured natural language requirements,\" Inf. Softw. Technol., vol. 137, Art. no. 106590, 2021, doi: 10.1016/j.infsof.2021.106590.",
+"st": "Checked"
+},
+"C35": {
+"ieee": "D. Giannakopoulou, T. Pressburger, A. Mavridou, J. Rhein, J. Schumann, and N. Shi, \"Formal requirements elicitation with FRET,\" in Joint Proc. REFSQ-2020 Workshops, Doctoral Symposium, Live Studies Track, and Poster Track, CEUR-WS vol. 2584, Pisa, Italy, 2020.",
+"st": "Checked"
+},
+"C36": {
+"ieee": "A. Ferrari, G. O. Spagnolo, and S. Gnesi, \"PURE: A dataset of public requirements documents,\" in Proc. IEEE 25th Int. Requirements Eng. Conf. (RE), 2017, pp. 502-505. Dataset: doi: 10.5281/zenodo.1414117.",
+"st": "Checked"
+},
+"C37": {
+"ieee": "Commission Implementing Regulation (EU) 2022/1426 of 5 August 2022 laying down rules for the application of Regulation (EU) 2019/2144 as regards uniform procedures and technical specifications for the type-approval of the automated driving system (ADS) of fully automated vehicles, Off. J. Eur. Union, 2022.",
+"st": "Checked"
+},
+"C38": {
+"st": "Checked",
+"ieee": "UN Regulation No 157 - Uniform provisions concerning the approval of vehicles with regards to Automated Lane Keeping Systems [2021/389], Off. J. Eur. Union, vol. L 82, p. 75, Mar. 9, 2021."
+},
+"CARLA": {
+"st": "Checked",
+"ieee": "A. Dosovitskiy, G. Ros, F. Codevilla, A. Lopez, and V. Koltun, \"CARLA: An open urban driving simulator,\" in Proc. 1st Annu. Conf. Robot Learning (CoRL), Proc. Mach. Learn. Res., vol. 78, 2017."
+},
+"COHEN": {
+"st": "Checked",
+"ieee": "J. Cohen, \"A coefficient of agreement for nominal scales,\" Educ. Psychol. Meas., vol. 20, no. 1, pp. 37-46, 1960, doi: 10.1177/001316446002000104."
+},
+"KITCH": {
+"st": "Checked",
+"ieee": "B. Kitchenham and S. Charters, \"Guidelines for performing systematic literature reviews in software engineering,\" Keele Univ. and Durham Univ., Tech. Rep. EBSE-2007-01, 2007."
+},
+"PETER": {
+"st": "Checked",
+"ieee": "K. Petersen, S. Vakkalanka, and L. Kuzniarz, \"Guidelines for conducting systematic mapping studies in software engineering: An update,\" Inf. Softw. Technol., vol. 64, pp. 1-18, 2015."
+},
+"WOHLIN": {
+"st": "Checked",
+"ieee": "C. Wohlin, \"Guidelines for snowballing in systematic literature studies and a replication in software engineering,\" in Proc. 18th Int. Conf. Evaluation and Assessment in Software Engineering (EASE), 2014, doi: 10.1145/2601248.2601268."
+},
+"PRISMA": {
+"st": "Checked",
+"ieee": "M. J. Page et al., \"The PRISMA 2020 statement: An updated guideline for reporting systematic reviews,\" BMJ, vol. 372, Art. no. n71, 2021."
+},
+"WAYMOREC": {
+"ieee": "Waymo LLC, \"Part 573 safety recall report 25E-084,\" National Highway Traffic Safety Administration, Dec. 2025. [Online]. Available: https://static.nhtsa.gov/odi/rcl/2025/RCLRPT-25E084-7732.pdf",
+"st": "Checked"
+},
+"KUHN13": {
+"st": "Checked",
+"ieee": "D. R. Kuhn, I. Dominguez Mendoza, R. N. Kacker, and Y. Lei, \"Combinatorial coverage measurement concepts and applications,\" in Proc. IEEE 6th Int. Conf. Software Testing, Verification and Validation Workshops (ICSTW), Luxembourg, 2013, pp. 352-361, doi: 10.1109/ICSTW.2013.77."
+}
+}
