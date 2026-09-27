@@ -91,8 +91,8 @@ L1C, L2C = "#EAF2FB", "#F3ECF8"
 PX, PW = 230, 1040          # central panels
 # title
 rect(250, 10, 1000, 92, r=8, sw=2)
-text(250, 14, 1000, 36, ["TRACE-Q FRAMEWORK"], size=28, bold=True)
-text(250, 50, 1000, 24, ["Traceable Requirement-to-ODD Scenario Selection with Quantum Optimisation"], size=17, bold=True)
+text(250, 14, 1000, 36, ["ReqODD-Q FRAMEWORK"], size=28, bold=True)
+text(250, 50, 1000, 24, ["Requirement-to-ODD Quantum Scenario Selection"], size=17, bold=True)
 text(250, 74, 1000, 22, ["(grounded in EU Implementing Regulation 2022/1426 and UN Regulation No 157)"], size=14)
 
 # inputs column
@@ -136,7 +136,7 @@ for i, (ic, title, desc) in enumerate(l1):
     text(x, 278, 320, 70, desc, size=13)
 
 # pipeline
-band(PX + PW / 2 - 150, 390, 300, 28, "TRACE-Q PIPELINE (6 STAGES)", size=13)
+band(PX + PW / 2 - 150, 390, 300, 28, "ReqODD-Q PIPELINE (6 STAGES)", size=13)
 stages = [("doc", ["Requirements", "Formalisation"], ["Corpus, condition", "library and traced", "predicates"], "RQ1"),
           ("grid", ["ODD Scenario", "Space"], ["6 dimensions,", "972 scenarios,", "candidate pools"], "EU 2022/1426 3.1.4.1"),
           ("matrix", ["QUBO", "Formulation"], ["Coverage-aligned", "objective, budget,", "exact reference"], "RQ2"),
@@ -173,7 +173,7 @@ for i, (ic, title, desc) in enumerate(l2):
 rect(PX, 900, PW, 92, r=10, sw=2)
 icon("shield", PX + 24, 918, 50)
 icon("gear", PX + PW - 74, 918, 50)
-text(PX + 80, 906, PW - 160, 34, ["END-TO-END TRACEABILITY ACROSS BOTH LAYERS THROUGH THE TRACE-Q PIPELINE"], size=16, bold=True)
+text(PX + 80, 906, PW - 160, 34, ["END-TO-END TRACEABILITY ACROSS BOTH LAYERS THROUGH THE ReqODD-Q PIPELINE"], size=16, bold=True)
 text(PX + 80, 944, PW - 160, 40, ["Regulation clause → ODD condition → boundary predicate → selected scenario → "
                                   "simulation result → evidence;  requirement change → impact → re-selection"],
      size=13)
@@ -279,7 +279,7 @@ def to_drawio():
             cells.append(f'<mxCell id="{cid}" value="" style="{st}" edge="1" parent="1"><mxGeometry relative="1" as="geometry">'
                          f'<mxPoint x="{x0}" y="{y0}" as="sourcePoint"/><mxPoint x="{x1}" y="{y1}" as="targetPoint"/>'
                          f'</mxGeometry></mxCell>')
-    return (f'<mxfile host="app.diagrams.net"><diagram name="TRACE-Q framework"><mxGraphModel grid="1" gridSize="10" '
+    return (f'<mxfile host="app.diagrams.net"><diagram name="ReqODD-Q framework"><mxGraphModel grid="1" gridSize="10" '
             f'guides="1" page="1" pageWidth="{W}" pageHeight="{H}"><root>{"".join(cells)}</root></mxGraphModel></diagram></mxfile>')
 
 
