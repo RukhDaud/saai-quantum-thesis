@@ -1,0 +1,11 @@
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+dwave-neal>=0.6
+pymoo>=0.6.1
+qiskit>=1.2        # only used to cross-check the QAOA simulator (tests)
+openpyxl>=3.1
+pytest>=8
+# Phase A SciBERT model (GPU / Colab only):
+# torch, transformers, datasets, accelerate
