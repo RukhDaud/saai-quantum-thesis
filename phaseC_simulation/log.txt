@@ -1,0 +1,115 @@
+esmini GIT REV: v3.8.2-0-61b44a7
+esmini GIT TAG: v3.8.2
+esmini GIT BRANCH: tags/v3.8.2^0
+esmini BUILD VERSION: N/A - client build
+[] [info] Loaded generated/C23_Regulation.xosc
+[2026-09-27 15:15:10]
+[] [info] Player options: --osc generated/C23_Regulation.xosc --camera_mode orbit --csv_logger /tmp/tmpoa28113p/log.csv --collision --fixed_timestep 0.05 --ground_plane auto --headless --info_text 1 --logfile_path log.txt --log_level info --text_scale 1.0 --traj_filter 0.1 
+[] [info] Run simulation decoupled from realtime, with fixed timestep: 0.05
+[] [info] Generated seed 172382919
+[] [info] Loading generated/C23_Regulation.xosc (v1.1)
+[] [info] 0 variables
+[] [info] Loaded OpenDRIVE: /tmp/claude-0/esmini/resources/xodr/straight_500m.xodr
+[] [info] Expr ${250/3.6} = 250/3.6 = 69.4444444444
+[] [info] 3D model search paths attempted for file car_white.osgb:
+[] [info]   ../models/car_white.osgb
+[] [info]   car_white.osgb
+[] [info]   generated/../models/car_white.osgb
+[] [info]   generated/./car_white.osgb
+[] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//../models/car_white.osgb
+[] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//./car_white.osgb
+[] [warn] 3D model ../models/car_white.osgb not located, using specified file path
+[] [warn] Missing esminiController property, using controller name: ALKS_R157SM_Controller
+[] [info] ALKS_R157SM model: Regulation
+[] [info] ALKS_R157SM logLevel: 0
+[] [info] ALKS_R157SM fullStop: false
+[] [info] ALKS_R157SM alwaysTrigOnScenario: false
+[] [info] ALKS_R157SM cruise: true
+[] [info] Add and deactivate new object "Ego" (id 0)
+[] [info] 3D model search paths attempted for file car_red.osgb:
+[] [info]   ../models/car_red.osgb
+[] [info]   car_red.osgb
+[] [info]   generated/../models/car_red.osgb
+[] [info]   generated/./car_red.osgb
+[] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//../models/car_red.osgb
+[] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//./car_red.osgb
+[] [warn] 3D model ../models/car_red.osgb not located, using specified file path
+[] [info] Add and deactivate new object "Target" (id 1)
+[] [info] Parsing global action EnvironmentAction
+[] [info] 6 parameters:
+[] [info]    TargetBrakeRate = 5.2
+[] [info]    TargetBrakeTime = 2.0
+[] [info]    TargetS = 80
+[] [info]    EgoS = 50
+[] [info]    TargetSpeed = 14.5833
+[] [info]    EgoSpeed = 19.4444
+[0.000] [info] Log all vehicle data in csv file
+[0.000] [info] Init EnvironmentAction initState -> startTransition -> runningState
+[0.000] [info] Init Ego TeleportAction initState -> startTransition -> runningState
+[0.000] [info] Starting teleport Action
+[0.000] [info] Ego New position:
+[0.000] [info] Pos(50.00, -1.53, 0.00) Rot(0.00, 0.00, 0.00) roadId 1 laneId -1 s 50.00 offset 0.00 t -1.53
+[0.000] [info] Init Ego LongitudinalAction initState -> startTransition -> runningState
+[0.000] [info] Controller ALKS_R157SM_Controller active on domains: Longitudinal (mask=0x1)
+[0.000] [info] Init Ego ControllerAction initState -> startTransition -> runningState
+[0.000] [info] Init Ego ControllerAction runningState -> endTransition -> completeState
+[0.000] [info] Init Target TeleportAction initState -> startTransition -> runningState
+[0.000] [info] Starting teleport Action
+[0.000] [info] Target New position:
+[0.000] [info] Pos(80.00, 1.53, 0.00) Rot(0.00, 0.00, 0.00) roadId 1 laneId 1 s 80.00 offset 0.00 t 1.53
+[0.000] [info] Init Target LongitudinalAction initState -> startTransition -> runningState
+[0.000] [info] storyBoard initState -> startTransition -> runningState
+[0.000] [info] CutInAndBrakeStory initState -> startTransition -> runningState
+[0.000] [info] CutInAndBrakeAct initState -> initToStandbyTransition -> standbyState
+[0.000] [info] Init EnvironmentAction runningState -> stopTransition -> completeState
+[0.000] [info] Init Ego TeleportAction runningState -> endTransition -> completeState
+[0.000] [info] Init Ego LongitudinalAction runningState -> endTransition -> completeState
+[0.000] [info] Init Target TeleportAction runningState -> endTransition -> completeState
+[0.000] [info] Init Target LongitudinalAction runningState -> endTransition -> completeState
+[0.050] [info] CutInActStart: true, delay: 0.00, 0.0500 > 0.0000, edge: none
+[0.050] [info] Trigger /------------------------------------------------
+[0.050] [info] Group 0:
+[0.050] [info] CutInActStart: true
+[0.050] [info] Trigger  ------------------------------------------------/
+[0.050] [info] CutInAndBrakeAct standbyState -> startTransition -> runningState
+[0.050] [info] CutInAndBrakeSequence initState -> startTransition -> runningState
+[0.050] [info] LaneChangeManeuvers initState -> startTransition -> runningState
+[0.050] [info] LaneChange1Event initState -> initToStandbyTransition -> standbyState
+[0.050] [info] TargetreduceSpeedEvent initState -> initToStandbyTransition -> standbyState
+[2.050] [info] LaneChange1Condition: true, delay: 0.00, 2.0500 > 2.0000, edge: rising
+[2.050] [info] Trigger /------------------------------------------------
+[2.050] [info] Group 0:
+[2.050] [info] LaneChange1Condition: true
+[2.050] [info] Trigger  ------------------------------------------------/
+[2.050] [info] LaneChange1Event standbyState -> startTransition -> runningState
+[2.050] [info] LaneChange1Action initState -> startTransition -> runningState
+[2.050] [info] BrakeCondition: true, delay: 2.00, LaneChange1Event, RUNNING / START_TRANSITION == START_TRANSITION, edge: rising
+[2.100] [info] BrakeCondition: false, delay: 2.00, LaneChange1Event, RUNNING / UNDEFINED_TRANSITION == START_TRANSITION, edge: rising
+[4.050] [info] Trigger /------------------------------------------------
+[4.050] [info] Group 0:
+[4.050] [info] BrakeCondition: true
+[4.050] [info] Trigger  ------------------------------------------------/
+[4.050] [info] Other events ongoing, TargetreduceSpeedEvent will run in parallel
+[4.050] [info] TargetreduceSpeedEvent standbyState -> startTransition -> runningState
+[4.050] [info] TargetBrakeAction initState -> startTransition -> runningState
+[5.000] [info] LaneChange1Action runningState -> endTransition -> completeState
+[5.000] [info] LaneChange1Event complete after 1 execution
+[5.000] [info] LaneChange1Event runningState -> endTransition -> completeState
+[6.850] [info] TargetBrakeAction runningState -> endTransition -> completeState
+[6.850] [info] TargetreduceSpeedEvent complete after 1 execution
+[6.850] [info] TargetreduceSpeedEvent runningState -> endTransition -> completeState
+[6.850] [info] LaneChangeManeuvers runningState -> endTransition -> completeState
+[6.850] [info] CutInAndBrakeSequence complete after 1 execution
+[6.850] [info] CutInAndBrakeSequence runningState -> endTransition -> completeState
+[6.850] [info] CutInAndBrakeAct runningState -> endTransition -> completeState
+[6.850] [info] CutInAndBrakeStory runningState -> endTransition -> completeState
+[6.900] [info] ActStopCondition: true, delay: 3.00, TargetreduceSpeedEvent, COMPLETE / END_TRANSITION == END_TRANSITION, edge: rising
+[6.950] [info] ActStopCondition: false, delay: 3.00, TargetreduceSpeedEvent, COMPLETE / UNDEFINED_TRANSITION == END_TRANSITION, edge: rising
+[9.900] [info] Trigger /------------------------------------------------
+[9.900] [info] Group 0:
+[9.900] [info] ActStopCondition: true
+[9.900] [info] Group 1:
+[9.900] [info] CollisionCondition: false
+[9.900] [info] Trigger  ------------------------------------------------/
+[9.900] [info] storyBoard runningState -> stopTransition -> completeState
+[9.900] [info] Closing
