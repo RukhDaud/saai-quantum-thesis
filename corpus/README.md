@@ -13,7 +13,7 @@ Safety requirements → formal ODD conditions → traceability to the code that 
 Rules used to write the library:
 - Operator, threshold and unit are filled only when the clause states them; otherwise `qualitative` / `unspecified` / `none`.
 - Every condition cites the corpus statement id(s), so each line can be checked word for word.
-- R157 rows carry `verified = no` until compared with the official PDF.
+- R157 rows were checked against the official text by Saadia Sadaf on 27 Sep 2026 (`verified = yes`). The equation in 5.2.5.2(c) is not reproduced in the text column and is marked `[equation]`.
 
 Rebuild:
 ```bash

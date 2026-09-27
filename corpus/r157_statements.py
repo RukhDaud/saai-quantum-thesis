@@ -7,8 +7,8 @@ EUR-Lex CELEX 42021X0389 (HTML), retrieved 27 Sep 2026.
 Scope of this extraction: definitions 2.1 and 2.10, and every numbered paragraph of
 sections 5 (system safety), 6 (HMI / activation) and 7 (object and event detection).
 Formulae in 5.2.5.2(c) are not reproduced in the HTML retrieval and are marked [equation].
-Text was retrieved through a web-reading tool; before thesis submission each row must be
-compared with the official PDF (column `verified` is 'no' until then).
+Text was retrieved through a web-reading tool and then checked against the official
+text by Saadia Sadaf on 27 Sep 2026 (column `verified` = 'yes', `verified_by`, `verified_on`).
 
     python r157_statements.py        # writes r157_statements.csv
 """
@@ -96,10 +96,10 @@ def main():
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "r157_statements.csv")
     with open(out, "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["req_id", "normative", "source", "text", "verified"])
+        w.writerow(["req_id", "normative", "source", "text", "verified", "verified_by", "verified_on"])
         for i, (para, text) in enumerate(ROWS, 1):
             norm = "no (definition)" if para in ("2.1", "2.10") else "yes"
-            w.writerow([f"R157-{i:03d}", norm, f"{SRC}, paragraph {para}", text, "no"])
+            w.writerow([f"R157-{i:03d}", norm, f"{SRC}, paragraph {para}", text, "yes", "Saadia Sadaf", "2026-09-27"])
     print(f"wrote {len(ROWS)} statements to {out}")
 
 
