@@ -38,8 +38,8 @@
 <text x="1395.0" y="633.875" font-size="13" fill="#1A1A1A" text-anchor="middle" dominant-baseline="middle">Quantum vs classical</text>
 <text x="1395.0" y="650.125" font-size="13" fill="#1A1A1A" text-anchor="middle" dominant-baseline="middle">empirical assessment</text>
 <g transform="translate(1375,704) scale(1.0)"><g fill="none" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 3l14 5v10c0 9-6 16-14 19C12 34 6 27 6 18V8z"/><path d="M13 19l5 5 9-10"/></g></g>
-<text x="1395.0" y="759.875" font-size="13" fill="#1A1A1A" text-anchor="middle" dominant-baseline="middle">Change-impact</text>
-<text x="1395.0" y="776.125" font-size="13" fill="#1A1A1A" text-anchor="middle" dominant-baseline="middle">analysis</text>
+<text x="1395.0" y="759.875" font-size="13" fill="#1A1A1A" text-anchor="middle" dominant-baseline="middle">Change-aware</text>
+<text x="1395.0" y="776.125" font-size="13" fill="#1A1A1A" text-anchor="middle" dominant-baseline="middle">re-selection</text>
 <rect x="230" y="130" width="1040" height="250" rx="10" fill="#EAF2FB" stroke="#1A1A1A" stroke-width="2"/>
 <rect x="680.0" y="120" width="140" height="26" rx="4" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1.5"/>
 <text x="750.0" y="133.0" font-size="13" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" font-weight="bold">LAYER 1</text>

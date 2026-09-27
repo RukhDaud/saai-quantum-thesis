@@ -1,0 +1,61 @@
+n,k,seed,change,method,seconds,variables,impact_set,unmet_before,size,size_ok,feasible,pairwise_cov,best_cov,cov_ratio,churn,best_churn,selected
+16,5,55566000,CH1 add condition: fog at or above 60 km/h,keep_old,0.0,0,4,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH1 add condition: fog at or above 60 km/h,full_exact,0.0214,16,4,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH1 add condition: fog at or above 60 km/h,aware_exact,0.0011,12,4,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH1 add condition: fog at or above 60 km/h,aware_qaoa,1.4214,12,4,0,5,1,1,0.5725806451612904,0.5806451612903226,0.986111,1,0,0 3 4 6 14
+16,5,55566000,CH1 add condition: fog at or above 60 km/h,full_qaoa,19.2314,16,4,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,0 6 12 13 14
+16,5,55566000,CH2 add condition: lane markings absent in snow,keep_old,0.0,0,1,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH2 add condition: lane markings absent in snow,full_exact,0.0234,16,1,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH2 add condition: lane markings absent in snow,aware_exact,0.0015,12,1,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH2 add condition: lane markings absent in snow,aware_qaoa,1.2293,12,1,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH2 add condition: lane markings absent in snow,full_qaoa,19.7627,16,1,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,0 6 12 13 14
+16,5,55566000,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),keep_old,0.0,0,2,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),full_exact,0.0328,16,2,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),aware_exact,0.0012,12,2,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),aware_qaoa,1.1401,12,2,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),full_qaoa,19.7794,16,2,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,0 6 12 13 14
+16,5,55566000,CH4 narrow obscurant condition (P4: mist/fog -> fog),keep_old,0.0,0,6,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH4 narrow obscurant condition (P4: mist/fog -> fog),full_exact,0.0173,16,6,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH4 narrow obscurant condition (P4: mist/fog -> fog),aware_exact,0.0011,12,6,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH4 narrow obscurant condition (P4: mist/fog -> fog),aware_qaoa,0.9771,12,6,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH4 narrow obscurant condition (P4: mist/fog -> fog),full_qaoa,18.7599,16,6,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,0 6 12 13 14
+16,5,55566000,CH5 narrow road category (P6: non-motorway -> single carriageway),keep_old,0.0,0,5,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH5 narrow road category (P6: non-motorway -> single carriageway),full_exact,0.0237,16,5,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH5 narrow road category (P6: non-motorway -> single carriageway),aware_exact,0.001,12,5,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH5 narrow road category (P6: non-motorway -> single carriageway),aware_qaoa,1.1325,12,5,0,5,1,1,0.5725806451612904,0.5806451612903226,0.986111,1,0,0 3 4 6 14
+16,5,55566000,CH5 narrow road category (P6: non-motorway -> single carriageway),full_qaoa,22.693,16,5,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,0 6 12 13 14
+16,5,55566000,CH6 remove detection-range condition (P8),keep_old,0.0,0,11,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH6 remove detection-range condition (P8),full_exact,0.0521,16,11,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH6 remove detection-range condition (P8),aware_exact,0.0014,12,11,0,5,1,1,0.5806451612903226,0.5806451612903226,1.0,0,0,0 4 6 13 14
+16,5,55566000,CH6 remove detection-range condition (P8),aware_qaoa,1.2302,12,11,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,4 5 6 13 14
+16,5,55566000,CH6 remove detection-range condition (P8),full_qaoa,20.1469,16,11,0,5,1,1,0.5645161290322581,0.5806451612903226,0.972222,1,0,0 6 12 13 14
+16,5,55566001,CH1 add condition: fog at or above 60 km/h,keep_old,0.0,0,4,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH1 add condition: fog at or above 60 km/h,full_exact,0.0269,16,4,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH1 add condition: fog at or above 60 km/h,aware_exact,0.001,12,4,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH1 add condition: fog at or above 60 km/h,aware_qaoa,0.967,12,4,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH1 add condition: fog at or above 60 km/h,full_qaoa,20.2537,16,4,0,5,1,1,0.568,0.584,0.972603,3,0,3 7 10 11 14
+16,5,55566001,CH2 add condition: lane markings absent in snow,keep_old,0.0,0,1,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH2 add condition: lane markings absent in snow,full_exact,0.024,16,1,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH2 add condition: lane markings absent in snow,aware_exact,0.0013,12,1,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH2 add condition: lane markings absent in snow,aware_qaoa,1.0149,12,1,0,5,1,1,0.576,0.584,0.986301,1,0,0 3 5 10 11
+16,5,55566001,CH2 add condition: lane markings absent in snow,full_qaoa,23.7853,16,1,0,5,1,0,0.568,0.584,0.972603,3,0,3 7 10 11 14
+16,5,55566001,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),keep_old,0.0,0,8,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),full_exact,0.0744,16,8,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),aware_exact,0.0059,12,8,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),aware_qaoa,1.5638,12,8,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH3 tighten speed boundary (P7: 60/70 -> 70 km/h),full_qaoa,24.7371,16,8,0,5,1,1,0.568,0.584,0.972603,3,0,3 7 10 11 14
+16,5,55566001,CH4 narrow obscurant condition (P4: mist/fog -> fog),keep_old,0.0,0,2,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH4 narrow obscurant condition (P4: mist/fog -> fog),full_exact,0.0289,16,2,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH4 narrow obscurant condition (P4: mist/fog -> fog),aware_exact,0.0015,12,2,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH4 narrow obscurant condition (P4: mist/fog -> fog),aware_qaoa,1.5431,12,2,0,5,1,1,0.576,0.584,0.986301,1,0,0 3 5 10 11
+16,5,55566001,CH4 narrow obscurant condition (P4: mist/fog -> fog),full_qaoa,19.5658,16,2,0,5,1,1,0.568,0.584,0.972603,3,0,3 7 10 11 14
+16,5,55566001,CH5 narrow road category (P6: non-motorway -> single carriageway),keep_old,0.0,0,6,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH5 narrow road category (P6: non-motorway -> single carriageway),full_exact,0.024,16,6,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH5 narrow road category (P6: non-motorway -> single carriageway),aware_exact,0.0012,12,6,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH5 narrow road category (P6: non-motorway -> single carriageway),aware_qaoa,1.4561,12,6,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH5 narrow road category (P6: non-motorway -> single carriageway),full_qaoa,23.7815,16,6,0,5,1,1,0.568,0.584,0.972603,3,0,3 7 10 11 14
+16,5,55566001,CH6 remove detection-range condition (P8),keep_old,0.0,0,9,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH6 remove detection-range condition (P8),full_exact,0.0283,16,9,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH6 remove detection-range condition (P8),aware_exact,0.0019,12,9,0,5,1,1,0.584,0.584,1.0,0,0,0 2 3 5 10
+16,5,55566001,CH6 remove detection-range condition (P8),aware_qaoa,2.0137,12,9,0,5,1,1,0.576,0.584,0.986301,1,0,2 3 5 10 12
+16,5,55566001,CH6 remove detection-range condition (P8),full_qaoa,26.0986,16,9,0,5,1,1,0.568,0.584,0.972603,3,0,3 7 10 11 14

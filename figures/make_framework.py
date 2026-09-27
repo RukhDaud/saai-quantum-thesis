@@ -115,7 +115,7 @@ outputs = [("check", ["Optimised, budgeted", "scenario set"]),
            ("chart", ["Coverage and fault-", "detection evidence"]),
            ("link", ["Traceability matrix", "(clause to result)"]),
            ("atom", ["Quantum vs classical", "empirical assessment"]),
-           ("shield", ["Change-impact", "analysis"])]
+           ("shield", ["Change-aware", "re-selection"])]
 for i, (ic, lines) in enumerate(outputs):
     y = 200 + i * 126
     icon(ic, 1375, y, 40)
