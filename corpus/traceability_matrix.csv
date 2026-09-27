@@ -1,0 +1,46 @@
+statement_id,clause,condition_id,kind,represented_in,status
+EU1426-039,"EU 2022/1426 Annex II, point 3.1.4.1(a)",C01,ODD_CONDITION,P1; phaseC Weather/Precipitation,modelled
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C01,ODD_CONDITION,P1; phaseC Weather/Precipitation,modelled
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C01,ODD_CONDITION,P1; phaseC Weather/Precipitation,modelled
+EU1426-040,"EU 2022/1426 Annex II, point 3.1.4.1(b)",C02,ODD_CONDITION,P2; phaseC TimeOfDay,modelled
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C02,ODD_CONDITION,P2; phaseC TimeOfDay,modelled
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C02,ODD_CONDITION,P2; phaseC TimeOfDay,modelled
+EU1426-041,"EU 2022/1426 Annex II, point 3.1.4.1(c)",C03,ODD_CONDITION,P3; phaseC Sun,modelled
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C03,ODD_CONDITION,P3; phaseC Sun,modelled
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C03,ODD_CONDITION,P3; phaseC Sun,modelled
+EU1426-042,"EU 2022/1426 Annex II, point 3.1.4.1(d)",C04,ODD_CONDITION,P4; phaseC Weather/Fog,modelled
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C04,ODD_CONDITION,P4; phaseC Weather/Fog,modelled
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C04,ODD_CONDITION,P4; phaseC Weather/Fog,modelled
+EU1426-043,"EU 2022/1426 Annex II, point 3.1.4.1(e)",C05,ODD_CONDITION,P5; gap in phaseC (road file not varied),modelled
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C05,ODD_CONDITION,P5; gap in phaseC (road file not varied),modelled
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C05,ODD_CONDITION,P5; gap in phaseC (road file not varied),modelled
+EU1426-044,"EU 2022/1426 Annex II, point 3.1.4.1(f)",C06,ODD_CONDITION,P6; gap in phaseC (road file not varied),modelled
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C06,ODD_CONDITION,P6; gap in phaseC (road file not varied),modelled
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C06,ODD_CONDITION,P6; gap in phaseC (road file not varied),modelled
+EU1426-045,"EU 2022/1426 Annex II, point 3.1.4.1(g)",C07,ODD_CONDITION,gap,gap
+EU1426-036,"EU 2022/1426 Annex II, point 3.1.2",C07,ODD_CONDITION,gap,gap
+EU1426-046,"EU 2022/1426 Annex II, point 3.1.5",C07,ODD_CONDITION,gap,gap
+EU1426-017,"EU 2022/1426 Annex II, point 1.2(h)",C08,ODD_CONDITION,P1,modelled
+EU1426-004,"EU 2022/1426 Annex II, point 1.1.2(a)",C09,ODD_CONDITION,gap (speed limit of road not modelled),gap
+EU1426-037,"EU 2022/1426 Annex II, point 3.1.3",C10,BOUNDARY_RESPONSE,gap,gap
+EU1426-056,"EU 2022/1426 Annex II, point 5.1",C11,PERFORMANCE_LIMIT,gap,gap
+EU1426-023,"EU 2022/1426 Annex II, point 1.3.2",C12,PERFORMANCE_LIMIT,gap,gap
+EU1426-150,"EU 2022/1426 Annex III, point 1.4.3.1.1",C13,PERFORMANCE_LIMIT,gap,gap
+EU1426-148,"EU 2022/1426 Annex III, point 1.4.2",C14,PERFORMANCE_LIMIT,phaseC oracle (collision = FAIL),modelled
+R157-015,UN R157 paragraph 5.2.3.1,C15,ODD_CONDITION,P7; phaseC EgoSpeed,modelled
+R157-001,UN R157 paragraph 2.1,C15,ODD_CONDITION,P7; phaseC EgoSpeed,modelled
+R157-056,UN R157 paragraph 6.2.3,C16,ODD_CONDITION,P6,modelled
+R157-056,UN R157 paragraph 6.2.3,C17,ODD_CONDITION,P1-P6 (jointly),modelled
+R157-068,UN R157 paragraph 7.1.3,C18,ODD_CONDITION,P8; gap in phaseC (sensor range not degraded),modelled
+R157-016,UN R157 paragraph 5.2.3.2,C19,ODD_CONDITION,gap,gap
+R157-066,UN R157 paragraph 7.1.1,C20,PERFORMANCE_LIMIT,gap,gap
+R157-017,UN R157 paragraph 5.2.3.3,C21,PERFORMANCE_LIMIT,phaseC min gap (to be scored),modelled
+R157-018,UN R157 paragraph 5.2.3.3 table,C21,PERFORMANCE_LIMIT,phaseC min gap (to be scored),modelled
+R157-022,UN R157 paragraph 5.2.5.2,C22,PERFORMANCE_LIMIT,phaseC template scenario,modelled
+R157-023,UN R157 paragraph 5.2.5.3,C23,PERFORMANCE_LIMIT,gap,gap
+R157-026,UN R157 paragraph 5.3.1.1,C24,PERFORMANCE_LIMIT,gap,gap
+R157-044,UN R157 paragraph 5.5.1,C25,PERFORMANCE_LIMIT,gap,gap
+R157-041,UN R157 paragraph 5.4.4.1,C26,BOUNDARY_RESPONSE,gap,gap
+R157-039,UN R157 paragraph 5.4.3.2,C27,BOUNDARY_RESPONSE,gap,gap
+R157-050,UN R157 paragraph 6.1.2,C28,ACTIVATION_CONDITION,out of scope (driver state),gap
+R157-052,UN R157 paragraph 6.1.3.1,C29,ACTIVATION_CONDITION,out of scope (driver state),gap

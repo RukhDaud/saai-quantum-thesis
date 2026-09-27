@@ -34,7 +34,7 @@ python analyse.py results/runs.csv
 | `phaseB_qubo_scenario_selection/` | QUBO formulation of scenario selection over an ODD space built from EU 2022/1426 Annex II 3.1.4.1 and UN R157; solvers: random, greedy, GA (pymoo), simulated annealing (neal), QAOA (statevector simulator, cross-checked against Qiskit), exhaustive optimum; Wilcoxon + Vargha–Delaney A12 statistics | Complete: 3 sizes × 30 instances × 6 methods (540 runs) |
 | `phaseA_requirement_extraction/` | Requirement → ODD predicate: rule baseline, TF-IDF + LR baseline, SciBERT fine-tuning (Colab), evaluation, random and held-out-source splits | Code ready; accuracy needs gold labels |
 | `phaseC_simulation/` | OpenSCENARIO generation from selected ODD scenarios; headless esmini execution with the UN R157 ALKS controller; collision, gap, TTC, PASS/FAIL, traced to clauses | Chain working; 48 real runs |
-| `corpus/` | Extraction of 370 statements from EU 2022/1426; inter-annotator agreement tool (Cohen's kappa) | R157 extraction next |
+| `corpus/` | EU 2022/1426 (370 statements) and UN R157 (71 statements) corpora; formal ODD condition library (29 conditions) with traceability matrix | Library built; 14/29 conditions represented in code, 15 listed as gaps |
 
 ## Phase B results (median pairwise coverage, k = 5, 30 instances per size)
 | Method | n=12 | n=16 | n=20 |
