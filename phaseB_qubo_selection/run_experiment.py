@@ -40,13 +40,14 @@ def main():
     ap.add_argument('--qaoa_restarts', type=int, default=3)
     ap.add_argument('--base_seed', type=int, default=20260927)
     ap.add_argument('--out', default='results/runs.csv')
+    ap.add_argument('--start', type=int, default=0, help='first instance index (to resume an interrupted run with the same seeds)')
     a = ap.parse_args()
     fields = ['n','k','seed','method','seconds','qubo_energy','qubo_opt','energy_gap','size','size_ok',
               'pairwise_cov','predicate_cov','boundary_cov','traced_frac','qaoa_p_opt','qaoa_nfev','selected']
     with open(a.out, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=fields); w.writeheader()
         for n in a.sizes:
-            for i in range(a.instances):
+            for i in range(a.start, a.instances):
                 run_one(n, a.k, a.base_seed + 1000 * n + i, w, a.qaoa_p, a.qaoa_restarts); f.flush()
                 print(f'n={n} instance {i+1}/{a.instances} done', flush=True)
     json.dump({'args': vars(a), 'python': platform.python_version(), 'machine': platform.machine()},
