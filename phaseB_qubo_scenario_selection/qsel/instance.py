@@ -13,18 +13,19 @@ def pairs_of(s):
     return set(itertools.combinations(items, 2))
 
 class Instance:
-    def __init__(self, pool, k):
+    def __init__(self, pool, k, predicates=None):
+        self.predicates = PREDICATES if predicates is None else predicates
         self.pool, self.k, self.n = pool, k, len(pool)
         self.pairs = [pairs_of(s) for s in pool]
         self.pool_pairs = set().union(*self.pairs)
-        self.pred = np.array([[1 if f(s) else 0 for (_, _, f) in PREDICATES] for s in pool])  # n x P
+        self.pred = np.array([[1 if f(s) else 0 for (_, _, f) in self.predicates] for s in pool])  # n x P
         self.pool_preds = set(np.where(self.pred.any(axis=0))[0])
         # boundary levels: (dimension, level) values that make at least one predicate true on their own
         self.boundary_levels = set()
         for d, levels in DIMENSIONS.items():
             for lv in levels:
                 base = {dd: DIMENSIONS[dd][0] for dd in DIM_NAMES}; base[d] = lv
-                if any(f(base) for (_, _, f) in PREDICATES): self.boundary_levels.add((d, lv))
+                if any(f(base) for (_, _, f) in self.predicates): self.boundary_levels.add((d, lv))
         self.pool_boundary = {(d, s[d]) for s in pool for d in DIM_NAMES} & self.boundary_levels
 
     # ---- true evaluation metrics (independent of the QUBO) ----
