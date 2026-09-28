@@ -126,31 +126,31 @@ def prisma():
         Box("scl", 20, 220, 40, 290, ["Screening"], fill=blue, rotate=True),
         Box("inl", 20, 540, 40, 90, ["Included"], fill=blue, rotate=True),
         Box("id", 80, 20, 420, 170, [
-            "Records identified (n = 183)",
+            "Records identified (n = 186)",
             "Reference lists of the research proposal",
             "and earlier drafts (n = 134)",
             "Structured keyword search and backward/forward",
             "citation tracing (n = 38)",
             "Standards, regulations, tools and statistical",
-            "methods added during method development (n = 11)"], align="left"),
+            "methods added during method development (n = 14)"], align="left"),
         Box("dup", 560, 70, 320, 70, ["Records removed before screening", "Duplicate records (n = 8)"], fill=grey, align="left"),
-        Box("sc", 80, 250, 420, 60, ["Records screened (n = 175)"]),
+        Box("sc", 80, 250, 420, 60, ["Records screened (n = 178)"]),
         Box("ex1", 560, 225, 320, 110, [
             "Records excluded (n = 9)",
             "Record could not be confirmed (n = 1)",
             "Grey literature, commercial report or",
             "non-peer-reviewed preprint (n = 3)",
             "Outside the scope of the review (n = 5)"], fill=grey, align="left"),
-        Box("fa", 80, 400, 420, 60, ["Full-text records assessed for eligibility (n = 166)"]),
+        Box("fa", 80, 400, 420, 60, ["Full-text records assessed for eligibility (n = 169)"]),
         Box("ex2", 560, 375, 320, 110, [
-            "Records excluded after full text (n = 19)",
+            "Records excluded after full text (n = 9)",
             "Method or dataset not adopted in the",
-            "final design (n = 2)",
-            "Not used in the final synthesis (n = 17)"], fill=grey, align="left"),
+            "final design (n = 1)",
+            "Not used in the final synthesis (n = 8)"], fill=grey, align="left"),
         Box("inc", 80, 540, 420, 90, [
-            "Sources included in the review (n = 147)",
+            "Sources included in the review (n = 160)",
             "of which 45 studies are summarised",
-            "study by study in Table 2.2"]),
+            "study by study in Table 2.10"]),
     ]
     ed = [Edge("id", "sc"), Edge("id", "dup", "right", "left"),
           Edge("sc", "fa"), Edge("sc", "ex1", "right", "left"),
@@ -182,13 +182,13 @@ def architecture():
             "6 dimensions (972 concrete scenarios); pool of n candidates, budget k"], fill=c_b),
         Box("qubo", L, 610, MW, 100, ["5  Phase B: QUBO scenario selection",
             "Coverage-aligned objective: min  −Σ |Pi| xi + Σ |Pi ∩ Pj| xi xj + C(Σ xi − k)²",
-            "Solvers: QAOA (simulator / IBM Quantum), quantum annealing (D-Wave),",
+            "Solvers: QAOA (statevector simulator), exact enumeration,",
             "simulated annealing, genetic algorithm, greedy; sub-QUBO decomposition"], fill=c_b),
         Box("osc", L, 760, MW, 70, ["6  Executable test scenarios",
             "ASAM OpenSCENARIO 1.1 files with ODD levels, predicates and source clauses"], fill=c_c),
         Box("sim", L, 870, MW, 90, ["7  Simulation-based execution",
-            "esmini with the UN R157 ALKS controller (regulation / reference-driver models)",
-            "ODD degradation model (braking, sensing) and injected faults",
+            "Longitudinal model of the UN R157 ALKS, cross-checked against esmini",
+            "Environment effects from published measurements (friction, visibility); planted faults",
             "Oracle: collision = FAIL (EU 2022/1426 Annex III 1.4.2)"], fill=c_c),
         Box("eval", L, 1000, MW, 90, ["8  Evaluation and traceability",
             "Coverage, fault detection, computational cost, statistical tests",
@@ -222,6 +222,46 @@ def architecture():
     write("fig3_1_architecture", bx, ed, W, H, "Proposed model")
 
 
+# ================================================================ Literature positioning (Figure 2.2)
+def positioning():
+    W, H = 1000, 700
+    lit, comp, gap = "#FFF2CC", "#DAE8FC", "#F8CECC"
+    L, LW = 20, 330
+    M, MW = 400, 300
+    R, RW = 750, 230
+    th = [("t1", ["ODD standards and formalisation", "SAE J3016, PAS 1883, ISO 34503,", "ASAM OpenODD, Pkl ODD (Skoglund et al.)"]),
+          ("t2", ["Requirement formalisation", "Req2Spec, FRET, DeepSTL,", "specification patterns, LLM approaches"]),
+          ("t3", ["Natural language to scenarios", "ScenarioNL, TARGET,", "law-derived requirements (Jian et al.)"]),
+          ("t4", ["Scenario selection and coverage", "combinatorial testing, Klück et al.,", "ODD-based allocation"]),
+          ("t5", ["Quantum test optimisation", "BootQA, SelectQA, IGDec-QAOA,", "QAOA selection, Araujo et al."]),
+          ("t6", ["Traceability and change", "Wohlrab et al., TVR,", "ODD mapping study (Hillen et al.)"])]
+    bx = [Box("hl", L, 15, LW, 30, ["Reviewed literature (Chapter 2)"], fill="#FFFFFF", stroke="#FFFFFF"),
+          Box("hm", M, 15, MW, 30, ["ReqODD-Q component"], fill="#FFFFFF", stroke="#FFFFFF"),
+          Box("hr", R, 15, RW, 30, ["Gap addressed"], fill="#FFFFFF", stroke="#FFFFFF")]
+    y = 60
+    for tid, lines in th:
+        bx.append(Box(tid, L, y, LW, 90, lines, fill=lit, size=12)); y += 105
+    cm = [("a", 80, ["Phase A", "condition library with trace", "links; boundary predicates"]),
+          ("b", 250, ["Phase B", "coverage-aligned QUBO;", "QAOA, exact and classical solvers"]),
+          ("c", 420, ["Change-aware re-selection", "impact set through trace links;", "stability term"]),
+          ("d", 570, ["Fault-detection evaluation", "R157 model, sourced environment,", "mutation analysis"])]
+    for cid, yy, lines in cm:
+        bx.append(Box(cid, M, yy, MW, 90, lines, fill=comp, size=12))
+    gp = [("g1", 80, ["Gap 1", "ODD not derived from", "stated requirements"]),
+          ("g2", 200, ["Gap 2", "no optimised selection from", "requirement-level conditions"]),
+          ("g3", 320, ["Gap 3", "formulation fidelity", "not examined"]),
+          ("g4", 440, ["Gap 4", "no change-aware", "re-selection"])]
+    for gid, yy, lines in gp:
+        bx.append(Box(gid, R, yy, RW, 80, lines, fill=gap, size=12))
+    ed = [Edge("t1", "a", "right", "left"), Edge("t2", "a", "right", "left"), Edge("t3", "a", "right", "left", dashed=True),
+          Edge("t4", "b", "right", "left"), Edge("t5", "b", "right", "left"), Edge("t6", "c", "right", "left"),
+          Edge("t4", "d", "right", "left", dashed=True),
+          Edge("a", "g1", "right", "left"), Edge("b", "g2", "right", "left"), Edge("b", "g3", "right", "left"),
+          Edge("c", "g4", "right", "left")]
+    write("fig2_2_positioning", bx, ed, W, H, "Literature positioning")
+
+
 if __name__ == "__main__":
     prisma()
     architecture()
+    positioning()

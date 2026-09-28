@@ -24,15 +24,15 @@
 <rect x="60" y="610" width="560" height="100" rx="8" fill="#E1D5E7" stroke="#333333" stroke-width="1.4"/>
 <text x="340.0" y="635.04" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">5  Phase B: QUBO scenario selection</text>
 <text x="340.0" y="651.68" font-size="13" text-anchor="middle" dominant-baseline="middle">Coverage-aligned objective: min  −Σ |Pi| xi + Σ |Pi ∩ Pj| xi xj + C(Σ xi − k)²</text>
-<text x="340.0" y="668.3199999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">Solvers: QAOA (simulator / IBM Quantum), quantum annealing (D-Wave),</text>
+<text x="340.0" y="668.3199999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">Solvers: QAOA (statevector simulator), exact enumeration,</text>
 <text x="340.0" y="684.9599999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">simulated annealing, genetic algorithm, greedy; sub-QUBO decomposition</text>
 <rect x="60" y="760" width="560" height="70" rx="8" fill="#D5E8D4" stroke="#333333" stroke-width="1.4"/>
 <text x="340.0" y="786.68" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">6  Executable test scenarios</text>
 <text x="340.0" y="803.3199999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">ASAM OpenSCENARIO 1.1 files with ODD levels, predicates and source clauses</text>
 <rect x="60" y="870" width="560" height="90" rx="8" fill="#D5E8D4" stroke="#333333" stroke-width="1.4"/>
 <text x="340.0" y="890.04" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">7  Simulation-based execution</text>
-<text x="340.0" y="906.68" font-size="13" text-anchor="middle" dominant-baseline="middle">esmini with the UN R157 ALKS controller (regulation / reference-driver models)</text>
-<text x="340.0" y="923.3199999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">ODD degradation model (braking, sensing) and injected faults</text>
+<text x="340.0" y="906.68" font-size="13" text-anchor="middle" dominant-baseline="middle">Longitudinal model of the UN R157 ALKS, cross-checked against esmini</text>
+<text x="340.0" y="923.3199999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">Environment effects from published measurements (friction, visibility); planted faults</text>
 <text x="340.0" y="939.9599999999999" font-size="13" text-anchor="middle" dominant-baseline="middle">Oracle: collision = FAIL (EU 2022/1426 Annex III 1.4.2)</text>
 <rect x="60" y="1000" width="560" height="90" rx="8" fill="#F8CECC" stroke="#333333" stroke-width="1.4"/>
 <text x="340.0" y="1028.36" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">8  Evaluation and traceability</text>

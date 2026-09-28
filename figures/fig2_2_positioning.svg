@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" font-family="Times New Roman, Liberation Serif, serif">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#333333"/></marker></defs>
+<rect width="1000" height="700" fill="#FFFFFF"/>
+<rect x="20" y="15" width="330" height="30" rx="8" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.4"/>
+<text x="185.0" y="30.0" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Reviewed literature (Chapter 2)</text>
+<rect x="400" y="15" width="300" height="30" rx="8" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.4"/>
+<text x="550.0" y="30.0" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">ReqODD-Q component</text>
+<rect x="750" y="15" width="230" height="30" rx="8" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.4"/>
+<text x="865.0" y="30.0" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Gap addressed</text>
+<rect x="20" y="60" width="330" height="90" rx="8" fill="#FFF2CC" stroke="#333333" stroke-width="1.4"/>
+<text x="185.0" y="89.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">ODD standards and formalisation</text>
+<text x="185.0" y="105.0" font-size="12" text-anchor="middle" dominant-baseline="middle">SAE J3016, PAS 1883, ISO 34503,</text>
+<text x="185.0" y="120.36" font-size="12" text-anchor="middle" dominant-baseline="middle">ASAM OpenODD, Pkl ODD (Skoglund et al.)</text>
+<rect x="20" y="165" width="330" height="90" rx="8" fill="#FFF2CC" stroke="#333333" stroke-width="1.4"/>
+<text x="185.0" y="194.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Requirement formalisation</text>
+<text x="185.0" y="210.0" font-size="12" text-anchor="middle" dominant-baseline="middle">Req2Spec, FRET, DeepSTL,</text>
+<text x="185.0" y="225.35999999999999" font-size="12" text-anchor="middle" dominant-baseline="middle">specification patterns, LLM approaches</text>
+<rect x="20" y="270" width="330" height="90" rx="8" fill="#FFF2CC" stroke="#333333" stroke-width="1.4"/>
+<text x="185.0" y="299.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Natural language to scenarios</text>
+<text x="185.0" y="315.0" font-size="12" text-anchor="middle" dominant-baseline="middle">ScenarioNL, TARGET,</text>
+<text x="185.0" y="330.36" font-size="12" text-anchor="middle" dominant-baseline="middle">law-derived requirements (Jian et al.)</text>
+<rect x="20" y="375" width="330" height="90" rx="8" fill="#FFF2CC" stroke="#333333" stroke-width="1.4"/>
+<text x="185.0" y="404.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Scenario selection and coverage</text>
+<text x="185.0" y="420.0" font-size="12" text-anchor="middle" dominant-baseline="middle">combinatorial testing, Klück et al.,</text>
+<text x="185.0" y="435.36" font-size="12" text-anchor="middle" dominant-baseline="middle">ODD-based allocation</text>
+<rect x="20" y="480" width="330" height="90" rx="8" fill="#FFF2CC" stroke="#333333" stroke-width="1.4"/>
+<text x="185.0" y="509.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Quantum test optimisation</text>
+<text x="185.0" y="525.0" font-size="12" text-anchor="middle" dominant-baseline="middle">BootQA, SelectQA, IGDec-QAOA,</text>
+<text x="185.0" y="540.36" font-size="12" text-anchor="middle" dominant-baseline="middle">QAOA selection, Araujo et al.</text>
+<rect x="20" y="585" width="330" height="90" rx="8" fill="#FFF2CC" stroke="#333333" stroke-width="1.4"/>
+<text x="185.0" y="614.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Traceability and change</text>
+<text x="185.0" y="630.0" font-size="12" text-anchor="middle" dominant-baseline="middle">Wohlrab et al., TVR,</text>
+<text x="185.0" y="645.36" font-size="12" text-anchor="middle" dominant-baseline="middle">ODD mapping study (Hillen et al.)</text>
+<rect x="400" y="80" width="300" height="90" rx="8" fill="#DAE8FC" stroke="#333333" stroke-width="1.4"/>
+<text x="550.0" y="109.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Phase A</text>
+<text x="550.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">condition library with trace</text>
+<text x="550.0" y="140.36" font-size="12" text-anchor="middle" dominant-baseline="middle">links; boundary predicates</text>
+<rect x="400" y="250" width="300" height="90" rx="8" fill="#DAE8FC" stroke="#333333" stroke-width="1.4"/>
+<text x="550.0" y="279.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Phase B</text>
+<text x="550.0" y="295.0" font-size="12" text-anchor="middle" dominant-baseline="middle">coverage-aligned QUBO;</text>
+<text x="550.0" y="310.36" font-size="12" text-anchor="middle" dominant-baseline="middle">QAOA, exact and classical solvers</text>
+<rect x="400" y="420" width="300" height="90" rx="8" fill="#DAE8FC" stroke="#333333" stroke-width="1.4"/>
+<text x="550.0" y="449.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Change-aware re-selection</text>
+<text x="550.0" y="465.0" font-size="12" text-anchor="middle" dominant-baseline="middle">impact set through trace links;</text>
+<text x="550.0" y="480.36" font-size="12" text-anchor="middle" dominant-baseline="middle">stability term</text>
+<rect x="400" y="570" width="300" height="90" rx="8" fill="#DAE8FC" stroke="#333333" stroke-width="1.4"/>
+<text x="550.0" y="599.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Fault-detection evaluation</text>
+<text x="550.0" y="615.0" font-size="12" text-anchor="middle" dominant-baseline="middle">R157 model, sourced environment,</text>
+<text x="550.0" y="630.36" font-size="12" text-anchor="middle" dominant-baseline="middle">mutation analysis</text>
+<rect x="750" y="80" width="230" height="80" rx="8" fill="#F8CECC" stroke="#333333" stroke-width="1.4"/>
+<text x="865.0" y="104.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Gap 1</text>
+<text x="865.0" y="120.0" font-size="12" text-anchor="middle" dominant-baseline="middle">ODD not derived from</text>
+<text x="865.0" y="135.36" font-size="12" text-anchor="middle" dominant-baseline="middle">stated requirements</text>
+<rect x="750" y="200" width="230" height="80" rx="8" fill="#F8CECC" stroke="#333333" stroke-width="1.4"/>
+<text x="865.0" y="224.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Gap 2</text>
+<text x="865.0" y="240.0" font-size="12" text-anchor="middle" dominant-baseline="middle">no optimised selection from</text>
+<text x="865.0" y="255.35999999999999" font-size="12" text-anchor="middle" dominant-baseline="middle">requirement-level conditions</text>
+<rect x="750" y="320" width="230" height="80" rx="8" fill="#F8CECC" stroke="#333333" stroke-width="1.4"/>
+<text x="865.0" y="344.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Gap 3</text>
+<text x="865.0" y="360.0" font-size="12" text-anchor="middle" dominant-baseline="middle">formulation fidelity</text>
+<text x="865.0" y="375.36" font-size="12" text-anchor="middle" dominant-baseline="middle">not examined</text>
+<rect x="750" y="440" width="230" height="80" rx="8" fill="#F8CECC" stroke="#333333" stroke-width="1.4"/>
+<text x="865.0" y="464.64" font-size="12" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Gap 4</text>
+<text x="865.0" y="480.0" font-size="12" text-anchor="middle" dominant-baseline="middle">no change-aware</text>
+<text x="865.0" y="495.36" font-size="12" text-anchor="middle" dominant-baseline="middle">re-selection</text>
+<path d="M350,105.0 L400,125.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M350,210.0 L400,125.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M350,315.0 L400,125.0" fill="none" stroke="#333333" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#a)"/>
+<path d="M350,420.0 L400,295.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M350,525.0 L400,295.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M350,630.0 L400,465.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M350,420.0 L400,615.0" fill="none" stroke="#333333" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#a)"/>
+<path d="M700,125.0 L750,120.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700,295.0 L750,240.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700,295.0 L750,360.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M700,465.0 L750,480.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
+</svg>

@@ -101,7 +101,7 @@ band(20, 130, 170, 40, "INPUTS")
 inputs = [("doc", ["Regulatory safety", "requirements", "(EU 2022/1426, R157)"]),
           ("network", ["ODD taxonomies", "(ISO 34503, PAS 1883)"]),
           ("grid", ["ODD scenario", "parameter space"]),
-          ("car", ["System under test", "(R157 ALKS controller)"])]
+          ("car", ["System under test", "(R157 ALKS model)"])]
 for i, (ic, lines) in enumerate(inputs):
     y = 190 + i * 160
     icon(ic, 85, y, 44)
@@ -140,8 +140,8 @@ band(PX + PW / 2 - 150, 390, 300, 28, "ReqODD-Q PIPELINE (6 STAGES)", size=13)
 stages = [("doc", ["Requirements", "Formalisation"], ["Corpus, condition", "library and traced", "predicates"], "RQ1"),
           ("grid", ["ODD Scenario", "Space"], ["6 dimensions,", "972 scenarios,", "candidate pools"], "EU 2022/1426 3.1.4.1"),
           ("matrix", ["QUBO", "Formulation"], ["Coverage-aligned", "objective, budget,", "exact reference"], "RQ2"),
-          ("atom", ["Hybrid Quantum-", "Classical Solving"], ["QAOA, annealing,", "SA, GA, greedy;", "decomposition"], "RQ3"),
-          ("sim", ["Scenario Generation", "and Simulation"], ["OpenSCENARIO 1.1,", "esmini, R157 ALKS,", "fault injection"], "RQ2"),
+          ("atom", ["Hybrid Quantum-", "Classical Solving"], ["QAOA, exact,", "SA, GA, greedy;", "decomposition"], "RQ3"),
+          ("sim", ["Scenario Generation", "and Simulation"], ["OpenSCENARIO 1.1,", "R157 ALKS model,", "planted faults"], "RQ2"),
           ("check", ["Evaluation and", "Traceability"], ["Coverage, faults,", "cost, statistics,", "trace audit"], "RQ4")]
 SW, SG, SY, SH = 156, 20, 426, 178
 for i, (ic, title, desc, tag) in enumerate(stages):
@@ -160,8 +160,8 @@ rect(PX, 632, PW, 250, fill=L2C, r=10, sw=2)
 band(PX + 20, 622, 140, 26, "LAYER 2", size=13)
 text(PX, 650, PW, 28, ["Quantum Optimisation and Verification Layer"], size=19, bold=True)
 l2 = [("matrix", "Coverage-Aligned QUBO", ["min −Σ|Pi|xi + Σ|Pi ∩ Pj|xixj", "+ C(Σxi − k)²; exact optimum as reference"]),
-      ("atom", "Quantum and Classical Solvers", ["QAOA (simulator, IBM Quantum), quantum", "annealing (D-Wave), SA, GA, greedy"]),
-      ("sim", "Simulation-Based Verification", ["esmini with the R157 ALKS controller;", "oracle: collision = FAIL (Annex III 1.4.2)"])]
+      ("atom", "Quantum and Classical Solvers", ["QAOA (statevector simulator), exact", "optimum, SA, GA, greedy, decomposition"]),
+      ("sim", "Simulation-Based Verification", ["R157 ALKS model cross-checked with esmini;", "oracle: collision = FAIL (Annex III 1.4.2)"])]
 for i, (ic, title, desc) in enumerate(l2):
     x = 250 + i * 340
     rect(x, 684, 320, 180, r=8)
