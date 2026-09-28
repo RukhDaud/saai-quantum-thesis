@@ -33,7 +33,7 @@ python analyse.py results/runs.csv
 |---|---|---|
 | `corpus/` | EU 2022/1426 (370 statements) and UN R157 (71 statements, verified) corpora; formal ODD condition library (29 conditions); traceability matrix | Complete |
 | `phaseB_qubo_scenario_selection/` | QUBO scenario selection over the regulation-derived ODD space: first (v1) and coverage-aligned (v2) formulations; random, greedy, GA, simulated annealing, QAOA (statevector simulator, checked against Qiskit), exhaustive optimum; alignment study; change-aware re-selection (RQ4); decomposition + ILP reference for n = 50-200 | Complete: v1 and v2 (540 runs each), alignment study, RQ4 (2,160 runs), large-scale n = 50-200 |
-| `phaseC_simulation/` | OpenSCENARIO generation from selected scenarios; headless esmini with the UN R157 ALKS controller; collision, gap, TTC, PASS/FAIL traced to clauses | Chain working; 48 runs; degradation model and fault injection next |
+| `phaseC_simulation/` | OpenSCENARIO generation from selected scenarios; headless esmini with the UN R157 ALKS controller; collision, gap, TTC, PASS/FAIL traced to clauses | Complete: sourced environment effects, 6 planted faults, 3,780 simulations, esmini cross-check (81.7%) |
 | `phaseA_requirement_extraction/` | Optional automated extraction (rule, TF-IDF, SciBERT) - supporting tool, no accuracy claim | Parked |
 | `figures/` | Editable thesis figures (.drawio, .svg, .png) and their generators | Figures 2.1, 3.1, 3.2 |
 

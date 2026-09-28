@@ -1,0 +1,1081 @@
+formulation,n,seed,method,pairwise_cov,killed,killable,mutation_score,killed_mutants
+v1,12,20272927,random,0.5980392156862745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272927,greedy,0.6764705882352942,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272927,exhaustive,0.6862745098039216,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272927,sa,0.6862745098039216,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272927,ga,0.6862745098039216,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272927,qaoa,0.6862745098039216,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272928,random,0.5263157894736842,4,6,0.6666666666666666,M1_surface_unaware M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,12,20272928,greedy,0.6140350877192983,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272928,exhaustive,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272928,sa,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272928,ga,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272928,qaoa,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272929,random,0.5327102803738317,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272929,greedy,0.6448598130841121,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272929,exhaustive,0.6261682242990654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272929,sa,0.6261682242990654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272929,ga,0.6261682242990654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272929,qaoa,0.6261682242990654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272930,random,0.5765765765765766,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272930,greedy,0.6216216216216216,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272930,exhaustive,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272930,sa,0.6126126126126126,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272930,ga,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272930,qaoa,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272931,random,0.5327868852459017,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272931,greedy,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272931,exhaustive,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272931,sa,0.5819672131147541,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272931,ga,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272931,qaoa,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272932,random,0.4770642201834862,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272932,greedy,0.6238532110091743,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272932,exhaustive,0.6330275229357798,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272932,sa,0.6238532110091743,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272932,ga,0.6330275229357798,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272932,qaoa,0.6330275229357798,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272933,random,0.6237623762376238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272933,greedy,0.6732673267326733,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272933,exhaustive,0.693069306930693,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272933,sa,0.693069306930693,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272933,ga,0.693069306930693,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272933,qaoa,0.6831683168316832,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272934,random,0.5614035087719298,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272934,greedy,0.6403508771929824,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272934,exhaustive,0.631578947368421,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272934,sa,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272934,ga,0.631578947368421,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272934,qaoa,0.631578947368421,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272935,random,0.5272727272727272,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272935,greedy,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272935,exhaustive,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272935,sa,0.6363636363636364,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272935,ga,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272935,qaoa,0.6181818181818182,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272936,random,0.5363636363636364,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272936,greedy,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272936,exhaustive,0.6272727272727273,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272936,sa,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272936,ga,0.6272727272727273,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272936,qaoa,0.6272727272727273,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272937,random,0.5700934579439252,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272937,greedy,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272937,exhaustive,0.6448598130841121,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272937,sa,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272937,ga,0.6448598130841121,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272937,qaoa,0.6448598130841121,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272938,random,0.5391304347826087,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272938,greedy,0.6260869565217392,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272938,exhaustive,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272938,sa,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272938,ga,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272938,qaoa,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272939,random,0.5321100917431193,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272939,greedy,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272939,exhaustive,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272939,sa,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272939,ga,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272939,qaoa,0.6055045871559633,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272940,random,0.5660377358490566,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272940,greedy,0.6698113207547169,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272940,exhaustive,0.660377358490566,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272940,sa,0.660377358490566,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272940,ga,0.660377358490566,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272940,qaoa,0.660377358490566,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272941,random,0.6388888888888888,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272941,greedy,0.6481481481481481,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272941,exhaustive,0.6388888888888888,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272941,sa,0.6574074074074074,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272941,ga,0.6388888888888888,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272941,qaoa,0.6388888888888888,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272942,random,0.5555555555555556,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,12,20272942,greedy,0.6574074074074074,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272942,exhaustive,0.6481481481481481,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272942,sa,0.6481481481481481,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272942,ga,0.6481481481481481,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272942,qaoa,0.6481481481481481,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272943,random,0.5135135135135135,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272943,greedy,0.6306306306306306,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,12,20272943,exhaustive,0.6126126126126126,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,12,20272943,sa,0.6126126126126126,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,12,20272943,ga,0.6126126126126126,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,12,20272943,qaoa,0.6036036036036037,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272944,random,0.5865384615384616,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v1,12,20272944,greedy,0.6730769230769231,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v1,12,20272944,exhaustive,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272944,sa,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272944,ga,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272944,qaoa,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272945,random,0.584070796460177,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272945,greedy,0.6194690265486725,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272945,exhaustive,0.6106194690265486,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272945,sa,0.6194690265486725,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272945,ga,0.6106194690265486,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272945,qaoa,0.6194690265486725,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272946,random,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272946,greedy,0.6836734693877551,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272946,exhaustive,0.7142857142857143,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272946,sa,0.7142857142857143,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272946,ga,0.7142857142857143,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272946,qaoa,0.7244897959183674,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272947,random,0.4854368932038835,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272947,greedy,0.6601941747572816,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272947,exhaustive,0.6504854368932039,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272947,sa,0.6504854368932039,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272947,ga,0.6504854368932039,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272947,qaoa,0.6407766990291263,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272948,random,0.5841584158415841,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272948,greedy,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272948,exhaustive,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272948,sa,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272948,ga,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272948,qaoa,0.6435643564356436,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272949,random,0.5576923076923077,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272949,greedy,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272949,exhaustive,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272949,sa,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272949,ga,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272949,qaoa,0.6538461538461539,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272950,random,0.5789473684210527,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272950,greedy,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272950,exhaustive,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272950,sa,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272950,ga,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272950,qaoa,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272951,random,0.532608695652174,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272951,greedy,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272951,exhaustive,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272951,sa,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272951,ga,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272951,qaoa,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272952,random,0.5333333333333333,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272952,greedy,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272952,exhaustive,0.6190476190476191,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272952,sa,0.6571428571428571,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272952,ga,0.6190476190476191,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272952,qaoa,0.6571428571428571,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272953,random,0.5535714285714286,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272953,greedy,0.625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272953,exhaustive,0.625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272953,sa,0.6160714285714286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272953,ga,0.625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272953,qaoa,0.6160714285714286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272954,random,0.5495495495495496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272954,greedy,0.6306306306306306,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,12,20272954,exhaustive,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272954,sa,0.6216216216216216,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272954,ga,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272954,qaoa,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272955,random,0.5585585585585585,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272955,greedy,0.6306306306306306,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,12,20272955,exhaustive,0.6486486486486487,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272955,sa,0.6486486486486487,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272955,ga,0.6486486486486487,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272955,qaoa,0.6306306306306306,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,12,20272956,random,0.5596330275229358,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272956,greedy,0.6422018348623854,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272956,exhaustive,0.6238532110091743,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272956,sa,0.6238532110091743,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272956,ga,0.6238532110091743,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,12,20272956,qaoa,0.6330275229357798,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276927,random,0.5327868852459017,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276927,greedy,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276927,exhaustive,0.5573770491803278,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276927,sa,0.5737704918032787,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276927,ga,0.5573770491803278,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276927,qaoa,0.5737704918032787,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276928,random,0.5603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276928,greedy,0.5775862068965517,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276928,exhaustive,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276928,sa,0.603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276928,ga,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276928,qaoa,0.5862068965517241,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276929,random,0.4789915966386555,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276929,greedy,0.6050420168067226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276929,exhaustive,0.5966386554621849,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276929,sa,0.5966386554621849,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276929,ga,0.5966386554621849,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276929,qaoa,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276930,random,0.4166666666666667,3,6,0.5,M1_surface_unaware M4_late_reaction M6_visibility_unaware
+v1,16,20276930,greedy,0.5833333333333334,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276930,exhaustive,0.5666666666666667,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276930,sa,0.5833333333333334,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276930,ga,0.5666666666666667,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276930,qaoa,0.5666666666666667,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276931,random,0.4523809523809524,3,6,0.5,M1_surface_unaware M2_aeb_unavailable M4_late_reaction
+v1,16,20276931,greedy,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276931,exhaustive,0.5476190476190477,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276931,sa,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276931,ga,0.5476190476190477,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276931,qaoa,0.5555555555555556,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276932,random,0.5454545454545454,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276932,greedy,0.5619834710743802,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276932,exhaustive,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276932,sa,0.5702479338842975,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276932,ga,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276932,qaoa,0.5537190082644629,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276933,random,0.5,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276933,greedy,0.5948275862068966,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276933,exhaustive,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276933,sa,0.5775862068965517,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276933,ga,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276933,qaoa,0.5603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276934,random,0.5416666666666666,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276934,greedy,0.5916666666666667,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276934,exhaustive,0.5833333333333334,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276934,sa,0.575,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276934,ga,0.5833333333333334,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276934,qaoa,0.55,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276935,random,0.4427480916030534,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276935,greedy,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276935,exhaustive,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276935,sa,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276935,ga,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276935,qaoa,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276936,random,0.4883720930232558,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276936,greedy,0.5426356589147286,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276936,exhaustive,0.5348837209302325,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276936,sa,0.5193798449612403,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276936,ga,0.5348837209302325,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276936,qaoa,0.5426356589147286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276937,random,0.5454545454545454,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276937,greedy,0.5702479338842975,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276937,exhaustive,0.5950413223140496,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276937,sa,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276937,ga,0.5950413223140496,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276937,qaoa,0.5619834710743802,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276938,random,0.532258064516129,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276938,greedy,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276938,exhaustive,0.5564516129032258,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276938,sa,0.5403225806451613,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276938,ga,0.5564516129032258,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276938,qaoa,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276939,random,0.532258064516129,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276939,greedy,0.5645161290322581,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276939,exhaustive,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276939,sa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276939,ga,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276939,qaoa,0.5645161290322581,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276940,random,0.4609375,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276940,greedy,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276940,exhaustive,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276940,sa,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276940,ga,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276940,qaoa,0.546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276941,random,0.5079365079365079,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276941,greedy,0.5555555555555556,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,16,20276941,exhaustive,0.5317460317460317,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276941,sa,0.5317460317460317,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276941,ga,0.5317460317460317,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276941,qaoa,0.5396825396825397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276942,random,0.4705882352941176,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v1,16,20276942,greedy,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,16,20276942,exhaustive,0.5882352941176471,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276942,sa,0.5882352941176471,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276942,ga,0.5882352941176471,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276942,qaoa,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276943,random,0.4453781512605042,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276943,greedy,0.6050420168067226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276943,exhaustive,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276943,sa,0.5882352941176471,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276943,ga,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276943,qaoa,0.5798319327731093,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276944,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276944,greedy,0.5645161290322581,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276944,exhaustive,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276944,sa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276944,ga,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276944,qaoa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276945,random,0.5172413793103449,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276945,greedy,0.603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276945,exhaustive,0.5775862068965517,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276945,sa,0.5775862068965517,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276945,ga,0.5775862068965517,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276945,qaoa,0.603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276946,random,0.5948275862068966,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276946,greedy,0.6120689655172413,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276946,exhaustive,0.5948275862068966,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276946,sa,0.603448275862069,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276946,ga,0.5948275862068966,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276946,qaoa,0.5517241379310345,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276947,random,0.4833333333333333,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276947,greedy,0.575,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,16,20276947,exhaustive,0.5833333333333334,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276947,sa,0.5916666666666667,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276947,ga,0.5833333333333334,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276947,qaoa,0.5916666666666667,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276948,random,0.4596774193548387,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276948,greedy,0.5645161290322581,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276948,exhaustive,0.5564516129032258,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276948,sa,0.5645161290322581,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276948,ga,0.5564516129032258,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276948,qaoa,0.5483870967741935,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276949,random,0.4628099173553719,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276949,greedy,0.5950413223140496,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276949,exhaustive,0.6033057851239669,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276949,sa,0.5619834710743802,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276949,ga,0.6033057851239669,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276949,qaoa,0.6033057851239669,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276950,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,16,20276950,greedy,0.6101694915254238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276950,exhaustive,0.576271186440678,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276950,sa,0.576271186440678,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276950,ga,0.576271186440678,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,16,20276950,qaoa,0.5932203389830508,4,6,0.6666666666666666,M1_surface_unaware M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,16,20276951,random,0.5528455284552846,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276951,greedy,0.5772357723577236,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276951,exhaustive,0.5528455284552846,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276951,sa,0.5691056910569106,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276951,ga,0.5528455284552846,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276951,qaoa,0.5528455284552846,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276952,random,0.5,3,6,0.5,M1_surface_unaware M2_aeb_unavailable M4_late_reaction
+v1,16,20276952,greedy,0.6339285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,16,20276952,exhaustive,0.6071428571428571,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276952,sa,0.6071428571428571,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276952,ga,0.6071428571428571,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276952,qaoa,0.625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276953,random,0.5078125,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M6_visibility_unaware
+v1,16,20276953,greedy,0.5703125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276953,exhaustive,0.546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276953,sa,0.5546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276953,ga,0.546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276953,qaoa,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276954,random,0.5043478260869565,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276954,greedy,0.6173913043478261,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276954,exhaustive,0.591304347826087,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276954,sa,0.6,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276954,ga,0.591304347826087,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276954,qaoa,0.6,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276955,random,0.4836065573770491,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,16,20276955,greedy,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276955,exhaustive,0.5819672131147541,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276955,sa,0.5573770491803278,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276955,ga,0.5819672131147541,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276955,qaoa,0.5737704918032787,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276956,random,0.5378151260504201,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,16,20276956,greedy,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276956,exhaustive,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276956,sa,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276956,ga,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,16,20276956,qaoa,0.5798319327731093,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,20,20280927,random,0.4296875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280927,greedy,0.546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280927,exhaustive,0.5390625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280927,sa,0.5546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280927,ga,0.5390625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280927,qaoa,0.546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280928,random,0.4573643410852713,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280928,greedy,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280928,exhaustive,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280928,sa,0.5271317829457365,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280928,ga,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280928,qaoa,0.5348837209302325,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280929,random,0.4615384615384615,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280929,greedy,0.5461538461538461,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280929,exhaustive,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280929,sa,0.5307692307692308,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,20,20280929,ga,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280929,qaoa,0.5461538461538461,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280930,random,0.4963503649635036,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280930,greedy,0.5182481751824818,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280930,exhaustive,0.5182481751824818,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280930,sa,0.4890510948905109,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280930,ga,0.5036496350364964,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280930,qaoa,0.4963503649635036,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280931,random,0.4744525547445255,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v1,20,20280931,greedy,0.5328467153284672,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280931,exhaustive,0.5182481751824818,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280931,sa,0.5182481751824818,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280931,ga,0.5182481751824818,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280931,qaoa,0.5109489051094891,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280932,random,0.4586466165413533,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280932,greedy,0.5338345864661654,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280932,exhaustive,0.5338345864661654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280932,sa,0.5338345864661654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280932,ga,0.5338345864661654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280932,qaoa,0.518796992481203,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280933,random,0.5038167938931297,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280933,greedy,0.5343511450381679,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280933,exhaustive,0.5343511450381679,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280933,sa,0.5190839694656488,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280933,ga,0.5343511450381679,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280933,qaoa,0.5267175572519084,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280934,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280934,greedy,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280934,exhaustive,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280934,sa,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280934,ga,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280934,qaoa,0.5230769230769231,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280935,random,0.4677419354838709,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280935,greedy,0.5403225806451613,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280935,exhaustive,0.5564516129032258,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280935,sa,0.5403225806451613,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280935,ga,0.5564516129032258,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280935,qaoa,0.532258064516129,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280936,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280936,greedy,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280936,exhaustive,0.5655737704918032,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280936,sa,0.5491803278688525,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280936,ga,0.5655737704918032,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280936,qaoa,0.5573770491803278,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280937,random,0.4566929133858268,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280937,greedy,0.5433070866141733,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280937,exhaustive,0.5433070866141733,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280937,sa,0.5275590551181102,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280937,ga,0.5433070866141733,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280937,qaoa,0.5196850393700787,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280938,random,0.4765625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280938,greedy,0.5546875,4,6,0.6666666666666666,M1_surface_unaware M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,20,20280938,exhaustive,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280938,sa,0.546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280938,ga,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280938,qaoa,0.53125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280939,random,0.4233576642335766,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280939,greedy,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280939,exhaustive,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280939,sa,0.5109489051094891,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280939,ga,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280939,qaoa,0.5109489051094891,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280940,random,0.4580152671755725,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280940,greedy,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280940,exhaustive,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280940,sa,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280940,ga,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280940,qaoa,0.5190839694656488,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280941,random,0.4765625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280941,greedy,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280941,exhaustive,0.53125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280941,sa,0.5390625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280941,ga,0.53125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280941,qaoa,0.53125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280942,random,0.3484848484848485,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280942,greedy,0.5378787878787878,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280942,exhaustive,0.5303030303030303,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280942,sa,0.5151515151515151,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280942,ga,0.5303030303030303,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280942,qaoa,0.4924242424242424,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280943,random,0.4841269841269841,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280943,greedy,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280943,exhaustive,0.5714285714285714,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280943,sa,0.5634920634920635,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,20,20280943,ga,0.5714285714285714,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280943,qaoa,0.5238095238095238,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v1,20,20280944,random,0.4841269841269841,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280944,greedy,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280944,exhaustive,0.5634920634920635,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280944,sa,0.5158730158730159,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280944,ga,0.5634920634920635,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280944,qaoa,0.5555555555555556,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280945,random,0.4960629921259842,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280945,greedy,0.5669291338582677,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280945,exhaustive,0.5433070866141733,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280945,sa,0.5275590551181102,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280945,ga,0.5433070866141733,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280945,qaoa,0.5433070866141733,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280946,random,0.4626865671641791,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280946,greedy,0.5373134328358209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280946,exhaustive,0.5223880597014925,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280946,sa,0.5074626865671642,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280946,ga,0.5223880597014925,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280946,qaoa,0.5149253731343284,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280947,random,0.4576271186440678,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280947,greedy,0.559322033898305,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280947,exhaustive,0.5677966101694916,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280947,sa,0.5677966101694916,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280947,ga,0.5677966101694916,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280947,qaoa,0.5423728813559322,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280948,random,0.5038167938931297,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280948,greedy,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280948,exhaustive,0.5190839694656488,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280948,sa,0.4961832061068702,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280948,ga,0.5190839694656488,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280948,qaoa,0.5114503816793893,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280949,random,0.4651162790697674,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280949,greedy,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280949,exhaustive,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280949,sa,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280949,ga,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280949,qaoa,0.5271317829457365,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280950,random,0.4761904761904761,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280950,greedy,0.5634920634920635,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280950,exhaustive,0.5396825396825397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280950,sa,0.5317460317460317,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280950,ga,0.5396825396825397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280950,qaoa,0.5238095238095238,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280951,random,0.5327868852459017,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280951,greedy,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280951,exhaustive,0.5245901639344263,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280951,sa,0.5491803278688525,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280951,ga,0.5245901639344263,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280951,qaoa,0.5245901639344263,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v1,20,20280952,random,0.4436090225563909,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280952,greedy,0.5112781954887218,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280952,exhaustive,0.5263157894736842,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280952,sa,0.5263157894736842,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280952,ga,0.5263157894736842,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280952,qaoa,0.518796992481203,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280953,random,0.453125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280953,greedy,0.5625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280953,exhaustive,0.53125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280953,sa,0.53125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280953,ga,0.53125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280953,qaoa,0.515625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280954,random,0.4571428571428571,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280954,greedy,0.5071428571428571,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280954,exhaustive,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280954,sa,0.4928571428571429,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280954,ga,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280954,qaoa,0.5071428571428571,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280955,random,0.4927536231884058,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280955,greedy,0.5144927536231884,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280955,exhaustive,0.5144927536231884,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280955,sa,0.5289855072463768,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280955,ga,0.5144927536231884,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v1,20,20280955,qaoa,0.5144927536231884,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280956,random,0.4883720930232558,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280956,greedy,0.5426356589147286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280956,exhaustive,0.5503875968992248,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280956,sa,0.5503875968992248,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280956,ga,0.5503875968992248,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v1,20,20280956,qaoa,0.5193798449612403,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272927,random,0.5980392156862745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272927,greedy,0.6764705882352942,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272927,exhaustive,0.6862745098039216,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272927,sa,0.6764705882352942,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272927,ga,0.6862745098039216,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272927,qaoa,0.6764705882352942,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272928,random,0.5263157894736842,4,6,0.6666666666666666,M1_surface_unaware M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,12,20272928,greedy,0.6140350877192983,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272928,exhaustive,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272928,sa,0.6140350877192983,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272928,ga,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272928,qaoa,0.6140350877192983,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272929,random,0.5327102803738317,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272929,greedy,0.6448598130841121,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272929,exhaustive,0.6635514018691588,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272929,sa,0.6635514018691588,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272929,ga,0.6635514018691588,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272929,qaoa,0.6635514018691588,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272930,random,0.5765765765765766,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272930,greedy,0.6216216216216216,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272930,exhaustive,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272930,sa,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272930,ga,0.6396396396396397,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272930,qaoa,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272931,random,0.5327868852459017,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272931,greedy,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272931,exhaustive,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272931,sa,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272931,ga,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272931,qaoa,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272932,random,0.4770642201834862,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272932,greedy,0.6238532110091743,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272932,exhaustive,0.6513761467889908,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272932,sa,0.6330275229357798,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272932,ga,0.6513761467889908,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272932,qaoa,0.6422018348623854,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272933,random,0.6237623762376238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272933,greedy,0.6732673267326733,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272933,exhaustive,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272933,sa,0.6831683168316832,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272933,ga,0.693069306930693,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272933,qaoa,0.6831683168316832,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272934,random,0.5614035087719298,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272934,greedy,0.6403508771929824,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272934,exhaustive,0.6403508771929824,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272934,sa,0.631578947368421,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272934,ga,0.6403508771929824,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272934,qaoa,0.631578947368421,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272935,random,0.5272727272727272,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272935,greedy,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272935,exhaustive,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272935,sa,0.6363636363636364,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272935,ga,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272935,qaoa,0.6454545454545455,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272936,random,0.5363636363636364,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272936,greedy,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272936,exhaustive,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272936,sa,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272936,ga,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272936,qaoa,0.6454545454545455,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272937,random,0.5700934579439252,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272937,greedy,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272937,exhaustive,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272937,sa,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272937,ga,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272937,qaoa,0.6542056074766355,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272938,random,0.5391304347826087,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272938,greedy,0.6260869565217392,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272938,exhaustive,0.6260869565217392,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272938,sa,0.6260869565217392,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272938,ga,0.6260869565217392,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272938,qaoa,0.6260869565217392,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272939,random,0.5321100917431193,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272939,greedy,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272939,exhaustive,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272939,sa,0.6422018348623854,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272939,ga,0.6422018348623854,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272939,qaoa,0.6330275229357798,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272940,random,0.5660377358490566,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272940,greedy,0.6698113207547169,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272940,exhaustive,0.6698113207547169,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272940,sa,0.660377358490566,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272940,ga,0.6698113207547169,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272940,qaoa,0.660377358490566,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272941,random,0.6388888888888888,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272941,greedy,0.6481481481481481,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272941,exhaustive,0.6574074074074074,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272941,sa,0.6481481481481481,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272941,ga,0.6574074074074074,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272941,qaoa,0.6481481481481481,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272942,random,0.5555555555555556,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,12,20272942,greedy,0.6574074074074074,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272942,exhaustive,0.6666666666666666,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,12,20272942,sa,0.6574074074074074,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272942,ga,0.6666666666666666,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,12,20272942,qaoa,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272943,random,0.5135135135135135,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272943,greedy,0.6306306306306306,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272943,exhaustive,0.6396396396396397,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272943,sa,0.6306306306306306,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,12,20272943,ga,0.6396396396396397,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272943,qaoa,0.6396396396396397,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272944,random,0.5865384615384616,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v2,12,20272944,greedy,0.6730769230769231,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v2,12,20272944,exhaustive,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272944,sa,0.6730769230769231,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272944,ga,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272944,qaoa,0.6826923076923077,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272945,random,0.584070796460177,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272945,greedy,0.6194690265486725,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272945,exhaustive,0.6460176991150443,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272945,sa,0.6283185840707964,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v2,12,20272945,ga,0.6460176991150443,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272945,qaoa,0.6460176991150443,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272946,random,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272946,greedy,0.6836734693877551,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272946,exhaustive,0.7244897959183674,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272946,sa,0.7244897959183674,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272946,ga,0.7244897959183674,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272946,qaoa,0.7142857142857143,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272947,random,0.4854368932038835,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272947,greedy,0.6601941747572816,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272947,exhaustive,0.6796116504854369,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272947,sa,0.6699029126213593,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272947,ga,0.6796116504854369,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272947,qaoa,0.6699029126213593,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272948,random,0.5841584158415841,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272948,greedy,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272948,exhaustive,0.7029702970297029,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272948,sa,0.693069306930693,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272948,ga,0.7029702970297029,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272948,qaoa,0.6831683168316832,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272949,random,0.5576923076923077,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272949,greedy,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272949,exhaustive,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272949,sa,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272949,ga,0.6634615384615384,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272949,qaoa,0.6538461538461539,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272950,random,0.5789473684210527,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272950,greedy,0.6052631578947368,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272950,exhaustive,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272950,sa,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272950,ga,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272950,qaoa,0.6228070175438597,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272951,random,0.532608695652174,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272951,greedy,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272951,exhaustive,0.7282608695652174,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272951,sa,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272951,ga,0.7282608695652174,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272951,qaoa,0.717391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272952,random,0.5333333333333333,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272952,greedy,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272952,exhaustive,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272952,sa,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272952,ga,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272952,qaoa,0.6666666666666666,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272953,random,0.5535714285714286,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272953,greedy,0.625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272953,exhaustive,0.6428571428571429,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272953,sa,0.6428571428571429,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272953,ga,0.6428571428571429,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272953,qaoa,0.6428571428571429,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272954,random,0.5495495495495496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272954,greedy,0.6306306306306306,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,12,20272954,exhaustive,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272954,sa,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272954,ga,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272954,qaoa,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272955,random,0.5585585585585585,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272955,greedy,0.6306306306306306,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,12,20272955,exhaustive,0.6486486486486487,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272955,sa,0.6306306306306306,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272955,ga,0.6486486486486487,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272955,qaoa,0.6396396396396397,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272956,random,0.5596330275229358,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272956,greedy,0.6422018348623854,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272956,exhaustive,0.6605504587155964,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272956,sa,0.6513761467889908,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272956,ga,0.6605504587155964,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,12,20272956,qaoa,0.6513761467889908,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276927,random,0.5327868852459017,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276927,greedy,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276927,exhaustive,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276927,sa,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276927,ga,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276927,qaoa,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276928,random,0.5603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276928,greedy,0.5775862068965517,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276928,exhaustive,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276928,sa,0.6120689655172413,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276928,ga,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276928,qaoa,0.603448275862069,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276929,random,0.4789915966386555,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276929,greedy,0.6050420168067226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276929,exhaustive,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276929,sa,0.5966386554621849,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276929,ga,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276929,qaoa,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276930,random,0.4166666666666667,3,6,0.5,M1_surface_unaware M4_late_reaction M6_visibility_unaware
+v2,16,20276930,greedy,0.5833333333333334,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276930,exhaustive,0.6083333333333333,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276930,sa,0.6083333333333333,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276930,ga,0.6083333333333333,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276930,qaoa,0.6083333333333333,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276931,random,0.4523809523809524,3,6,0.5,M1_surface_unaware M2_aeb_unavailable M4_late_reaction
+v2,16,20276931,greedy,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276931,exhaustive,0.5793650793650794,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276931,sa,0.5793650793650794,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276931,ga,0.5793650793650794,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276931,qaoa,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276932,random,0.5454545454545454,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276932,greedy,0.5619834710743802,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276932,exhaustive,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276932,sa,0.5867768595041323,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276932,ga,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276932,qaoa,0.5867768595041323,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276933,random,0.5,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,16,20276933,greedy,0.5948275862068966,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276933,exhaustive,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276933,sa,0.603448275862069,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276933,ga,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276933,qaoa,0.6120689655172413,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276934,random,0.5416666666666666,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276934,greedy,0.5916666666666667,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276934,exhaustive,0.6083333333333333,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276934,sa,0.5833333333333334,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276934,ga,0.6083333333333333,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276934,qaoa,0.6,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276935,random,0.4427480916030534,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,16,20276935,greedy,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276935,exhaustive,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276935,sa,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276935,ga,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276935,qaoa,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276936,random,0.4883720930232558,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276936,greedy,0.5426356589147286,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276936,exhaustive,0.5581395348837209,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276936,sa,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276936,ga,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276936,qaoa,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276937,random,0.5454545454545454,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276937,greedy,0.5702479338842975,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276937,exhaustive,0.5950413223140496,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276937,sa,0.5785123966942148,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276937,ga,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276937,qaoa,0.5867768595041323,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276938,random,0.532258064516129,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276938,greedy,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276938,exhaustive,0.5887096774193549,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276938,sa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276938,ga,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276938,qaoa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276939,random,0.532258064516129,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276939,greedy,0.5645161290322581,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276939,exhaustive,0.5887096774193549,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276939,sa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276939,ga,0.5887096774193549,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276939,qaoa,0.5887096774193549,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276940,random,0.4609375,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276940,greedy,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276940,exhaustive,0.578125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276940,sa,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276940,ga,0.578125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276940,qaoa,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276941,random,0.5079365079365079,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276941,greedy,0.5555555555555556,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,16,20276941,exhaustive,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276941,sa,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276941,ga,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276941,qaoa,0.5555555555555556,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276942,random,0.4705882352941176,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v2,16,20276942,greedy,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,16,20276942,exhaustive,0.6050420168067226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276942,sa,0.5966386554621849,3,6,0.5,M1_surface_unaware M3_no_speed_cap M4_late_reaction
+v2,16,20276942,ga,0.5966386554621849,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276942,qaoa,0.5882352941176471,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276943,random,0.4453781512605042,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276943,greedy,0.6050420168067226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276943,exhaustive,0.6050420168067226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276943,sa,0.5966386554621849,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276943,ga,0.6050420168067226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276943,qaoa,0.5966386554621849,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276944,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276944,greedy,0.5645161290322581,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276944,exhaustive,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276944,sa,0.5725806451612904,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276944,ga,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276944,qaoa,0.5806451612903226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276945,random,0.5172413793103449,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276945,greedy,0.603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276945,exhaustive,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276945,sa,0.5948275862068966,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276945,ga,0.6206896551724138,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276945,qaoa,0.6120689655172413,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276946,random,0.5948275862068966,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276946,greedy,0.6120689655172413,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276946,exhaustive,0.6206896551724138,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276946,sa,0.5948275862068966,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276946,ga,0.6206896551724138,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276946,qaoa,0.603448275862069,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276947,random,0.4833333333333333,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,16,20276947,greedy,0.575,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,16,20276947,exhaustive,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276947,sa,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276947,ga,0.6,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276947,qaoa,0.5916666666666667,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276948,random,0.4596774193548387,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,16,20276948,greedy,0.5645161290322581,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276948,exhaustive,0.5887096774193549,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276948,sa,0.5887096774193549,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276948,ga,0.5806451612903226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276948,qaoa,0.5806451612903226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276949,random,0.4628099173553719,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276949,greedy,0.5950413223140496,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276949,exhaustive,0.6033057851239669,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276949,sa,0.5867768595041323,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276949,ga,0.6033057851239669,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276949,qaoa,0.5950413223140496,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276950,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,16,20276950,greedy,0.6101694915254238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,16,20276950,exhaustive,0.6101694915254238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,16,20276950,sa,0.5932203389830508,4,6,0.6666666666666666,M1_surface_unaware M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,16,20276950,ga,0.6101694915254238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,16,20276950,qaoa,0.6101694915254238,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,16,20276951,random,0.5528455284552846,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276951,greedy,0.5772357723577236,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276951,exhaustive,0.5772357723577236,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276951,sa,0.5772357723577236,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276951,ga,0.5772357723577236,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276951,qaoa,0.5772357723577236,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276952,random,0.5,3,6,0.5,M1_surface_unaware M2_aeb_unavailable M4_late_reaction
+v2,16,20276952,greedy,0.6339285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,16,20276952,exhaustive,0.6428571428571429,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276952,sa,0.6339285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276952,ga,0.6428571428571429,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276952,qaoa,0.6160714285714286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276953,random,0.5078125,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M6_visibility_unaware
+v2,16,20276953,greedy,0.5703125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276953,exhaustive,0.5703125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276953,sa,0.546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276953,ga,0.5703125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276953,qaoa,0.5625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276954,random,0.5043478260869565,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276954,greedy,0.6173913043478261,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276954,exhaustive,0.6173913043478261,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276954,sa,0.591304347826087,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276954,ga,0.6173913043478261,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276954,qaoa,0.6086956521739131,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276955,random,0.4836065573770491,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,16,20276955,greedy,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276955,exhaustive,0.5983606557377049,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276955,sa,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276955,ga,0.5983606557377049,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276955,qaoa,0.5983606557377049,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276956,random,0.5378151260504201,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,16,20276956,greedy,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276956,exhaustive,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276956,sa,0.6050420168067226,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276956,ga,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,16,20276956,qaoa,0.6134453781512605,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280927,random,0.4296875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280927,greedy,0.546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280927,exhaustive,0.5546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280927,sa,0.5390625,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280927,ga,0.5546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280927,qaoa,0.546875,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280928,random,0.4573643410852713,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280928,greedy,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280928,exhaustive,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280928,sa,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280928,ga,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280928,qaoa,0.5503875968992248,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280929,random,0.4615384615384615,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280929,greedy,0.5461538461538461,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280929,exhaustive,0.5538461538461539,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280929,sa,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280929,ga,0.5538461538461539,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280929,qaoa,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280930,random,0.4963503649635036,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280930,greedy,0.5182481751824818,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280930,exhaustive,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280930,sa,0.5182481751824818,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280930,ga,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280930,qaoa,0.5109489051094891,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280931,random,0.4744525547445255,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction
+v2,20,20280931,greedy,0.5328467153284672,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280931,exhaustive,0.5328467153284672,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280931,sa,0.5255474452554745,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280931,ga,0.5328467153284672,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280931,qaoa,0.5109489051094891,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280932,random,0.4586466165413533,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280932,greedy,0.5338345864661654,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280932,exhaustive,0.5488721804511278,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280932,sa,0.5338345864661654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280932,ga,0.5488721804511278,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280932,qaoa,0.5413533834586466,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280933,random,0.5038167938931297,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280933,greedy,0.5343511450381679,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280933,exhaustive,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280933,sa,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280933,ga,0.549618320610687,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280933,qaoa,0.5419847328244275,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280934,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280934,greedy,0.5384615384615384,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280934,exhaustive,0.5538461538461539,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280934,sa,0.5230769230769231,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280934,ga,0.5538461538461539,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280934,qaoa,0.5461538461538461,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280935,random,0.4677419354838709,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280935,greedy,0.5403225806451613,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280935,exhaustive,0.5806451612903226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280935,sa,0.5564516129032258,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280935,ga,0.5806451612903226,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280935,qaoa,0.5645161290322581,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280936,random,0.5,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280936,greedy,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280936,exhaustive,0.5983606557377049,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280936,sa,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280936,ga,0.5983606557377049,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280936,qaoa,0.5819672131147541,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280937,random,0.4566929133858268,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280937,greedy,0.5433070866141733,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280937,exhaustive,0.5669291338582677,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280937,sa,0.5590551181102362,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280937,ga,0.5669291338582677,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280937,qaoa,0.5511811023622047,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280938,random,0.4765625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280938,greedy,0.5546875,4,6,0.6666666666666666,M1_surface_unaware M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,20,20280938,exhaustive,0.5703125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280938,sa,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280938,ga,0.5703125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280938,qaoa,0.5546875,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280939,random,0.4233576642335766,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280939,greedy,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280939,exhaustive,0.5328467153284672,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280939,sa,0.5255474452554745,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280939,ga,0.5328467153284672,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280939,qaoa,0.5182481751824818,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280940,random,0.4580152671755725,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280940,greedy,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280940,exhaustive,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280940,sa,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280940,ga,0.5572519083969466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280940,qaoa,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280941,random,0.4765625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280941,greedy,0.5625,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280941,exhaustive,0.5703125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280941,sa,0.546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280941,ga,0.5703125,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280941,qaoa,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280942,random,0.3484848484848485,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280942,greedy,0.5378787878787878,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280942,exhaustive,0.553030303030303,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280942,sa,0.5378787878787878,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280942,ga,0.553030303030303,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280942,qaoa,0.5378787878787878,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280943,random,0.4841269841269841,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280943,greedy,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280943,exhaustive,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280943,sa,0.5634920634920635,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M6_visibility_unaware
+v2,20,20280943,ga,0.5714285714285714,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280943,qaoa,0.5555555555555556,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280944,random,0.4841269841269841,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280944,greedy,0.5634920634920635,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280944,exhaustive,0.5714285714285714,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280944,sa,0.5555555555555556,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280944,ga,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280944,qaoa,0.5555555555555556,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280945,random,0.4960629921259842,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280945,greedy,0.5669291338582677,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280945,exhaustive,0.5748031496062992,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280945,sa,0.5590551181102362,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280945,ga,0.5669291338582677,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280945,qaoa,0.5511811023622047,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280946,random,0.4626865671641791,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280946,greedy,0.5373134328358209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280946,exhaustive,0.5447761194029851,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280946,sa,0.5373134328358209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280946,ga,0.5373134328358209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280946,qaoa,0.5223880597014925,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280947,random,0.4576271186440678,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280947,greedy,0.559322033898305,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280947,exhaustive,0.5932203389830508,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280947,sa,0.5677966101694916,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280947,ga,0.5932203389830508,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280947,qaoa,0.5677966101694916,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280948,random,0.5038167938931297,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280948,greedy,0.549618320610687,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280948,exhaustive,0.549618320610687,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280948,sa,0.5419847328244275,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280948,ga,0.549618320610687,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280948,qaoa,0.5343511450381679,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280949,random,0.4651162790697674,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280949,greedy,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280949,exhaustive,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280949,sa,0.5426356589147286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280949,ga,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280949,qaoa,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280950,random,0.4761904761904761,4,6,0.6666666666666666,M1_surface_unaware M2_aeb_unavailable M4_late_reaction M5_weak_brakes
+v2,20,20280950,greedy,0.5634920634920635,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280950,exhaustive,0.5793650793650794,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280950,sa,0.5476190476190477,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280950,ga,0.5714285714285714,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280950,qaoa,0.5555555555555556,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280951,random,0.5327868852459017,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280951,greedy,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280951,exhaustive,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280951,sa,0.5737704918032787,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280951,ga,0.5901639344262295,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280951,qaoa,0.5737704918032787,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280952,random,0.4436090225563909,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280952,greedy,0.5112781954887218,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280952,exhaustive,0.5488721804511278,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280952,sa,0.5338345864661654,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280952,ga,0.5488721804511278,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280952,qaoa,0.5413533834586466,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280953,random,0.453125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280953,greedy,0.5625,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280953,exhaustive,0.5703125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280953,sa,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280953,ga,0.5703125,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280953,qaoa,0.5546875,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280954,random,0.4571428571428571,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280954,greedy,0.5071428571428571,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280954,exhaustive,0.5214285714285715,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280954,sa,0.5142857142857142,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280954,ga,0.5214285714285715,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280954,qaoa,0.5142857142857142,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280955,random,0.4927536231884058,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280955,greedy,0.5144927536231884,6,6,1.0,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes M6_visibility_unaware
+v2,20,20280955,exhaustive,0.5362318840579711,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280955,sa,0.5217391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280955,ga,0.5362318840579711,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280955,qaoa,0.5217391304347826,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280956,random,0.4883720930232558,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280956,greedy,0.5426356589147286,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280956,exhaustive,0.5658914728682171,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280956,sa,0.5348837209302325,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280956,ga,0.5658914728682171,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes
+v2,20,20280956,qaoa,0.5581395348837209,5,6,0.8333333333333334,M1_surface_unaware M2_aeb_unavailable M3_no_speed_cap M4_late_reaction M5_weak_brakes

@@ -48,3 +48,27 @@ Result (`results/fd_*.csv`): with esmini's ALKS ReferenceDriver as the SUT, only
 M1, M4 and M6 produce no observable behavioural difference, M2 differs by < 0.1 m, M5 reduces the minimum gap
 but causes no collision. The reference SUT itself collides in snow at 60 km/h. The scripted controller is too
 simple for most injected faults to become observable - see thesis Chapter 6 for the design decision taken.
+
+## Fault detection with the R157 longitudinal model (final design)
+The esmini controller makes most faults unobservable, so fault detection uses `r157_model.py`, a documented
+longitudinal model of the R157 cut-in-and-brake test (speed cap R157 5.2.3.1; surface and visibility speed adaptation
+R157 5.2.3.2 / 7.1.3; perception at the R157 5.2.5.2 lane-intrusion point; reaction 0.75 s; 0.6 s braking ramp to
+min(0.774 g, mu g); AEB at TTC < 1.5 s up to min(0.85 g, mu g); lead vehicle brakes at its full braking performance,
+R157 5.2.5.1). Each logical ODD scenario is run as a fixed sweep of 20 concrete manoeuvres (gap 7.5-30 m, cut-in
+speed 0.5 or 0.75 x scenario speed).
+
+```bash
+python fault_detection_model.py --crosscheck     # ESMINI_HOME needed for the cross-check
+```
+
+| Result | Value |
+|---|---|
+| Simulations | 27 logical scenarios x 20 manoeuvres x 7 variants = 3,780 |
+| Reference collisions (excluded from kills) | 87 of 540 |
+| Killable faults | 6 of 6 (logical scenarios killing each: M1 18, M2 12, M3 9, M4 21, M5 9, M6 2) |
+| Agreement with esmini ReferenceDriver (fault-free) | 81.7% of verdicts, Cohen's kappa 0.43 |
+| Mean mutation score, v2 selections n=12/16/20 | greedy 0.87/0.89/0.86; QAOA 0.88/0.88/0.86; exact QUBO 0.88/0.89/0.88; random 0.83/0.79/0.85 |
+| Best achievable with 5 scenarios | 0.92/0.96/0.95 |
+| Spearman(pairwise coverage, mutation score) | 0.18 / 0.07 / -0.02 (v2) |
+
+Files: `results/fdm_*.csv`, `results/fdm_meta.json`, `results/fdm_upper_bound.csv`.
