@@ -1,26 +1,36 @@
-esmini GIT REV: v3.8.2-0-61b44a7
+esmini GIT REV: v3.8.2-0-61b44a7-dirty
 esmini GIT TAG: v3.8.2
 esmini GIT BRANCH: tags/v3.8.2^0
 esmini BUILD VERSION: N/A - client build
-[] [info] Loaded generated/C23_Regulation.xosc
-[2026-09-27 15:15:10]
-[] [info] Player options: --osc generated/C23_Regulation.xosc --camera_mode orbit --csv_logger /tmp/tmpoa28113p/log.csv --collision --fixed_timestep 0.05 --ground_plane auto --headless --info_text 1 --logfile_path log.txt --log_level info --text_scale 1.0 --traj_filter 0.1 
+[] [info] Loaded /tmp/tmptchwfe9b/snow_fog_70_ReferenceDriver_M6_precip_range_loss.xosc
+[2026-09-28 05:16:35]
+[] [info] Player options: --osc /tmp/tmptchwfe9b/snow_fog_70_ReferenceDriver_M6_precip_range_loss.xosc --camera_mode orbit --csv_logger /tmp/tmpbjpgjv31/log.csv --collision --fixed_timestep 0.05 --ground_plane auto --headless --info_text 1 --logfile_path log.txt --log_level info --text_scale 1.0 --traj_filter 0.1 
 [] [info] Run simulation decoupled from realtime, with fixed timestep: 0.05
-[] [info] Generated seed 172382919
-[] [info] Loading generated/C23_Regulation.xosc (v1.1)
+[] [info] Generated seed 3259656487
+[] [info] Loading /tmp/tmptchwfe9b/snow_fog_70_ReferenceDriver_M6_precip_range_loss.xosc (v1.1)
 [] [info] 0 variables
 [] [info] Loaded OpenDRIVE: /tmp/claude-0/esmini/resources/xodr/straight_500m.xodr
 [] [info] Expr ${250/3.6} = 250/3.6 = 69.4444444444
 [] [info] 3D model search paths attempted for file car_white.osgb:
 [] [info]   ../models/car_white.osgb
 [] [info]   car_white.osgb
-[] [info]   generated/../models/car_white.osgb
-[] [info]   generated/./car_white.osgb
+[] [info]   /tmp/tmptchwfe9b/../models/car_white.osgb
+[] [info]   /tmp/tmptchwfe9b/./car_white.osgb
 [] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//../models/car_white.osgb
 [] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//./car_white.osgb
 [] [warn] 3D model ../models/car_white.osgb not located, using specified file path
 [] [warn] Missing esminiController property, using controller name: ALKS_R157SM_Controller
-[] [info] ALKS_R157SM model: Regulation
+[] [info] ALKS_R157SM ReferenceDriver perceptionDelayMode: Dist
+[] [info] ALKS_R157SM PedestrianRiskEvaluationTime: 0.40
+[] [info] ALKS_R157SM AEB TTC: 1.50
+[] [info] ALKS_R157SM AEB deceleration: 3.14
+[] [info] ALKS_R157SM AEB available
+[] [info] ALKS_R157SM Overlap tolerance: 0.10
+[] [info] ALKS_R157SM driver deceleration: 3.14
+[] [info] ALKS_R157SM model: ReferenceDriver
+[] [info] ALKS_R157SM physical deceleration limit (friction): 3.14
+[] [info] ALKS_R157SM reaction time: 0.75
+[] [info] ALKS_R157SM max range: 25.00
 [] [info] ALKS_R157SM logLevel: 0
 [] [info] ALKS_R157SM fullStop: false
 [] [info] ALKS_R157SM alwaysTrigOnScenario: false
@@ -29,8 +39,8 @@ esmini BUILD VERSION: N/A - client build
 [] [info] 3D model search paths attempted for file car_red.osgb:
 [] [info]   ../models/car_red.osgb
 [] [info]   car_red.osgb
-[] [info]   generated/../models/car_red.osgb
-[] [info]   generated/./car_red.osgb
+[] [info]   /tmp/tmptchwfe9b/../models/car_red.osgb
+[] [info]   /tmp/tmptchwfe9b/./car_red.osgb
 [] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//../models/car_red.osgb
 [] [info]   /tmp/claude-0/esmini/build/EnvironmentSimulator/Applications/esmini/../resources/models//./car_red.osgb
 [] [warn] 3D model ../models/car_red.osgb not located, using specified file path
@@ -39,10 +49,10 @@ esmini BUILD VERSION: N/A - client build
 [] [info] 6 parameters:
 [] [info]    TargetBrakeRate = 5.2
 [] [info]    TargetBrakeTime = 2.0
-[] [info]    TargetS = 80
+[] [info]    TargetS = 70.00
 [] [info]    EgoS = 50
 [] [info]    TargetSpeed = 14.5833
-[] [info]    EgoSpeed = 19.4444
+[] [info]    EgoSpeed = 16.6667
 [0.000] [info] Log all vehicle data in csv file
 [0.000] [info] Init EnvironmentAction initState -> startTransition -> runningState
 [0.000] [info] Init Ego TeleportAction initState -> startTransition -> runningState
@@ -56,7 +66,7 @@ esmini BUILD VERSION: N/A - client build
 [0.000] [info] Init Target TeleportAction initState -> startTransition -> runningState
 [0.000] [info] Starting teleport Action
 [0.000] [info] Target New position:
-[0.000] [info] Pos(80.00, 1.53, 0.00) Rot(0.00, 0.00, 0.00) roadId 1 laneId 1 s 80.00 offset 0.00 t 1.53
+[0.000] [info] Pos(70.00, 1.53, 0.00) Rot(0.00, 0.00, 0.00) roadId 1 laneId 1 s 70.00 offset 0.00 t 1.53
 [0.000] [info] Init Target LongitudinalAction initState -> startTransition -> runningState
 [0.000] [info] storyBoard initState -> startTransition -> runningState
 [0.000] [info] CutInAndBrakeStory initState -> startTransition -> runningState
@@ -103,13 +113,13 @@ esmini BUILD VERSION: N/A - client build
 [6.850] [info] CutInAndBrakeSequence runningState -> endTransition -> completeState
 [6.850] [info] CutInAndBrakeAct runningState -> endTransition -> completeState
 [6.850] [info] CutInAndBrakeStory runningState -> endTransition -> completeState
-[6.900] [info] ActStopCondition: true, delay: 3.00, TargetreduceSpeedEvent, COMPLETE / END_TRANSITION == END_TRANSITION, edge: rising
-[6.950] [info] ActStopCondition: false, delay: 3.00, TargetreduceSpeedEvent, COMPLETE / UNDEFINED_TRANSITION == END_TRANSITION, edge: rising
-[9.900] [info] Trigger /------------------------------------------------
-[9.900] [info] Group 0:
-[9.900] [info] ActStopCondition: true
-[9.900] [info] Group 1:
-[9.900] [info] CollisionCondition: false
-[9.900] [info] Trigger  ------------------------------------------------/
-[9.900] [info] storyBoard runningState -> stopTransition -> completeState
-[9.900] [info] Closing
+[6.900] [info] ActStopCondition: true, delay: 15.00, TargetreduceSpeedEvent, COMPLETE / END_TRANSITION == END_TRANSITION, edge: rising
+[6.950] [info] ActStopCondition: false, delay: 15.00, TargetreduceSpeedEvent, COMPLETE / UNDEFINED_TRANSITION == END_TRANSITION, edge: rising
+[21.900] [info] Trigger /------------------------------------------------
+[21.900] [info] Group 0:
+[21.900] [info] ActStopCondition: true
+[21.900] [info] Group 1:
+[21.900] [info] CollisionCondition: false
+[21.900] [info] Trigger  ------------------------------------------------/
+[21.900] [info] storyBoard runningState -> stopTransition -> completeState
+[21.900] [info] Closing

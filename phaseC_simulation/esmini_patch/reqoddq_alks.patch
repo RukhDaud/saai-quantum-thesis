@@ -1,0 +1,48 @@
+--- a/EnvironmentSimulator/Modules/Controllers/ControllerALKS_R157SM.cpp	2026-09-28 05:13:48.598393746 +0100
++++ b/EnvironmentSimulator/Modules/Controllers/ControllerALKS_R157SM.cpp	2026-09-28 05:13:48.639841955 +0100
+@@ -178,6 +178,23 @@
+         }
+         LOG_INFO("ALKS_R157SM model: {}", model_->GetModelName());
+ 
++        // ReqODD-Q extension: environment-dependent physical limit and perception parameters
++        if (args->properties->ValueExists("frictionLimit"))
++        {
++            phys_max_dec_ = fabs(strtod(args->properties->GetValueStr("frictionLimit")));
++            LOG_INFO("ALKS_R157SM physical deceleration limit (friction): {:.2f}", phys_max_dec_);
++        }
++        if (args->properties->ValueExists("reactionTime"))
++        {
++            model_->rt_ = fabs(strtod(args->properties->GetValueStr("reactionTime")));
++            LOG_INFO("ALKS_R157SM reaction time: {:.2f}", model_->rt_);
++        }
++        if (args->properties->ValueExists("maxRange"))
++        {
++            model_->max_range_ = fabs(strtod(args->properties->GetValueStr("maxRange")));
++            LOG_INFO("ALKS_R157SM max range: {:.2f}", model_->max_range_);
++        }
++
+         if (args->properties->ValueExists("logLevel"))
+         {
+             model_->SetLogging(strtoi(args->properties->GetValueStr("logLevel")));
+@@ -233,6 +250,11 @@
+ {
+     double speed = model_->Step(timeStep);
+ 
++    if (phys_max_dec_ > 0.0)  // ReqODD-Q: tyre-road friction limits the achievable deceleration
++    {
++        speed = MAX(speed, object_->GetSpeed() - phys_max_dec_ * timeStep);
++    }
++
+     if (mode_ == ControlOperationMode::MODE_OVERRIDE)
+     {
+         object_->MoveAlongS(speed * timeStep);
+--- a/EnvironmentSimulator/Modules/Controllers/ControllerALKS_R157SM.hpp	2026-09-28 05:13:48.600493839 +0100
++++ b/EnvironmentSimulator/Modules/Controllers/ControllerALKS_R157SM.hpp	2026-09-28 05:13:48.640133742 +0100
+@@ -597,6 +597,7 @@
+         };
+ 
+         Model* model_;
++        double phys_max_dec_ = -1.0;  // ReqODD-Q: friction-limited deceleration (m/s2), <= 0 disables
+ 
+         ControllerALKS_R157SM(InitArgs* args);
+         ~ControllerALKS_R157SM();

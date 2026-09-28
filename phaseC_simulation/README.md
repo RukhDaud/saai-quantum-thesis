@@ -34,3 +34,17 @@ weather/lighting combinations at each speed give identical trajectories. The env
 set in the scenario but does not reach the controller. For weather to affect outcomes, an
 explicit, sourced model of how each ODD condition degrades the vehicle (braking friction,
 sensor range) must be added — the next step of this phase.
+
+## Fault detection (mutation analysis) - first run
+- `esmini_patch/reqoddq_alks.patch`: adds `frictionLimit`, `reactionTime`, `maxRange` properties to esmini's
+  ALKS_R157SM controller (apply to esmini v3.8.2, then rebuild).
+- `sut.py`: environment effects from published values (friction: Lorencic 2023, Sustainability 15:6945, dry 0.83
+  measured, wet 0.40-0.65 and compacted snow/ice 0.24-0.40 from its Table 1, midpoints used; fog visual range:
+  Kim et al. 2023, Sensors 23:2972, weak fog < 150 m, thick fog <= 50 m), reference SUT and 6 mutants.
+- `fault_detection.py`: 27 simulation-relevant ODD combinations x 7 variants; cut-in gap 20 m (smallest safe gap for
+  the reference SUT, dry, 60 km/h); kill = mutant collides where the reference does not.
+
+Result (`results/fd_*.csv`): with esmini's ALKS ReferenceDriver as the SUT, only M3 (no 60 km/h cap) is killable;
+M1, M4 and M6 produce no observable behavioural difference, M2 differs by < 0.1 m, M5 reduces the minimum gap
+but causes no collision. The reference SUT itself collides in snow at 60 km/h. The scripted controller is too
+simple for most injected faults to become observable - see thesis Chapter 6 for the design decision taken.

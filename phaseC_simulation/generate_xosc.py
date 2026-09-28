@@ -25,7 +25,9 @@ TEMPLATE = os.path.join(HERE, "templates", "alks_r157_cut_in_quick_brake.xosc")
 # visibility: Fog@visualRange in metres. lighting: TimeOfDay + Sun elevation (rad).
 ENV_MAP = {
     "precipitation": {"none": ("dry", 0.0), "rain": ("rain", 1.0), "snow": ("snow", 1.0)},
-    "visibility": {"clear": 100000.0, "mist": 1000.0, "fog": 100.0},
+    # visual range per level from the fog categories of Kim et al. (Sensors 23:2972, 2023):
+    # weak fog < 150 m, thick fog <= 50 m
+    "visibility": {"clear": 100000.0, "mist": 150.0, "fog": 50.0},
     "lighting": {"day": ("12:00:00", 1.0), "dusk": ("19:30:00", 0.05),
                  "night": ("23:00:00", -0.5), "low_sun_glare": ("07:00:00", 0.05)},
 }
@@ -46,18 +48,34 @@ def environment_action(s):
     return ga
 
 
-def build(scenario, sid, predicates, clauses, model="Regulation", out_dir=None):
+def build(scenario, sid, predicates, clauses, model="Regulation", out_dir=None, props=None, ego_kmh=None,
+          variant=None, gap_m=None):
+    """props: extra ALKS controller properties (e.g. frictionLimit, reactionTime, maxRange,
+    driverDeceleration, aebDeceleration, aebAvailable); ego_kmh: ego speed if different from the
+    scenario level (e.g. capped by the system); variant: name of the controller variant."""
     tree = ET.parse(TEMPLATE)
     root = tree.getroot()
     v = float(scenario["speed_kmh"]) / 3.6
+    ve = v if ego_kmh is None else float(ego_kmh) / 3.6
     params = {p.get("name"): p for p in root.iter("ParameterDeclaration")}
-    params["EgoSpeed"].set("value", f"{v:.4f}")
+    params["EgoSpeed"].set("value", f"{ve:.4f}")
     params["TargetSpeed"].set("value", f"{0.75 * v:.4f}")  # template ratio 15/20 kept
+    if gap_m is not None:  # initial longitudinal offset of the cutting-in vehicle (template: 30 m)
+        params["TargetS"].set("value", f"{float(params['EgoS'].get('value')) + gap_m:.2f}")
     for prop in root.iter("Property"):
         if prop.get("name") == "model":
             prop.set("value", model)
         if prop.get("name") == "logLevel":
             prop.set("value", "0")
+    if props:
+        pr = next(root.iter("Properties"))
+        for k, val in props.items():
+            ET.SubElement(pr, "Property", name=k, value=str(val))
+    # run until both vehicles have come to rest: the template stops 3 s after the lead vehicle has
+    # stopped, which can end the run before a slower-braking ego vehicle reaches it
+    for cond in root.iter("Condition"):
+        if cond.get("name") == "ActStopCondition":
+            cond.set("delay", "15")
     init_actions = root.find("./Storyboard/Init/Actions")
     init_actions.insert(0, environment_action(scenario))
     # template paths are relative to esmini/resources/xosc; make them absolute via ESMINI_HOME
@@ -72,11 +90,12 @@ def build(scenario, sid, predicates, clauses, model="Regulation", out_dir=None):
     fh.set("author", "saai-quantum-thesis generate_xosc.py")
     out_dir = out_dir or os.path.join(HERE, "generated")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, f"{sid}_{model}.xosc")
+    path = os.path.join(out_dir, f"{sid}_{model}{'_' + variant if variant else ''}.xosc")
     ET.indent(tree)
     tree.write(path, encoding="UTF-8", xml_declaration=True)
-    meta = {"scenario_id": sid, "model": model, "odd": scenario, "predicates": predicates,
-            "traces_to": clauses, "xosc": os.path.basename(path)}
+    meta = {"scenario_id": sid, "model": model, "variant": variant, "odd": scenario, "predicates": predicates,
+            "traces_to": clauses, "controller_properties": props or {}, "ego_kmh": ego_kmh,
+            "xosc": os.path.basename(path)}
     with open(re.sub(r"\.xosc$", ".json", path), "w") as f:
         json.dump(meta, f, indent=1)
     return path

@@ -1,0 +1,13 @@
+{
+ "killable": [
+  "M3_no_speed_cap"
+ ],
+ "mutants": {
+  "M1_surface_unaware": "plans braking with dry-road deceleration regardless of the surface",
+  "M2_aeb_unavailable": "emergency braking function unavailable",
+  "M3_no_speed_cap": "does not limit its speed to 60 km/h (R157 5.2.3.1)",
+  "M4_late_reaction": "reaction time 1.25 s instead of 0.75 s (perception latency)",
+  "M5_weak_brakes": "service and emergency braking 30% weaker than specified",
+  "M6_precip_range_loss": "sensor range halved in rain or snow (unmodelled precipitation effect)"
+ }
+}
