@@ -1,0 +1,47 @@
+seed 2026, n = 6, k = 3
+x1: rain, dusk, mist, absent, dual_carriageway, 60  | predicates P1 P2 P4 P5 P6 P7  | |P| = 15
+x2: rain, low_sun_glare, mist, absent, single_carriageway, 70  | predicates P1 P3 P4 P5 P6 P7 P8  | |P| = 15
+x3: rain, day, mist, clear, dual_carriageway, 40  | predicates P1 P4 P6  | |P| = 15
+x4: none, day, clear, absent, single_carriageway, 60  | predicates P5 P6 P7  | |P| = 15
+x5: none, night, clear, worn, motorway_separated, 70  | predicates P2 P3 P5 P7  | |P| = 15
+x6: snow, night, clear, worn, dual_carriageway, 60  | predicates P1 P2 P3 P5 P6 P7 P8  | |P| = 15
+pool interactions: 76
+overlaps |P_i & P_j| (upper triangle):
+   .  3  3  1  0  1
+   .  .  1  1  0  0
+   .  .  .  0  0  0
+   .  .  .  .  1  1
+   .  .  .  .  .  3
+   .  .  .  .  .  .
+C = 29; constant C k^2 = 261
+QUBO matrix (upper triangle):
+    -160     61     61     59     58     59
+           -160     59     59     58     58
+                  -160     58     58     58
+                         -160     59     59
+                                -160     61
+                                       -160
+exact optimum: [2, 3, 5], energy -44, pairwise coverage 57.9%
+greedy: [2, 3, 5], energy -44, pairwise coverage 57.9%
+all selections of size k ranked by energy (energy, covered interactions, selection):
+     -44  44 [2, 3, 5]
+     -44  44 [2, 3, 6]
+     -44  44 [3, 4, 5]
+     -44  44 [3, 4, 6]
+     -43  43 [1, 4, 5]
+     -43  43 [2, 3, 4]
+     -43  43 [2, 4, 5]
+     -43  43 [2, 4, 6]
+     -42  42 [1, 2, 5]
+     -42  42 [1, 3, 5]
+     -42  42 [1, 4, 6]
+     -42  42 [2, 5, 6]
+     -42  42 [3, 5, 6]
+     -41  41 [1, 2, 6]
+     -41  41 [1, 3, 4]
+     -41  41 [1, 3, 6]
+     -41  41 [1, 5, 6]
+     -40  40 [1, 2, 4]
+     -40  40 [4, 5, 6]
+     -38  39 [1, 2, 3]
+lowest energy of a selection of size != k: -28

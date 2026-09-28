@@ -1,5 +1,5 @@
 Statements: EU 2022/1426 370, UN R157 71, total 441
-EU by annex: {'Annex II': 370}
+EU by annex: {'Annex II': 141, 'Annex III': 229}
 EU normative: {'no': 50, 'yes': 320}
 R157 normative: {'no': 2, 'yes': 69}
 R157 by paragraph: {'2': 2, '5': 46, '6': 16, '7': 7}

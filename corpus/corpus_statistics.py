@@ -22,7 +22,7 @@ tm = pd.read_csv(os.path.join(H, "traceability_matrix.csv"))
 
 
 def part(src):
-    m = re.search(r"Annex (II|III)", src)
+    m = re.search(r"Annex (III|II)", src)
     return "Annex " + m.group(1) if m else "other"
 
 

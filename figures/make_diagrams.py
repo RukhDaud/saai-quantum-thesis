@@ -126,27 +126,27 @@ def prisma():
         Box("scl", 20, 220, 40, 290, ["Screening"], fill=blue, rotate=True),
         Box("inl", 20, 540, 40, 90, ["Included"], fill=blue, rotate=True),
         Box("id", 80, 20, 420, 170, [
-            "Records identified (n = 186)",
+            "Records identified (n = 188)",
             "Reference lists of the research proposal",
             "and earlier drafts (n = 134)",
             "Structured keyword search and backward/forward",
             "citation tracing (n = 38)",
             "Standards, regulations, tools and statistical",
-            "methods added during method development (n = 14)"], align="left"),
+            "methods added during method development (n = 16)"], align="left"),
         Box("dup", 560, 70, 320, 70, ["Records removed before screening", "Duplicate records (n = 8)"], fill=grey, align="left"),
-        Box("sc", 80, 250, 420, 60, ["Records screened (n = 178)"]),
+        Box("sc", 80, 250, 420, 60, ["Records screened (n = 180)"]),
         Box("ex1", 560, 225, 320, 110, [
             "Records excluded (n = 9)",
             "Record could not be confirmed (n = 1)",
             "Grey literature, commercial report or",
             "non-peer-reviewed preprint (n = 3)",
             "Outside the scope of the review (n = 5)"], fill=grey, align="left"),
-        Box("fa", 80, 400, 420, 60, ["Full-text records assessed for eligibility (n = 169)"]),
+        Box("fa", 80, 400, 420, 60, ["Full-text records assessed for eligibility (n = 171)"]),
         Box("ex2", 560, 375, 320, 110, [
             "Records excluded after full text (n = 8)",
             "Not used in the final synthesis (n = 8)"], fill=grey, align="left"),
         Box("inc", 80, 540, 420, 90, [
-            "Sources included in the review (n = 161)",
+            "Sources included in the review (n = 163)",
             "of which 45 studies are summarised",
             "study by study in Table 2.11"]),
     ]

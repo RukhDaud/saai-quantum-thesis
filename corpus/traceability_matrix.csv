@@ -31,11 +31,11 @@ R157-015,UN R157 paragraph 5.2.3.1,C15,ODD_CONDITION,P7; phaseC EgoSpeed,modelle
 R157-001,UN R157 paragraph 2.1,C15,ODD_CONDITION,P7; phaseC EgoSpeed,modelled
 R157-056,UN R157 paragraph 6.2.3,C16,ODD_CONDITION,P6,modelled
 R157-056,UN R157 paragraph 6.2.3,C17,ODD_CONDITION,P1-P6 (jointly),modelled
-R157-068,UN R157 paragraph 7.1.3,C18,ODD_CONDITION,P8; gap in phaseC (sensor range not degraded),modelled
+R157-068,UN R157 paragraph 7.1.3,C18,ODD_CONDITION,P8; phaseC sensor range limited by visual range (r157_model),modelled
 R157-016,UN R157 paragraph 5.2.3.2,C19,ODD_CONDITION,gap,gap
 R157-066,UN R157 paragraph 7.1.1,C20,PERFORMANCE_LIMIT,gap,gap
-R157-017,UN R157 paragraph 5.2.3.3,C21,PERFORMANCE_LIMIT,phaseC min gap (to be scored),modelled
-R157-018,UN R157 paragraph 5.2.3.3 table,C21,PERFORMANCE_LIMIT,phaseC min gap (to be scored),modelled
+R157-017,UN R157 paragraph 5.2.3.3,C21,PERFORMANCE_LIMIT,phaseC minimum gap recorded per run (not an oracle),modelled
+R157-018,UN R157 paragraph 5.2.3.3 table,C21,PERFORMANCE_LIMIT,phaseC minimum gap recorded per run (not an oracle),modelled
 R157-022,UN R157 paragraph 5.2.5.2,C22,PERFORMANCE_LIMIT,phaseC template scenario,modelled
 R157-023,UN R157 paragraph 5.2.5.3,C23,PERFORMANCE_LIMIT,gap,gap
 R157-026,UN R157 paragraph 5.3.1.1,C24,PERFORMANCE_LIMIT,gap,gap
