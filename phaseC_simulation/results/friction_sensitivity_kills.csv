@@ -1,0 +1,4 @@
+setting,reference_collisions,M1_surface_unaware,M2_aeb_unavailable,M3_no_speed_cap,M4_late_reaction,M5_weak_brakes,M6_visibility_unaware,killable
+lower,72,18,9,6,21,9,4,6
+midpoint,87,18,12,9,21,9,2,6
+upper,114,18,15,9,21,15,2,6
