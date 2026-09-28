@@ -80,8 +80,9 @@ def ego_speed(scen_kmh, mu, rng, p):
     return v
 
 
-def simulate(scenario, variant, gap0, ratio=0.75):
-    """Returns dict(collision, min_gap_m, min_ttc_s, ego_kmh)."""
+def simulate(scenario, variant, gap0, ratio=0.75, trace=False):
+    """Returns dict(collision, min_gap_m, min_ttc_s, ego_kmh); with trace=True also the time series
+    (t, gap, ego speed, target speed, ego deceleration), which does not change the result."""
     p = params(variant)
     mu = MU[scenario["precipitation"]]
     vis = VIS_M[scenario["visibility"]]
@@ -99,6 +100,7 @@ def simulate(scenario, variant, gap0, ratio=0.75):
     t_hazard = None
     min_gap, min_ttc = float("inf"), float("inf")
     ego_kmh = ve * 3.6
+    tr = []
     while t < 40.0:
         gap = xt - xe - LEN
         # perception: relevant once intrusion has started and the target is within range
@@ -125,12 +127,20 @@ def simulate(scenario, variant, gap0, ratio=0.75):
         xt += vt * DT
         t += DT
         gap = xt - xe - LEN
+        if trace:
+            tr.append((round(t, 2), gap, ve, vt, a_cmd))
         min_gap = min(min_gap, gap)
         if ve > vt:
             min_ttc = min(min_ttc, max(gap, 0) / (ve - vt))
         if gap <= 0:
-            return dict(collision=1, min_gap_m=round(gap, 3), min_ttc_s=0.0, ego_kmh=round(ego_kmh, 2))
+            out = dict(collision=1, min_gap_m=round(gap, 3), min_ttc_s=0.0, ego_kmh=round(ego_kmh, 2))
+            if trace:
+                out["trace"] = tr
+            return out
         if ve == 0.0 and vt == 0.0:
             break
-    return dict(collision=0, min_gap_m=round(min_gap, 3),
-                min_ttc_s=round(min_ttc, 3) if min_ttc != float("inf") else None, ego_kmh=round(ego_kmh, 2))
+    out = dict(collision=0, min_gap_m=round(min_gap, 3),
+               min_ttc_s=round(min_ttc, 3) if min_ttc != float("inf") else None, ego_kmh=round(ego_kmh, 2))
+    if trace:
+        out["trace"] = tr
+    return out

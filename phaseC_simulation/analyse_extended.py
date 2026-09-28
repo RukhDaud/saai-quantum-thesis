@@ -104,5 +104,21 @@ out("G. Friction sensitivity: mean mutation score per setting (mean over n = 12,
 out(fs.groupby(["setting", "method"]).mutation_score.mean().unstack(0).round(3).to_string())
 out(pd.read_csv(os.path.join(R, "friction_sensitivity_kills.csv")).to_string(index=False))
 
+from scipy.stats import spearmanr  # noqa: E402
+out()
+out("H. Spearman correlation between pairwise coverage and mutation score (coverage-aligned), per method and pooled")
+for n in (12, 16, 20):
+    d = v2[v2.n == n]
+    parts = [f"pooled {spearmanr(d.pairwise_cov, d.mutation_score).correlation:.2f}"]
+    for m, dm in d.groupby("method"):
+        parts.append(f"{m} {spearmanr(dm.pairwise_cov, dm.mutation_score).correlation:.2f}")
+    out(f"n={n}: " + "; ".join(parts))
+ub = pd.read_csv(os.path.join(R, "fdm_upper_bound.csv")).set_index(["n", "seed"]).best
+hv = v2.assign(best=[ub[(a, b)] for a, b in zip(v2.n, v2.seed)])
+hv["hit"] = hv.mutation_score >= hv.best - 1e-9
+out("I. Share of instances on which the method reached the best achievable score")
+out(hv.groupby(["n", "method"]).hit.mean().unstack().round(3).to_string())
+out("Best achievable score distribution: " + str(pd.read_csv(os.path.join(R, "fdm_upper_bound.csv")).groupby("n").best.value_counts().to_dict()))
+
 open(os.path.join(R, "analysis_extended.txt"), "w").write("\n".join(L) + "\n")
 print("\n".join(L))

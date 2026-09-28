@@ -329,7 +329,53 @@ def fig_change_type():
     save(fig, "fig_change_type")
 
 
+# ---------- Fig: share of selections detecting each fault ----------
+def fig_fault_detection():
+    s = pd.read_csv(os.path.join(PC, "fdm_scores.csv"))
+    s = s[s.formulation == "v2"]
+    mut = ["M1_surface_unaware", "M2_aeb_unavailable", "M3_no_speed_cap", "M4_late_reaction", "M5_weak_brakes",
+           "M6_visibility_unaware"]
+    order = ["random", "greedy", "sa", "qaoa", "ga", "exhaustive"]
+    fig, ax = plt.subplots(figsize=(7.2, 3.3))
+    x = np.arange(len(mut)); w = 0.13
+    for i, m in enumerate(order):
+        d = s[s.method == m]
+        vals = [100 * d.killed_mutants.fillna("").str.contains(mm).mean() for mm in mut]
+        ax.bar(x + (i - 2.5) * w, vals, w * 0.95, color=COLOR[m], label=LABEL[m], edgecolor="white", linewidth=0.6)
+    ax.set_xticks(x, [mm[:2] for mm in mut])
+    ax.set_ylabel("Selections detecting\nthe fault (%)")
+    ax.set_ylim(0, 108)
+    ax.legend(loc="lower center", ncol=3, fontsize=8.5, bbox_to_anchor=(0.5, 1.0))
+    save(fig, "fig_fault_detection")
+
+
+# ---------- Fig: one concrete manoeuvre, reference and two faulty variants ----------
+def fig_trace():
+    import sys
+    sys.path.insert(0, os.path.join(HERE, "..", "phaseC_simulation"))
+    from r157_model import simulate
+    sc = dict(precipitation="none", visibility="clear", speed_kmh=60)
+    runs = [("reference", "Reference", C[0], "-"), ("M4_late_reaction", "M4 late reaction", C[1], "--"),
+            ("M5_weak_brakes", "M5 weak brakes", C[4], ":")]
+    fig, axes = plt.subplots(1, 2, figsize=(7.4, 3.2))
+    for v, lab, col, ls in runs:
+        o = simulate(sc, v, 20.0, 0.75, trace=True)
+        t = [r[0] for r in o["trace"]]
+        axes[0].plot(t, [max(r[1], 0) for r in o["trace"]], color=col, linestyle=ls, linewidth=1.8,
+                     label=lab + (" (collision)" if o["collision"] else ""))
+        axes[1].plot(t, [3.6 * r[2] for r in o["trace"]], color=col, linestyle=ls, linewidth=1.8)
+        if o["collision"]:
+            axes[0].plot(t[-1], 0, marker="x", color=col, markersize=8, markeredgewidth=2)
+    t_lead = [r[0] for r in simulate(sc, "reference", 20.0, 0.75, trace=True)["trace"]]
+    axes[1].plot(t_lead, [3.6 * r[3] for r in simulate(sc, "reference", 20.0, 0.75, trace=True)["trace"]],
+                 color=INK2, linewidth=1.2, label="Cutting-in vehicle")
+    axes[0].set_xlabel("Time (s)"); axes[0].set_ylabel("Gap to cutting-in vehicle (m)")
+    axes[1].set_xlabel("Time (s)"); axes[1].set_ylabel("Speed (km/h)")
+    axes[0].legend(fontsize=8.5, loc="upper right"); axes[1].legend(fontsize=8.5, loc="upper right")
+    save(fig, "fig_trace")
+
+
 if __name__ == "__main__":
     for f in (fig_alignment, fig_coverage, fig_qaoa_diff, fig_qaoa_cost, fig_scaling, fig_change, fig_change_sens,
-              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type):
+              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace):
         f()
