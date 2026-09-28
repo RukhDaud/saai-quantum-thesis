@@ -1,0 +1,60 @@
+Statements: EU 2022/1426 370, UN R157 71, total 441
+EU by annex: {'Annex II': 370}
+EU normative: {'no': 50, 'yes': 320}
+R157 normative: {'no': 2, 'yes': 69}
+R157 by paragraph: {'2': 2, '5': 46, '6': 16, '7': 7}
+R157 verified: {'yes': 71}
+Statements yielding at least one condition: 32 (EU 16, R157 16)
+Conditions by kind: {'ODD_CONDITION': 14, 'BOUNDARY_RESPONSE': 3, 'PERFORMANCE_LIMIT': 10, 'ACTIVATION_CONDITION': 2}
+Conditions with a stated threshold: {True: 20, False: 9}
+Stated threshold by kind:
+                      sum  count
+kind                            
+ACTIVATION_CONDITION    2      2
+BOUNDARY_RESPONSE       2      3
+ODD_CONDITION           6     14
+PERFORMANCE_LIMIT      10     10
+Source statements per condition: {3: 7, 1: 20, 2: 2}; mean 1.55
+Conditions by source regulation: {'EU1': 14, 'R15': 15}
+Trace-matrix rows: 45; status {'modelled': 28, 'gap': 17}
+Conditions by dimension: {'precipitation': 2, 'lighting': 2, 'visibility': 3, 'road_markings': 2, 'road_type': 2, 'geography': 1, 'speed': 2, 'generic': 8, 'traffic_participants': 5, 'driver': 2}
+
+Scenario space: 972 scenarios; levels {'precipitation': 3, 'lighting': 4, 'visibility': 3, 'road_markings': 3, 'road_category': 3, 'speed_kmh': 3}
+P1 EU1426-039 (Annex II 3.1.4.1(a) precipitation): 648 scenarios (66.7%)
+P2 EU1426-040 (Annex II 3.1.4.1(b) time of day): 486 scenarios (50.0%)
+P3 EU1426-041 (Annex II 3.1.4.1(c) light intensity): 486 scenarios (50.0%)
+P4 EU1426-042 (Annex II 3.1.4.1(d) fog, mist): 648 scenarios (66.7%)
+P5 EU1426-043 (Annex II 3.1.4.1(e) road and lane markings): 648 scenarios (66.7%)
+P6 EU1426-044 (Annex II 3.1.4.1(f) road category): 648 scenarios (66.7%)
+P7 UN R157 para 5.2.3.1 (maximum speed 60 km/h): 648 scenarios (66.7%)
+P8 UN R157 para 7.1.3 (conditions reducing detection range): 648 scenarios (66.7%)
+Scenarios by number of predicates exercised: {0: 1, 1: 9, 2: 37, 3: 98, 4: 190, 5: 263, 6: 234, 7: 116, 8: 24}
+Pairwise co-occurrence of predicates (scenarios exercising both):
+  P1-P2: 324
+  P1-P3: 324
+  P1-P4: 432
+  P1-P5: 432
+  P1-P6: 432
+  P1-P7: 432
+  P1-P8: 486
+  P2-P3: 243
+  P2-P4: 324
+  P2-P5: 324
+  P2-P6: 324
+  P2-P7: 324
+  P2-P8: 270
+  P3-P4: 324
+  P3-P5: 324
+  P3-P6: 324
+  P3-P7: 324
+  P3-P8: 378
+  P4-P5: 432
+  P4-P6: 432
+  P4-P7: 432
+  P4-P8: 486
+  P5-P6: 432
+  P5-P7: 432
+  P5-P8: 432
+  P6-P7: 432
+  P6-P8: 432
+  P7-P8: 432

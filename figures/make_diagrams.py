@@ -143,14 +143,12 @@ def prisma():
             "Outside the scope of the review (n = 5)"], fill=grey, align="left"),
         Box("fa", 80, 400, 420, 60, ["Full-text records assessed for eligibility (n = 169)"]),
         Box("ex2", 560, 375, 320, 110, [
-            "Records excluded after full text (n = 9)",
-            "Method or dataset not adopted in the",
-            "final design (n = 1)",
+            "Records excluded after full text (n = 8)",
             "Not used in the final synthesis (n = 8)"], fill=grey, align="left"),
         Box("inc", 80, 540, 420, 90, [
-            "Sources included in the review (n = 160)",
+            "Sources included in the review (n = 161)",
             "of which 45 studies are summarised",
-            "study by study in Table 2.10"]),
+            "study by study in Table 2.11"]),
     ]
     ed = [Edge("id", "sc"), Edge("id", "dup", "right", "left"),
           Edge("sc", "fa"), Edge("sc", "ex1", "right", "left"),

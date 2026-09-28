@@ -1,0 +1,193 @@
+A. Coverage-aligned formulation: distribution per method (30 instances per n)
+n  method  cov_mean cov_sd cov_q1 cov_q3 | boundary_mean predicate_mean traced_mean | opt_hit | sec_median sec_q1 sec_q3
+12 random      55.48  3.49  53.27  57.53 |  82.14  98.33 100.00 |   0.0 |    0.0001    0.0001    0.0002
+12 greedy      64.72  2.75  62.72  66.59 |  96.90 100.00 100.00 |  33.3 |    0.0002    0.0002    0.0003
+12 ga          65.81  2.96  64.08  66.90 |  97.69 100.00 100.00 | 100.0 |    0.4747    0.4304    0.5434
+12 sa          65.19  2.87  63.19  66.59 |  97.44 100.00 100.00 |  43.3 |    0.0340    0.0314    0.0449
+12 qaoa        65.30  2.70  63.96  66.67 |  98.44 100.00 100.00 |  50.0 |    1.1195    1.0493    1.2967
+12 exhaustive  65.81  2.96  64.08  66.90 |  98.21 100.00 100.00 | 100.0 |    0.0005    0.0004    0.0008
+16 random      50.20  4.08  47.27  53.27 |  84.62  99.58 100.00 |   0.0 |    0.0002    0.0001    0.0002
+16 greedy      58.35  2.23  56.45  60.17 |  96.67 100.00 100.00 |  20.0 |    0.0003    0.0002    0.0005
+16 ga          59.65  2.10  58.06  61.26 |  98.72 100.00 100.00 |  90.0 |    0.4430    0.4138    0.5561
+16 sa          58.65  1.84  57.37  59.66 |  98.21 100.00 100.00 |  30.0 |    0.0761    0.0522    0.0935
+16 qaoa        58.93  1.97  57.81  60.71 |  96.15 100.00 100.00 |  30.0 |   15.2799   14.7104   16.3746
+16 exhaustive  59.73  2.07  58.27  61.26 |  99.23 100.00 100.00 | 100.0 |    0.0143    0.0110    0.0175
+20 random      46.96  3.29  45.74  49.17 |  82.82  98.75 100.00 |   0.0 |    0.0002    0.0002    0.0003
+20 greedy      54.68  2.06  53.51  56.17 |  97.69 100.00 100.00 |  20.0 |    0.0003    0.0003    0.0005
+20 ga          55.86  1.91  54.91  57.03 |  98.72 100.00 100.00 |  86.7 |    0.4753    0.3899    0.5668
+20 sa          54.46  1.69  53.41  55.77 |  95.38 100.00 100.00 |   3.3 |    0.0763    0.0693    0.1140
+20 qaoa        54.55  1.81  53.80  55.56 |  96.15 100.00  99.33 |   3.3 |  262.0594  246.0860  290.7281
+20 exhaustive  55.97  1.92  54.91  57.11 |  98.72 100.00  99.33 | 100.0 |    0.4949    0.4010    0.7853
+
+B. Pairwise comparison of all methods on pairwise coverage (row vs column: Wilcoxon p; A12)
+n = 12
+  random     vs greedy      p = 0.0000  A12 = 0.019  wins/ties/losses = 0/0/30
+  random     vs ga          p = 0.0000  A12 = 0.009  wins/ties/losses = 0/0/30
+  random     vs sa          p = 0.0000  A12 = 0.016  wins/ties/losses = 0/0/30
+  random     vs qaoa        p = 0.0000  A12 = 0.011  wins/ties/losses = 0/0/30
+  random     vs exhaustive  p = 0.0000  A12 = 0.009  wins/ties/losses = 0/0/30
+  greedy     vs ga          p = 0.0001  A12 = 0.394  wins/ties/losses = 0/10/20
+  greedy     vs sa          p = 0.0110  A12 = 0.454  wins/ties/losses = 3/16/11
+  greedy     vs qaoa        p = 0.0105  A12 = 0.436  wins/ties/losses = 5/10/15
+  greedy     vs exhaustive  p = 0.0001  A12 = 0.394  wins/ties/losses = 0/10/20
+  ga         vs sa          p = 0.0003  A12 = 0.574  wins/ties/losses = 17/13/0
+  ga         vs qaoa        p = 0.0007  A12 = 0.553  wins/ties/losses = 15/15/0
+  ga         vs exhaustive  p = 1.0000  A12 = 0.500  wins/ties/losses = 0/30/0
+  sa         vs qaoa        p = 0.8587  A12 = 0.472  wins/ties/losses = 4/19/7
+  sa         vs exhaustive  p = 0.0003  A12 = 0.426  wins/ties/losses = 0/13/17
+  qaoa       vs exhaustive  p = 0.0007  A12 = 0.447  wins/ties/losses = 0/15/15
+n = 16
+  random     vs greedy      p = 0.0000  A12 = 0.029  wins/ties/losses = 0/0/30
+  random     vs ga          p = 0.0000  A12 = 0.016  wins/ties/losses = 0/0/30
+  random     vs sa          p = 0.0000  A12 = 0.027  wins/ties/losses = 0/1/29
+  random     vs qaoa        p = 0.0000  A12 = 0.022  wins/ties/losses = 0/0/30
+  random     vs exhaustive  p = 0.0000  A12 = 0.016  wins/ties/losses = 0/0/30
+  greedy     vs ga          p = 0.0000  A12 = 0.334  wins/ties/losses = 0/8/22
+  greedy     vs sa          p = 0.6025  A12 = 0.458  wins/ties/losses = 11/4/15
+  greedy     vs qaoa        p = 0.0150  A12 = 0.419  wins/ties/losses = 7/9/14
+  greedy     vs exhaustive  p = 0.0000  A12 = 0.323  wins/ties/losses = 0/6/24
+  ga         vs sa          p = 0.0001  A12 = 0.651  wins/ties/losses = 20/9/1
+  ga         vs qaoa        p = 0.0001  A12 = 0.591  wins/ties/losses = 20/10/0
+  ga         vs exhaustive  p = 0.1025  A12 = 0.491  wins/ties/losses = 0/27/3
+  sa         vs qaoa        p = 0.0942  A12 = 0.437  wins/ties/losses = 9/7/14
+  sa         vs exhaustive  p = 0.0001  A12 = 0.337  wins/ties/losses = 0/9/21
+  qaoa       vs exhaustive  p = 0.0001  A12 = 0.392  wins/ties/losses = 0/9/21
+n = 20
+  random     vs greedy      p = 0.0000  A12 = 0.006  wins/ties/losses = 0/0/30
+  random     vs ga          p = 0.0000  A12 = 0.002  wins/ties/losses = 0/0/30
+  random     vs sa          p = 0.0000  A12 = 0.007  wins/ties/losses = 0/0/30
+  random     vs qaoa        p = 0.0000  A12 = 0.007  wins/ties/losses = 0/0/30
+  random     vs exhaustive  p = 0.0000  A12 = 0.002  wins/ties/losses = 0/0/30
+  greedy     vs ga          p = 0.0000  A12 = 0.338  wins/ties/losses = 0/8/22
+  greedy     vs sa          p = 0.1857  A12 = 0.537  wins/ties/losses = 15/7/8
+  greedy     vs qaoa        p = 0.2530  A12 = 0.506  wins/ties/losses = 15/4/11
+  greedy     vs exhaustive  p = 0.0000  A12 = 0.327  wins/ties/losses = 0/6/24
+  ga         vs sa          p = 0.0000  A12 = 0.694  wins/ties/losses = 28/2/0
+  ga         vs qaoa        p = 0.0000  A12 = 0.676  wins/ties/losses = 29/1/0
+  ga         vs exhaustive  p = 0.0679  A12 = 0.484  wins/ties/losses = 0/26/4
+  sa         vs qaoa        p = 0.6811  A12 = 0.482  wins/ties/losses = 10/10/10
+  sa         vs exhaustive  p = 0.0000  A12 = 0.291  wins/ties/losses = 0/1/29
+  qaoa       vs exhaustive  p = 0.0000  A12 = 0.304  wins/ties/losses = 0/1/29
+
+C. Alignment study: Spearman(QUBO energy rank, coverage rank) over all C(n,5) selections; regret of QUBO optimum
+n objective  spearman_mean spearman_min  opt_is_best  regret_mean(pp) regret_max(pp)
+12 v1 (current)             0.899 0.819  26.7% 1.47 4.76
+12 v2 beta=0.5              0.986 0.966 100.0% 0.00 0.00
+12 v2 beta=0.75             0.986 0.966 100.0% 0.00 0.00
+12 v2 beta=1.0              0.986 0.966 100.0% 0.00 0.00
+16 v1 (current)             0.850 0.818  20.0% 2.01 4.31
+16 v2 beta=0.5              0.986 0.978 100.0% 0.00 0.00
+16 v2 beta=0.75             0.986 0.978 100.0% 0.00 0.00
+16 v2 beta=1.0              0.986 0.978 100.0% 0.00 0.00
+20 v1 (current)             0.817 0.779  10.0% 2.15 6.56
+20 v2 beta=0.5              0.986 0.975 100.0% 0.00 0.00
+20 v2 beta=0.75             0.986 0.975 100.0% 0.00 0.00
+20 v2 beta=1.0              0.986 0.975 100.0% 0.00 0.00
+
+D. Scaling study: time per method (s) and ILP reference statistics
+n = 50: ILP proven optimal on 30/30; ILP time median 1.36 s, max 2.14 s
+   decomp_exact   time median   0.0057  q1   0.0043  q3   0.0080  boundary_cov mean 100.00  gap mean 0.49 pp
+   decomp_qaoa    time median   1.8550  q1   1.5947  q3   2.3567  boundary_cov mean  99.74  gap mean 0.69 pp
+   ga             time median   1.8967  q1   1.6243  q3   2.1220  boundary_cov mean  99.23  gap mean 0.31 pp
+   greedy         time median   0.0000  q1   0.0000  q3   0.0000  boundary_cov mean  99.74  gap mean 1.07 pp
+   random         time median   0.0002  q1   0.0002  q3   0.0002  boundary_cov mean  80.77  gap mean 9.07 pp
+   sa             time median   0.2225  q1   0.2100  q3   0.2518  boundary_cov mean  96.67  gap mean 2.19 pp
+n = 100: ILP proven optimal on 30/30; ILP time median 7.85 s, max 11.99 s
+   decomp_exact   time median   0.0046  q1   0.0039  q3   0.0058  boundary_cov mean  99.74  gap mean 0.47 pp
+   decomp_qaoa    time median   1.5375  q1   1.2464  q3   2.1750  boundary_cov mean  99.74  gap mean 0.44 pp
+   ga             time median   1.9786  q1   1.7794  q3   2.3781  boundary_cov mean 100.00  gap mean 0.07 pp
+   greedy         time median   0.0000  q1   0.0000  q3   0.0000  boundary_cov mean  99.49  gap mean 0.69 pp
+   random         time median   0.0002  q1   0.0002  q3   0.0002  boundary_cov mean  86.67  gap mean 8.36 pp
+   sa             time median   0.5576  q1   0.5365  q3   0.6256  boundary_cov mean  96.15  gap mean 2.16 pp
+n = 200: ILP proven optimal on 1/30; ILP time median 60.02 s, max 60.05 s
+   decomp_exact   time median   0.0069  q1   0.0058  q3   0.0083  boundary_cov mean  99.74  gap mean 0.31 pp
+   decomp_qaoa    time median   1.5674  q1   1.2309  q3   1.7987  boundary_cov mean 100.00  gap mean 0.42 pp
+   ga             time median   3.2081  q1   2.9904  q3   3.8920  boundary_cov mean  99.49  gap mean 0.27 pp
+   greedy         time median   0.0000  q1   0.0000  q3   0.0000  boundary_cov mean 100.00  gap mean 0.49 pp
+   random         time median   0.0002  q1   0.0002  q3   0.0003  boundary_cov mean  83.33  gap mean 9.02 pp
+   sa             time median   1.8188  q1   1.6676  q3   1.9795  boundary_cov mean  94.87  gap mean 2.44 pp
+
+E. Change study by clause change (feasible = all obligations exercised)
+n change method  cases feasible cov_ratio churn impact_set unmet_before
+16 CH1 aware_exact    30  100.0   99.95  0.17  3.80   13.3
+16 CH1 aware_qaoa     30   96.7   98.94  0.90  3.80   13.3
+16 CH1 full_exact     30  100.0  100.00  0.90  3.80   13.3
+16 CH1 full_qaoa      30   93.3   98.30  2.70  3.80   13.3
+16 CH1 keep_old       30   86.7  100.19  0.00  3.80   13.3
+16 CH2 aware_exact    30  100.0   99.77  0.40  2.13   30.0
+16 CH2 aware_qaoa     30   93.3   99.03  0.90  2.13   30.0
+16 CH2 full_exact     30   93.3   99.95  1.20  2.13   30.0
+16 CH2 full_qaoa      30   73.3   98.01  3.00  2.13   30.0
+16 CH2 keep_old       30   70.0  100.47  0.00  2.13   30.0
+16 CH3 aware_exact    30  100.0  100.00  0.00  5.83    0.0
+16 CH3 aware_qaoa     30  100.0   99.08  0.70  5.83    0.0
+16 CH3 full_exact     30  100.0  100.00  0.60  5.83    0.0
+16 CH3 full_qaoa      30  100.0   98.25  2.50  5.83    0.0
+16 CH3 keep_old       30  100.0  100.00  0.00  5.83    0.0
+16 CH4 aware_exact    30  100.0   99.95  0.03  4.60    3.3
+16 CH4 aware_qaoa     30  100.0   99.22  0.73  4.60    3.3
+16 CH4 full_exact     30  100.0  100.00  0.67  4.60    3.3
+16 CH4 full_qaoa      30  100.0   98.20  2.47  4.60    3.3
+16 CH4 keep_old       30   96.7  100.00  0.00  4.60    3.3
+16 CH5 aware_exact    30  100.0  100.00  0.00  5.43    0.0
+16 CH5 aware_qaoa     30  100.0   99.12  0.77  5.43    0.0
+16 CH5 full_exact     30  100.0  100.00  0.60  5.43    0.0
+16 CH5 full_qaoa      30  100.0   98.25  2.50  5.43    0.0
+16 CH5 keep_old       30  100.0  100.00  0.00  5.43    0.0
+16 CH6 aware_exact    30  100.0  100.00  0.00 10.53    0.0
+16 CH6 aware_qaoa     30  100.0   98.71  0.73 10.53    0.0
+16 CH6 full_exact     30  100.0  100.00  0.60 10.53    0.0
+16 CH6 full_qaoa      30  100.0   98.25  2.50 10.53    0.0
+16 CH6 keep_old       30  100.0  100.00  0.00 10.53    0.0
+20 CH1 aware_exact    30  100.0   99.86  0.13  4.43   13.3
+20 CH1 aware_qaoa     30   96.7   99.13  0.60  4.43   13.3
+20 CH1 full_exact     30  100.0  100.00  0.93  4.43   13.3
+20 CH1 keep_old       30   86.7  100.05  0.00  4.43   13.3
+20 CH2 aware_exact    30  100.0   99.81  0.20  2.53   20.0
+20 CH2 aware_qaoa     30   90.0   98.99  0.73  2.53   20.0
+20 CH2 full_exact     30   90.0  100.00  1.00  2.53   20.0
+20 CH2 keep_old       30   80.0  100.09  0.00  2.53   20.0
+20 CH3 aware_exact    30  100.0  100.00  0.00  6.60    0.0
+20 CH3 aware_qaoa     30   96.7   98.81  0.80  6.60    0.0
+20 CH3 full_exact     30  100.0  100.00  0.67  6.60    0.0
+20 CH3 keep_old       30  100.0  100.00  0.00  6.60    0.0
+20 CH4 aware_exact    30  100.0  100.00  0.00  6.63    0.0
+20 CH4 aware_qaoa     30  100.0   99.32  0.53  6.63    0.0
+20 CH4 full_exact     30  100.0  100.00  0.67  6.63    0.0
+20 CH4 keep_old       30  100.0  100.00  0.00  6.63    0.0
+20 CH5 aware_exact    30  100.0  100.00  0.00  6.57    0.0
+20 CH5 aware_qaoa     30  100.0   99.54  0.63  6.57    0.0
+20 CH5 full_exact     30  100.0  100.00  0.67  6.57    0.0
+20 CH5 keep_old       30  100.0  100.00  0.00  6.57    0.0
+20 CH6 aware_exact    30  100.0  100.00  0.00 13.07    0.0
+20 CH6 aware_qaoa     30  100.0   98.91  0.77 13.07    0.0
+20 CH6 full_exact     30  100.0  100.00  0.67 13.07    0.0
+20 CH6 keep_old       30  100.0  100.00  0.00 13.07    0.0
+
+CH1: CH1 add condition: fog at or above 60 km/h
+CH2: CH2 add condition: lane markings absent in snow
+CH3: CH3 tighten speed boundary (P7: 60/70 -> 70 km/h)
+CH4: CH4 narrow obscurant condition (P4: mist/fog -> fog)
+CH5: CH5 narrow road category (P6: non-motorway -> single carriageway)
+CH6: CH6 remove detection-range condition (P8)
+
+F. First formulation: mean coverage per method
+n method  pairwise boundary predicate opt_hit
+12 random      55.48  82.14  98.33   0.0
+12 greedy      64.72  96.90 100.00   6.7
+12 ga          64.33  95.11  99.58 100.0
+12 sa          64.41  96.13 100.00  50.0
+12 qaoa        63.96  95.88  99.58  50.0
+12 exhaustive  64.33  95.11  99.58 100.0
+16 random      50.20  84.62  99.58   0.0
+16 greedy      58.35  96.67 100.00   0.0
+16 ga          57.72  94.36 100.00 100.0
+16 sa          57.47  94.62 100.00  20.0
+16 qaoa        57.04  94.10  99.58   3.3
+16 exhaustive  57.72  94.36 100.00 100.0
+20 random      46.96  82.82  98.75   0.0
+20 greedy      54.68  97.69 100.00   0.0
+20 ga          53.82  97.18 100.00 100.0
+20 sa          53.10  94.10 100.00   6.7
+20 qaoa        52.47  93.08 100.00   0.0
+20 exhaustive  53.87  97.18 100.00 100.0

@@ -275,7 +275,61 @@ def fig_friction():
     save(fig, "fig_friction_sensitivity")
 
 
+# ---------- Fig: scenarios by number of predicates exercised ----------
+def fig_predicates():
+    import itertools, sys
+    sys.path.insert(0, os.path.join(HERE, "..", "phaseB_qubo_scenario_selection"))
+    from qsel.odd_space import DIMENSIONS, DIM_NAMES, PREDICATES
+    space = [dict(zip(DIM_NAMES, v)) for v in itertools.product(*DIMENSIONS.values())]
+    cnt = np.bincount([sum(f(s) for _, _, f in PREDICATES) for s in space], minlength=9)
+    fig, ax = plt.subplots(figsize=(6.2, 3.0))
+    b = ax.bar(np.arange(9), cnt, 0.7, color=C[0], edgecolor="white", linewidth=1)
+    bar_labels(ax, b, "{:.0f}")
+    ax.set_xticks(np.arange(9))
+    ax.set_xlabel("Number of boundary predicates exercised by the scenario")
+    ax.set_ylabel("Scenarios (of 972)")
+    ax.set_ylim(0, cnt.max() * 1.15)
+    save(fig, "fig_predicates")
+
+
+# ---------- Fig: per-instance coverage distribution by method ----------
+def fig_cov_dist():
+    v2 = pd.read_csv(os.path.join(PB, "runs_v2_full.csv"))
+    order = ["random", "greedy", "sa", "qaoa", "ga", "exhaustive"]
+    fig, axes = plt.subplots(1, 3, figsize=(7.4, 3.4), sharey=False)
+    for ax, n in zip(axes, (12, 16, 20)):
+        data = [v2[(v2.n == n) & (v2.method == m)].pairwise_cov.values * 100 for m in order]
+        bp = ax.boxplot(data, patch_artist=True, widths=0.6, medianprops={"color": INK, "linewidth": 1.4},
+                        flierprops={"marker": "o", "markersize": 3, "markerfacecolor": INK2, "markeredgecolor": INK2})
+        for patch, m in zip(bp["boxes"], order):
+            patch.set_facecolor(COLOR[m]); patch.set_alpha(0.55); patch.set_edgecolor(INK2)
+        ax.set_xticks(range(1, 7), ["Rand.", "Greedy", "SA", "QAOA", "GA", "Exact"], rotation=45, fontsize=8.5)
+        ax.set_title(f"n = {n}", fontsize=10, color=INK)
+    axes[0].set_ylabel("Pairwise coverage (%)")
+    save(fig, "fig_cov_dist")
+
+
+# ---------- Fig: change study by clause change ----------
+def fig_change_type():
+    ch = pd.concat([pd.read_csv(os.path.join(PB, "change_rq4.csv")), pd.read_csv(os.path.join(PB, "change_rq4_part2.csv"))])
+    ch = ch[ch.n == 16]
+    ch["cid"] = ch.change.str[:3]
+    strat = [("keep_old", "Retain previous", C[5]), ("full_exact", "Full re-selection (exact)", C[1]),
+             ("aware_qaoa", "Change-aware (QAOA)", C[4]), ("aware_exact", "Change-aware (exact)", C[0])]
+    g = ch.groupby(["cid", "method"]).feasible.mean().unstack() * 100
+    fig, ax = plt.subplots(figsize=(7.2, 3.3))
+    x = np.arange(len(g)); w = 0.2
+    hat = ["", "//", "..", "xx"]
+    for i, (m, lab, col) in enumerate(strat):
+        ax.bar(x + (i - 1.5) * w, g[m], w * 0.95, color=col, label=lab, edgecolor="white", linewidth=0.8, hatch=hat[i])
+    ax.set_xticks(x, g.index)
+    ax.set_ylabel("Changes with every obligation\nexercised (%)")
+    ax.set_ylim(60, 104)
+    ax.legend(loc="lower center", ncol=2, fontsize=8.5, bbox_to_anchor=(0.5, 1.0))
+    save(fig, "fig_change_type")
+
+
 if __name__ == "__main__":
     for f in (fig_alignment, fig_coverage, fig_qaoa_diff, fig_qaoa_cost, fig_scaling, fig_change, fig_change_sens,
-              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction):
+              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type):
         f()

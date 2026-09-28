@@ -29,14 +29,12 @@
 <rect x="80" y="400" width="420" height="60" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.4"/>
 <text x="290.0" y="430.0" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Full-text records assessed for eligibility (n = 169)</text>
 <rect x="560" y="375" width="320" height="110" rx="8" fill="#F2F2F2" stroke="#333333" stroke-width="1.4"/>
-<text x="570" y="405.04" font-size="13" text-anchor="start" dominant-baseline="middle" font-weight="bold">Records excluded after full text (n = 9)</text>
-<text x="570" y="421.68" font-size="13" text-anchor="start" dominant-baseline="middle">Method or dataset not adopted in the</text>
-<text x="570" y="438.32000000000005" font-size="13" text-anchor="start" dominant-baseline="middle">final design (n = 1)</text>
-<text x="570" y="454.96000000000004" font-size="13" text-anchor="start" dominant-baseline="middle">Not used in the final synthesis (n = 8)</text>
+<text x="570" y="421.68" font-size="13" text-anchor="start" dominant-baseline="middle" font-weight="bold">Records excluded after full text (n = 8)</text>
+<text x="570" y="438.32" font-size="13" text-anchor="start" dominant-baseline="middle">Not used in the final synthesis (n = 8)</text>
 <rect x="80" y="540" width="420" height="90" rx="8" fill="#FFFFFF" stroke="#333333" stroke-width="1.4"/>
-<text x="290.0" y="568.36" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Sources included in the review (n = 160)</text>
+<text x="290.0" y="568.36" font-size="13" text-anchor="middle" dominant-baseline="middle" font-weight="bold">Sources included in the review (n = 161)</text>
 <text x="290.0" y="585.0" font-size="13" text-anchor="middle" dominant-baseline="middle">of which 45 studies are summarised</text>
-<text x="290.0" y="601.64" font-size="13" text-anchor="middle" dominant-baseline="middle">study by study in Table 2.10</text>
+<text x="290.0" y="601.64" font-size="13" text-anchor="middle" dominant-baseline="middle">study by study in Table 2.11</text>
 <path d="M290.0,190 L290.0,250" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
 <path d="M500,105.0 L560,105.0" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
 <path d="M290.0,310 L290.0,400" fill="none" stroke="#333333" stroke-width="1.4" marker-end="url(#a)"/>
