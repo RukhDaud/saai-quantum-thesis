@@ -56,5 +56,13 @@ L.append("Scenarios by number of predicates exercised: " + str(dict(sorted(cnt.i
 L.append("Pairwise co-occurrence of predicates (scenarios exercising both):")
 for (a, _, fa), (b, _, fb) in itertools.combinations(PREDICATES, 2):
     L.append(f"  {a}-{b}: {sum(fa(s) and fb(s) for s in space)}")
+L.append("")
+eu2 = eu.assign(annex=eu.source.map(part), sec=eu.source.str.extract(r"point (\d+)")[0])
+g = eu2.groupby(["annex", "sec"]).agg(statements=("req_id", "size"), normative=("normative", lambda s: (s == "yes").sum()),
+                                      condition_sources=("req_id", lambda s: sum(x in src_ids for x in s)))
+L.append("EU statements by annex section:\n" + g.to_string())
+r2 = r1.assign(sub=r1.source.str.extract(r"paragraph (\d+\.\d+)")[0])
+L.append("R157 statements by paragraph:\n" + r2.groupby("sub").agg(statements=("req_id", "size"),
+         condition_sources=("req_id", lambda s: sum(x in src_ids for x in s))).to_string())
 open(os.path.join(H, "corpus_statistics.txt"), "w").write("\n".join(L) + "\n")
 print("\n".join(L))

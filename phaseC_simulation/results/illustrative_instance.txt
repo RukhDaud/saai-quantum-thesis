@@ -1,0 +1,25 @@
+n = 16, seed = 20276928, instance 2
+greedy: coverage 57.8%, faults 6
+   # 3 snow  dusk           mist  absent single_carriageway  40  preds P1 P2 P4 P5 P6 P8        reveals M1 M4
+   # 4 snow  dusk           fog   clear  motorway_separated  70  preds P1 P2 P4 P7 P8           reveals M1 M3 M4 M6
+   # 6 rain  low_sun_glare  fog   absent single_carriageway  40  preds P1 P3 P4 P5 P6 P8        reveals M1 M2
+   # 8 none  night          mist  clear  motorway_separated  60  preds P2 P3 P4 P7              reveals M2 M4 M5
+   #10 none  night          fog   worn   dual_carriageway    60  preds P2 P3 P4 P5 P6 P7 P8     reveals M2 M4 M5
+qaoa: coverage 60.3%, faults 6
+   # 1 none  dusk           mist  worn   single_carriageway  70  preds P2 P4 P5 P6 P7           reveals M2 M3 M4 M5
+   # 4 snow  dusk           fog   clear  motorway_separated  70  preds P1 P2 P4 P7 P8           reveals M1 M3 M4 M6
+   # 6 rain  low_sun_glare  fog   absent single_carriageway  40  preds P1 P3 P4 P5 P6 P8        reveals M1 M2
+   #13 snow  low_sun_glare  mist  worn   dual_carriageway    60  preds P1 P3 P4 P5 P6 P7 P8     reveals M1 M4
+   #14 snow  day            clear clear  motorway_separated  40  preds P1 P8                    reveals M1 M4
+exhaustive: coverage 62.1%, faults 5
+   # 1 none  dusk           mist  worn   single_carriageway  70  preds P2 P4 P5 P6 P7           reveals M2 M3 M4 M5
+   # 6 rain  low_sun_glare  fog   absent single_carriageway  40  preds P1 P3 P4 P5 P6 P8        reveals M1 M2
+   #10 none  night          fog   worn   dual_carriageway    60  preds P2 P3 P4 P5 P6 P7 P8     reveals M2 M4 M5
+   #12 snow  low_sun_glare  mist  absent motorway_separated  60  preds P1 P3 P4 P5 P7 P8        reveals M1 M4
+   #14 snow  day            clear clear  motorway_separated  40  preds P1 P8                    reveals M1 M4
+random: coverage 56.0%, faults 5
+   # 5 none  dusk           fog   clear  motorway_separated  70  preds P2 P4 P7 P8              reveals M2 M3 M4 M5
+   # 6 rain  low_sun_glare  fog   absent single_carriageway  40  preds P1 P3 P4 P5 P6 P8        reveals M1 M2
+   #10 none  night          fog   worn   dual_carriageway    60  preds P2 P3 P4 P5 P6 P7 P8     reveals M2 M4 M5
+   #12 snow  low_sun_glare  mist  absent motorway_separated  60  preds P1 P3 P4 P5 P7 P8        reveals M1 M4
+   #16 none  day            fog   worn   motorway_separated  70  preds P4 P5 P7 P8              reveals M2 M3 M4 M5

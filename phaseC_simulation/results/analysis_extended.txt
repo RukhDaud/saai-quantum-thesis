@@ -92,3 +92,6 @@ n
 16           0.633  0.567   0.633  0.567   0.467  0.533
 20           0.567  0.600   0.533  0.533   0.467  0.433
 Best achievable score distribution: {(12, 1.0): 16, (12, 0.8333333333333334): 14, (16, 1.0): 22, (16, 0.8333333333333334): 8, (20, 1.0): 21, (20, 0.8333333333333334): 9}
+K. Logical scenarios revealing each fault when only one cut-in speed ratio is used
+ratio 0.5: M1 18, M2 12, M3 9, M4 21, M5 9, M6 0
+ratio 0.75: M1 15, M2 3, M3 3, M4 15, M5 9, M6 2

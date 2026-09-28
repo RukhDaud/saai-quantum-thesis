@@ -91,6 +91,11 @@ for n, d in lg.groupby("n"):
     for m, dm in d.groupby("method"):
         out(f"   {m:14s} time median {dm.seconds.median():8.4f}  q1 {q(dm.seconds,25):8.4f}  q3 {q(dm.seconds,75):8.4f}  "
             f"boundary_cov mean {100*dm.boundary_cov.mean():6.2f}  gap mean {100*dm.gap_to_optimum.mean():.2f} pp")
+out("Share of instances at the reference (gap = 0) and mean/max gain over greedy (points)")
+out(lg.assign(opt=lg.gap_to_optimum < 1e-9).groupby(["n", "method"]).opt.mean().unstack().round(3).to_string())
+gp = lg.pivot_table(index=["n", "seed"], columns="method", values="pairwise_cov")
+for m in ("decomp_exact", "decomp_qaoa", "ga", "sa"):
+    out(f"  {m}: " + str(((gp[m] - gp["greedy"]) * 100).groupby(level=0).agg(["mean", "max"]).round(2).to_dict()))
 out()
 
 # ---------------------------------------------------------------- E
@@ -119,6 +124,13 @@ for n in (12, 16, 20):
             continue
         out(f"{n} {m:10s} {100*d.pairwise_cov.mean():6.2f} {100*d.boundary_cov.mean():6.2f} "
             f"{100*d.predicate_cov.mean():6.2f} {100*d.hit.mean():5.1f}")
+
+out()
+out("J. QAOA: probability of the enumerated optimal bit string in the final state (median), relative to uniform")
+for n, g in v2[v2.method == "qaoa"].groupby("n"):
+    m = g.qaoa_p_opt.median()
+    out(f"n={n}: p_opt {m:.3g}; uniform {1 / 2 ** n:.3g}; ratio {m * 2 ** n:.1f}; expected hits in 1024 shots {1024 * m:.3f}; "
+        f"median evaluations {g.qaoa_nfev.median():.0f}")
 
 open(OUT, "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))

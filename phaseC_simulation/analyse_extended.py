@@ -120,5 +120,17 @@ out("I. Share of instances on which the method reached the best achievable score
 out(hv.groupby(["n", "method"]).hit.mean().unstack().round(3).to_string())
 out("Best achievable score distribution: " + str(pd.read_csv(os.path.join(R, "fdm_upper_bound.csv")).groupby("n").best.value_counts().to_dict()))
 
+out("K. Logical scenarios revealing each fault when only one cut-in speed ratio is used")
+for rat in (0.5, 0.75):
+    parts = []
+    for v in sorted(sw.variant.unique()):
+        if v == "reference":
+            continue
+        d = sw[sw.variant == v].set_index(key)
+        k = ((d.collision == 1) & (base == 0)).rename("k").reset_index()
+        k = k[k.ratio == rat]
+        parts.append(f"{v[:2]} {int((k.groupby(['precipitation', 'visibility', 'speed_kmh']).k.max() > 0).sum())}")
+    out(f"ratio {rat}: " + ", ".join(parts))
+
 open(os.path.join(R, "analysis_extended.txt"), "w").write("\n".join(L) + "\n")
 print("\n".join(L))

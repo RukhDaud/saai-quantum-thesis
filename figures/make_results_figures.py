@@ -375,7 +375,26 @@ def fig_trace():
     save(fig, "fig_trace")
 
 
+# ---------- Fig: coverage of the exact optimum under both formulations, per instance ----------
+def fig_formulation_scatter():
+    v1 = pd.read_csv(os.path.join(PB, "runs_full.csv"))
+    v2 = pd.read_csv(os.path.join(PB, "runs_v2_full.csv"))
+    fig, ax = plt.subplots(figsize=(4.8, 4.2))
+    mk = {12: "o", 16: "s", 20: "^"}
+    for i, n in enumerate((12, 16, 20)):
+        a = v1[(v1.n == n) & (v1.method == "exhaustive")].set_index("seed").pairwise_cov * 100
+        b = v2[(v2.n == n) & (v2.method == "exhaustive")].set_index("seed").pairwise_cov * 100
+        ax.scatter(a, b.loc[a.index], s=26, marker=mk[n], color=C[i], edgecolor="white", linewidth=0.6, label=f"n = {n}")
+    lo, hi = 44, 76
+    ax.plot([lo, hi], [lo, hi], color=INK2, linewidth=1, linestyle="--")
+    ax.set_xlim(lo, hi); ax.set_ylim(lo, hi)
+    ax.set_xlabel("Coverage of the first-formulation optimum (%)")
+    ax.set_ylabel("Coverage of the coverage-aligned optimum (%)")
+    ax.legend(loc="upper left")
+    save(fig, "fig_formulation_scatter")
+
+
 if __name__ == "__main__":
     for f in (fig_alignment, fig_coverage, fig_qaoa_diff, fig_qaoa_cost, fig_scaling, fig_change, fig_change_sens,
-              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace):
+              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace, fig_formulation_scatter):
         f()

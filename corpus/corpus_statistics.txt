@@ -58,3 +58,40 @@ Pairwise co-occurrence of predicates (scenarios exercising both):
   P6-P7: 432
   P6-P8: 432
   P7-P8: 432
+
+EU statements by annex section:
+               statements  normative  condition_sources
+annex     sec                                          
+Annex II  1            23         22                  3
+          10            4          3                  0
+          11            8          7                  0
+          12            4          2                  0
+          2             9          7                  0
+          3            14          6                 10
+          4             8          7                  0
+          5             4          3                  1
+          6             8          7                  0
+          7             4          3                  0
+          8             8          7                  0
+          9            47         17                  0
+Annex III 1            22         22                  2
+          2            15         15                  0
+          3           109        109                  0
+          4            15         15                  0
+          5            21         21                  0
+          6             4          4                  0
+          7             2          2                  0
+          8            41         41                  0
+R157 statements by paragraph:
+      statements  condition_sources
+sub                                
+2.1            1                  1
+2.10           1                  0
+5.1            9                  0
+5.2           13                  6
+5.3            7                  1
+5.4           12                  2
+5.5            5                  1
+6.1            5                  2
+6.2           11                  1
+7.1            7                  2

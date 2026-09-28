@@ -106,6 +106,16 @@ n = 200: ILP proven optimal on 1/30; ILP time median 60.02 s, max 60.05 s
    greedy         time median   0.0000  q1   0.0000  q3   0.0000  boundary_cov mean 100.00  gap mean 0.49 pp
    random         time median   0.0002  q1   0.0002  q3   0.0003  boundary_cov mean  83.33  gap mean 9.02 pp
    sa             time median   1.8188  q1   1.6676  q3   1.9795  boundary_cov mean  94.87  gap mean 2.44 pp
+Share of instances at the reference (gap = 0) and mean/max gain over greedy (points)
+method  decomp_exact  decomp_qaoa     ga  greedy  random   sa
+n                                                            
+50             0.333        0.233  0.533   0.067     0.0  0.0
+100            0.333        0.367  0.900   0.200     0.0  0.0
+200            0.533        0.467  0.600   0.367     0.0  0.0
+  decomp_exact: {'mean': {50: 0.58, 100: 0.22, 200: 0.18}, 'max': {50: 1.36, 100: 0.67, 200: 0.67}}
+  decomp_qaoa: {'mean': {50: 0.38, 100: 0.24, 200: 0.07}, 'max': {50: 2.01, 100: 0.67, 200: 0.67}}
+  ga: {'mean': {50: 0.76, 100: 0.62, 200: 0.22}, 'max': {50: 2.0, 100: 1.33, 200: 0.67}}
+  sa: {'mean': {50: -1.12, 100: -1.47, 200: -1.96}, 'max': {50: 0.68, 100: 0.0, 200: -0.67}}
 
 E. Change study by clause change (feasible = all obligations exercised)
 n change method  cases feasible cov_ratio churn impact_set unmet_before
@@ -191,3 +201,8 @@ n method  pairwise boundary predicate opt_hit
 20 sa          53.10  94.10 100.00   6.7
 20 qaoa        52.47  93.08 100.00   0.0
 20 exhaustive  53.87  97.18 100.00 100.0
+
+J. QAOA: probability of the enumerated optimal bit string in the final state (median), relative to uniform
+n=12: p_opt 0.000567; uniform 0.000244; ratio 2.3; expected hits in 1024 shots 0.581; median evaluations 450
+n=16: p_opt 7.29e-05; uniform 1.53e-05; ratio 4.8; expected hits in 1024 shots 0.075; median evaluations 450
+n=20: p_opt 1.59e-05; uniform 9.54e-07; ratio 16.6; expected hits in 1024 shots 0.016; median evaluations 450
