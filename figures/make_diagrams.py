@@ -148,7 +148,7 @@ def prisma():
         Box("inc", 80, 540, 420, 90, [
             "Sources included in the review (n = 177)",
             "of which 45 studies are summarised",
-            "study by study in Table 2.15"]),
+            "study by study in Table 2.17"]),
     ]
     ed = [Edge("id", "sc"), Edge("id", "dup", "right", "left"),
           Edge("sc", "fa"), Edge("sc", "ex1", "right", "left"),

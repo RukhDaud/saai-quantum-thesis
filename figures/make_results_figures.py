@@ -450,7 +450,51 @@ def fig_budget():
     save(fig, "fig_budget")
 
 
+# ---------- Fig: median time per instance, all methods and sizes ----------
+def fig_times():
+    small = pd.read_csv(os.path.join(PB, "runs_v2_full.csv"))
+    large = pd.read_csv(os.path.join(PB, "large_v2.csv"))
+    fig, ax = plt.subplots(figsize=(6.8, 3.4))
+    series = [("greedy", "Greedy", small, large), ("sa", "Simulated annealing", small, large), ("ga", "Genetic algorithm", small, large),
+              ("qaoa", "QAOA (full problem)", small, None), ("exhaustive", "Exact enumeration", small, None)]
+    for m, lab, s, l in series:
+        xs, ys = [], []
+        for n in (12, 16, 20):
+            xs.append(n); ys.append(max(s[(s.n == n) & (s.method == m)].seconds.median(), 1e-4))
+        if l is not None:
+            for n in (50, 100, 200):
+                xs.append(n); ys.append(max(l[(l.n == n) & (l.method == m)].seconds.median(), 1e-4))
+        ax.plot(xs, ys, color=COLOR[m], marker=MARK[m], markersize=6, linewidth=1.6, label=lab)
+    for m, lab, col, mk in (("decomp_qaoa", "Decomposition, QAOA", "#7a5cd6", "P"), ("decomp_exact", "Decomposition, exact", "#52514e", "*")):
+        ys = [max(large[(large.n == n) & (large.method == m)].seconds.median(), 1e-4) for n in (50, 100, 200)]
+        ax.plot([50, 100, 200], ys, color=col, marker=mk, markersize=7, linewidth=1.6, label=lab)
+    ax.set_xscale("log"); ax.set_yscale("log")
+    ax.set_xticks([12, 16, 20, 50, 100, 200], ["12", "16", "20", "50", "100", "200"])
+    ax.set_xlabel("Pool size n"); ax.set_ylabel("Median time per instance (s)")
+    ax.legend(fontsize=7.8, ncol=2, loc="upper left")
+    save(fig, "fig_times")
+
+
+# ---------- Fig: manoeuvres revealing each fault by initial gap ----------
+def fig_kills_gap():
+    sw = pd.read_csv(os.path.join(PC, "fdm_sweep.csv"))
+    key = ["precipitation", "visibility", "speed_kmh", "gap_m", "ratio"]
+    ref = sw[sw.variant == "reference"].set_index(key).collision
+    fig, ax = plt.subplots(figsize=(6.8, 3.3))
+    pal = C + ["#7a5cd6"]
+    mk = ["o", "s", "D", "^", "v", "X"]
+    for i, v in enumerate(sorted(x for x in sw.variant.unique() if x != "reference")):
+        d = sw[sw.variant == v].set_index(key)
+        k = ((d.collision == 1) & (ref == 0)).rename("k").reset_index().groupby("gap_m").k.sum()
+        ax.plot(k.index, k.values, color=pal[i], marker=mk[i], markersize=5, linewidth=1.5, label=v.split("_")[0] + " " + " ".join(v.split("_")[1:]))
+    r = ref.reset_index().groupby("gap_m").collision.sum()
+    ax.plot(r.index, r.values, color=INK2, linestyle="--", linewidth=1.2, label="reference collisions")
+    ax.set_xlabel("Initial gap to the cutting-in vehicle (m)"); ax.set_ylabel("Manoeuvres (of 54 per gap)")
+    ax.legend(fontsize=7.8, ncol=2)
+    save(fig, "fig_kills_gap")
+
+
 if __name__ == "__main__":
     for f in (fig_alignment, fig_coverage, fig_qaoa_diff, fig_qaoa_cost, fig_scaling, fig_change, fig_change_sens,
-              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace, fig_formulation_scatter, fig_review_years, fig_budget):
+              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace, fig_formulation_scatter, fig_review_years, fig_budget, fig_times, fig_kills_gap):
         f()
