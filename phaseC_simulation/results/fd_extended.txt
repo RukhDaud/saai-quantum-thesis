@@ -1,0 +1,54 @@
+A. Scaling study: mean mutation score; Wilcoxon p and wins/ties/losses against random and against greedy
+n=50:
+   random 0.828 [vs random p=1.000 0/30/0; vs greedy p=0.035 4/16/10]
+   greedy 0.878 [vs random p=0.035 10/16/4; vs greedy p=1.000 0/30/0]
+   sa 0.867 [vs random p=0.202 11/12/7; vs greedy p=0.360 6/16/8]
+   ga 0.894 [vs random p=0.010 12/15/3; vs greedy p=0.317 6/21/3]
+   decomp_exact 0.894 [vs random p=0.013 13/13/4; vs greedy p=0.180 4/25/1]
+   decomp_qaoa 0.883 [vs random p=0.025 11/15/4; vs greedy p=0.317 1/29/0]
+   detection by fault: random: M1 100 M2 93 M3 90 M4 100 M5 83 M6 30 | greedy: M1 100 M2 100 M3 100 M4 100 M5 100 M6 27 | ga: M1 100 M2 100 M3 100 M4 100 M5 100 M6 37 | decomp_qaoa: M1 100 M2 100 M3 100 M4 100 M5 100 M6 30
+n=100:
+   random 0.872 [vs random p=1.000 0/30/0; vs greedy p=0.079 6/12/12]
+   greedy 0.906 [vs random p=0.079 12/12/6; vs greedy p=1.000 0/30/0]
+   sa 0.917 [vs random p=0.046 11/17/2; vs greedy p=0.655 10/13/7]
+   ga 0.911 [vs random p=0.124 12/11/7; vs greedy p=0.835 12/7/11]
+   decomp_exact 0.894 [vs random p=0.134 9/16/5; vs greedy p=0.317 1/26/3]
+   decomp_qaoa 0.883 [vs random p=0.272 8/16/6; vs greedy p=0.102 1/24/5]
+   detection by fault: random: M1 100 M2 97 M3 93 M4 100 M5 87 M6 47 | greedy: M1 100 M2 100 M3 100 M4 100 M5 100 M6 43 | ga: M1 100 M2 100 M3 100 M4 100 M5 100 M6 47 | decomp_qaoa: M1 100 M2 100 M3 100 M4 100 M5 100 M6 30
+n=200:
+   random 0.844 [vs random p=1.000 0/30/0; vs greedy p=0.054 7/11/12]
+   greedy 0.889 [vs random p=0.054 12/11/7; vs greedy p=1.000 0/30/0]
+   sa 0.889 [vs random p=0.054 15/8/7; vs greedy p=0.796 6/18/6]
+   ga 0.894 [vs random p=0.023 12/13/5; vs greedy p=0.782 7/17/6]
+   decomp_exact 0.872 [vs random p=0.091 10/13/7; vs greedy p=0.083 0/27/3]
+   decomp_qaoa 0.872 [vs random p=0.091 10/13/7; vs greedy p=0.083 0/27/3]
+   detection by fault: random: M1 100 M2 100 M3 90 M4 100 M5 90 M6 27 | greedy: M1 100 M2 100 M3 100 M4 100 M5 100 M6 33 | ga: M1 100 M2 100 M3 100 M4 100 M5 100 M6 37 | decomp_qaoa: M1 100 M2 100 M3 100 M4 100 M5 100 M6 23
+
+B. Change study: mean mutation score after re-selection by strategy (180 changes per size)
+method  aware_exact  aware_qaoa  full_exact  full_qaoa  keep_old
+n                                                               
+16            0.886       0.885       0.896      0.884     0.883
+20            0.908       0.894       0.906        NaN     0.906
+n=16 aware_exact vs keep_old: p=0.083 3/177/0
+n=16 full_exact vs keep_old: p=0.009 9/170/1
+n=20 aware_exact vs keep_old: p=0.083 3/177/0
+n=20 full_exact vs keep_old: p=0.782 7/167/6
+
+C. Leave one fault out (coverage-aligned): mean score of random vs coverage-based methods pooled over n, and Wilcoxon p of greedy vs random per n
+without none                    : random 0.826; coverage-based 0.861-0.883; greedy vs random p (n=12/16/20) 0.078 / 0.006 / 0.299
+without M1_surface_unaware      : random 0.791; coverage-based 0.833-0.860; greedy vs random p (n=12/16/20) 0.078 / 0.006 / 0.299
+without M2_aeb_unavailable      : random 0.800; coverage-based 0.840-0.860; greedy vs random p (n=12/16/20) 0.111 / 0.006 / 0.122
+without M3_no_speed_cap         : random 0.836; coverage-based 0.838-0.862; greedy vs random p (n=12/16/20) 0.353 / 0.090 / 0.558
+without M4_late_reaction        : random 0.791; coverage-based 0.833-0.860; greedy vs random p (n=12/16/20) 0.078 / 0.006 / 0.299
+without M5_weak_brakes          : random 0.813; coverage-based 0.842-0.869; greedy vs random p (n=12/16/20) 0.058 / 0.003 / 0.211
+without M6_visibility_unaware   : random 0.924; coverage-based 0.971-0.993; greedy vs random p (n=12/16/20) 0.096 / 0.011 / 0.248
+
+D. Budget study: mean pairwise coverage and mutation score by method, and best achievable score
+k=3 n=12: best achievable 0.922; random cov 38.0% ms 0.767; greedy cov 41.4% ms 0.800; ga cov 41.8% ms 0.789; sa cov 41.7% ms 0.761; qaoa cov 41.8% ms 0.800; exhaustive cov 41.8% ms 0.789
+      vs random: greedy p=0.658 11/12/7; ga p=0.682 10/11/9; sa p=0.774 6/16/8; qaoa p=0.350 11/12/7; exhaustive p=0.740 10/12/8
+k=3 n=16: best achievable 0.956; random cov 33.5% ms 0.744; greedy cov 37.0% ms 0.800; ga cov 37.1% ms 0.761; sa cov 37.1% ms 0.794; qaoa cov 37.1% ms 0.772; exhaustive cov 37.1% ms 0.817
+      vs random: greedy p=0.196 13/8/9; ga p=0.464 10/11/9; sa p=0.245 15/9/6; qaoa p=0.226 9/15/6; exhaustive p=0.031 13/11/6
+k=7 n=12: best achievable 0.922; random cov 71.7% ms 0.867; greedy cov 81.9% ms 0.906; ga cov 83.0% ms 0.894; sa cov 82.2% ms 0.894; qaoa cov 82.6% ms 0.889; exhaustive cov 82.9% ms 0.894
+      vs random: greedy p=0.091 8/21/1; ga p=0.066 4/26/0; sa p=0.066 4/26/0; qaoa p=0.102 4/25/1; exhaustive p=0.066 4/26/0
+k=7 n=16: best achievable 0.956; random cov 63.9% ms 0.883; greedy cov 75.0% ms 0.928; ga cov 76.5% ms 0.911; sa cov 74.4% ms 0.911; qaoa cov 74.5% ms 0.922; exhaustive cov 76.7% ms 0.917
+      vs random: greedy p=0.118 9/18/3; ga p=0.268 9/15/6; sa p=0.244 8/17/5; qaoa p=0.046 8/20/2; exhaustive p=0.106 9/17/4

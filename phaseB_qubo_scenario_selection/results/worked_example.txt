@@ -45,3 +45,16 @@ all selections of size k ranked by energy (energy, covered interactions, selecti
      -40  40 [4, 5, 6]
      -38  39 [1, 2, 3]
 lowest energy of a selection of size != k: -28
+first formulation optimum: [2, 3, 5], coverage 57.9% (44 interactions)
+change example: n = 16, seed 55566002, CH2 (lane markings absent in snow)
+previous selection [2, 4, 7, 15, 16]; unmet obligations after the change: {'P10': {2}}
+impact set size 1; candidates satisfying P10: [3]
+full re-selection: [3, 4, 8, 11, 13]; replaced 4; unmet {}; coverage 55.8%
+change-aware: [1, 3, 4, 7, 16]; replaced 2; unmet {}; coverage 55.0%
+previous selection coverage 56.6%
+   x2: rain, low_sun_glare, mist, clear, motorway_separated, 70
+   x3: snow, low_sun_glare, mist, absent, motorway_separated, 40
+   x4: snow, dusk, clear, clear, dual_carriageway, 40
+   x7: rain, night, mist, absent, dual_carriageway, 60
+   x15: none, low_sun_glare, fog, worn, motorway_separated, 40
+   x16: none, day, clear, absent, single_carriageway, 70

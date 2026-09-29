@@ -394,7 +394,63 @@ def fig_formulation_scatter():
     save(fig, "fig_formulation_scatter")
 
 
+# ---------- Fig: reviewed studies by publication year and theme (from Table 2.2) ----------
+def fig_review_years():
+    import re
+    src = open(os.path.join(HERE, "..", "..", "thesis", "table22.py")).read() if os.path.exists(
+        os.path.join(HERE, "..", "..", "thesis", "table22.py")) else open("/home/claude/thesis/table22.py").read()
+    theme, data = None, []
+    for line in src.splitlines():
+        m = re.match(r"# --- (.+)", line)
+        if m:
+            theme = m.group(1).strip()
+        m = re.match(r'\("[^"]*?, (\d{4})', line)
+        if m and theme:
+            data.append((theme, int(m.group(1))))
+    d = pd.DataFrame(data, columns=["theme", "year"])
+    d["period"] = pd.cut(d.year, [2000, 2019, 2021, 2023, 2024, 2025, 2026], labels=["2015-2019", "2020-2021", "2022-2023", "2024", "2025", "2026"])
+    order = ["Formal verification and safety definitions", "ODD", "Scenario-based testing", "Requirements formalisation",
+             "NL to scenarios", "Traceability", "Quantum", "Assurance and data"]
+    labels = ["Verification", "ODD", "Scenario testing", "Formalisation", "NL to scenarios", "Traceability", "Quantum", "Assurance, data"]
+    t = d.pivot_table(index="period", columns="theme", values="year", aggfunc="count", observed=False).reindex(columns=order).fillna(0)
+    pal = C + ["#7a5cd6", "#52514e"]
+    fig, ax = plt.subplots(figsize=(7.2, 3.4))
+    bottom = np.zeros(len(t))
+    for i, th in enumerate(order):
+        ax.bar(range(len(t)), t[th], 0.65, bottom=bottom, color=pal[i], label=labels[i], edgecolor="white", linewidth=1)
+        bottom += t[th].values
+    for x, v in enumerate(bottom):
+        ax.annotate(f"{int(v)}", (x, v), xytext=(0, 3), textcoords="offset points", ha="center", fontsize=8.5, color=INK)
+    ax.set_xticks(range(len(t)), t.index.astype(str))
+    ax.set_ylabel("Reviewed studies")
+    ax.set_ylim(0, bottom.max() * 1.18)
+    ax.legend(ncol=2, fontsize=8, loc="upper left")
+    save(fig, "fig_review_years")
+    return d
+
+
+# ---------- Fig: budget study, mean coverage difference to greedy ----------
+def fig_budget():
+    files = {3: "runs_v2_k3.csv", 5: "runs_v2_full.csv", 7: "runs_v2_k7.csv"}
+    d = pd.concat([pd.read_csv(os.path.join(PB, f)).assign(k=k) for k, f in files.items()])
+    d = d[d.n.isin([12, 16])]
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.3), sharey=True)
+    for ax, n in zip(axes, (12, 16)):
+        g = d[d.n == n]
+        for m in ("exhaustive", "ga", "qaoa", "sa"):
+            ys = []
+            for k in (3, 5, 7):
+                piv = g[g.k == k].pivot_table(index="seed", columns="method", values="pairwise_cov")
+                ys.append(100 * (piv[m] - piv["greedy"]).mean())
+            ax.plot([3, 5, 7], ys, color=COLOR[m], marker=MARK[m], markersize=6, linewidth=1.6, label=LABEL[m])
+        ax.axhline(0, color=INK2, linewidth=1, linestyle="--")
+        ax.set_xticks([3, 5, 7]); ax.set_xlabel("Budget k"); ax.set_title(f"n = {n}", fontsize=10, color=INK)
+    axes[0].set_ylabel("Mean coverage difference\nto greedy (points)")
+    axes[1].legend(fontsize=8.5, loc="upper left")
+    save(fig, "fig_budget")
+
+
 if __name__ == "__main__":
     for f in (fig_alignment, fig_coverage, fig_qaoa_diff, fig_qaoa_cost, fig_scaling, fig_change, fig_change_sens,
-              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace, fig_formulation_scatter):
+              fig_kill, fig_mutation, fig_cov_vs_ms, fig_friction, fig_predicates, fig_cov_dist, fig_change_type, fig_fault_detection, fig_trace, fig_formulation_scatter, fig_review_years, fig_budget):
         f()

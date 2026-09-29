@@ -1,0 +1,25 @@
+Flagged by the extractor (rows) against source of a library condition (columns):
+source   False  True 
+flagged              
+False      285      4
+True        69     12
+flagged 81 of 370; sources flagged 12 of 16; share of flagged statements that are sources 14.8%
+dimensions assigned to flagged statements: {'generic': 36, 'traffic_participants': 19, 'road_type': 6, 'speed': 6, 'precipitation': 5, 'visibility': 4, 'road_markings': 2, 'geography': 2, 'lighting': 1}
+   statement_id                                                           odd_dimension_lib    odd_dimension_rule has_odd_condition  same_dimension
+0    EU1426-004                                                                     {speed}                  none                no           False
+1    EU1426-017                                                             {precipitation}         precipitation               yes            True
+2    EU1426-023                                                                   {generic}                  none                no           False
+3    EU1426-036  {precipitation, road_type, road_markings, visibility, geography, lighting}               generic               yes           False
+4    EU1426-037                                                                   {generic}               generic               yes            True
+5    EU1426-039                                                             {precipitation}         precipitation               yes            True
+6    EU1426-040                                                                  {lighting}               generic               yes           False
+7    EU1426-041                                                                  {lighting}              lighting               yes            True
+8    EU1426-042                                                                {visibility}            visibility               yes            True
+9    EU1426-043                                                             {road_markings}         road_markings               yes            True
+10   EU1426-044                                                                 {road_type}               generic               yes           False
+11   EU1426-045                                                                 {geography}             geography               yes            True
+12   EU1426-046  {precipitation, road_type, road_markings, visibility, geography, lighting}               generic               yes           False
+13   EU1426-056                                                                   {generic}                  none                no           False
+14   EU1426-148                                                      {traffic_participants}  traffic_participants               yes            True
+15   EU1426-150                                                      {traffic_participants}                  none                no           False
+flagged sources with a dimension of one of their conditions: 8 of 12

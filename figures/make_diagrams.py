@@ -259,7 +259,37 @@ def positioning():
     write("fig2_2_positioning", bx, ed, W, H, "Literature positioning")
 
 
+# ================================================================ Thesis structure (Figure 1.1)
+def thesis_flow():
+    W, H = 1000, 560
+    c1, c2, c3, c4 = "#FFF2CC", "#DAE8FC", "#E1D5E7", "#D5E8D4"
+    bx = [
+        Box("ch1", 20, 20, 300, 80, ["Chapter 1: Introduction", "problem, aim, objectives, RQ1-RQ4"], fill=c1),
+        Box("ch2", 350, 20, 300, 80, ["Chapter 2: Literature Review", "45 studies; four research gaps"], fill=c1),
+        Box("ch3", 680, 20, 300, 80, ["Chapter 3: Methodology", "corpus, conditions, predicates, QUBO,", "re-selection, R157 model"], fill=c2),
+        Box("ch4", 680, 150, 300, 80, ["Chapter 4: Feasibility Study", "extraction; first formulation;", "coverage-aligned formulation"], fill=c2),
+        Box("rq1", 20, 290, 220, 80, ["RQ1", "requirements to traceable", "predicates"], fill=c3),
+        Box("rq2", 265, 290, 220, 80, ["RQ2", "coverage and", "fault detection"], fill=c3),
+        Box("rq3", 510, 290, 220, 80, ["RQ3", "cost and scaling;", "decomposition"], fill=c3),
+        Box("rq4", 755, 290, 225, 80, ["RQ4", "traceability and", "change-aware re-selection"], fill=c3),
+        Box("ch5", 20, 420, 700, 60, ["Chapter 5: Evaluation of Selection and Traceability", "RQ1, RQ2 (coverage), RQ3, RQ4"], fill=c4),
+        Box("ch6", 750, 420, 230, 60, ["Chapter 6: Fault Detection", "RQ2 (fault detection)"], fill=c4),
+        Box("ch7", 250, 500, 500, 50, ["Chapter 7: Discussion and Conclusion"], fill=c1),
+    ]
+    ed = [Edge("ch1", "ch2", "right", "left"), Edge("ch2", "ch3", "right", "left"), Edge("ch3", "ch4"),
+          Edge("ch4", "rq4", "bottom", "top", points=[(830, 260)]),
+          Edge("ch4", "rq1", "left", "top", points=[(130, 190)]), Edge("ch4", "rq2", "left", "top", points=[(375, 190)]),
+          Edge("ch4", "rq3", "left", "top", points=[(620, 190)]),
+          Edge("rq1", "ch5"), Edge("rq2", "ch5"), Edge("rq3", "ch5"),
+          Edge("rq4", "ch5", "bottom", "top", points=[(867, 395), (680, 395)]),
+          Edge("ch5", "ch6", "right", "left"),
+          Edge("ch5", "ch7", "bottom", "top", points=[(370, 490), (400, 490)]),
+          Edge("ch6", "ch7", "bottom", "top", points=[(865, 490), (600, 490)])]
+    write("fig1_1_structure", bx, ed, W, H, "Thesis structure")
+
+
 if __name__ == "__main__":
     prisma()
     architecture()
     positioning()
+    thesis_flow()

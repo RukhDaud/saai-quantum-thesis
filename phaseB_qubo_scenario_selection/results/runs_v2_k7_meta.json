@@ -1,0 +1,18 @@
+{
+ "args": {
+  "sizes": [
+   12,
+   16
+  ],
+  "instances": 30,
+  "k": 7,
+  "qaoa_p": 2,
+  "qaoa_restarts": 3,
+  "base_seed": 20260927,
+  "out": "results/runs_v2_k7.csv",
+  "qubo": "v2",
+  "start": 0
+ },
+ "python": "3.11.15",
+ "machine": "x86_64"
+}
