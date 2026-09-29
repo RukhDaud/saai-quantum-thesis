@@ -132,5 +132,20 @@ for n, g in v2[v2.method == "qaoa"].groupby("n"):
     out(f"n={n}: p_opt {m:.3g}; uniform {1 / 2 ** n:.3g}; ratio {m * 2 ** n:.1f}; expected hits in 1024 shots {1024 * m:.3f}; "
         f"median evaluations {g.qaoa_nfev.median():.0f}")
 
+out()
+out("K. Share of selections omitting each boundary level present in the pool (coverage-aligned, sizes pooled), per cent")
+from qsel.instance import Instance as _I, sample_pool as _sp  # noqa: E402
+_miss, _cnt = {}, {}
+for row in v2.itertuples():
+    inst = _I(_sp(row.n, np.random.default_rng(row.seed)), 5)
+    sel = [int(x) for x in row.selected.split()]
+    have = {(dd, inst.pool[i][dd]) for i in sel for dd in inst.pool[0]}
+    for bl in inst.pool_boundary:
+        kk = (row.method, f"{bl[0]}={bl[1]}")
+        _cnt[kk] = _cnt.get(kk, 0) + 1
+        _miss[kk] = _miss.get(kk, 0) + (bl not in have)
+_d = pd.DataFrame([(m, lv, 100 * _miss[(m, lv)] / _cnt[(m, lv)]) for (m, lv) in _cnt], columns=["method", "level", "miss"])
+out(_d.pivot(index="level", columns="method", values="miss").round(1).to_string())
+
 open(OUT, "w").write("\n".join(lines) + "\n")
 print("\n".join(lines))

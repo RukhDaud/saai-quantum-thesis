@@ -132,5 +132,16 @@ for rat in (0.5, 0.75):
         parts.append(f"{v[:2]} {int((k.groupby(['precipitation', 'visibility', 'speed_kmh']).k.max() > 0).sum())}")
     out(f"ratio {rat}: " + ", ".join(parts))
 
+out()
+out("L. Friction sensitivity by pool size")
+out(fs.pivot_table(index="method", columns=["setting", "n"], values="mutation_score").round(3).to_string())
+bo = pd.read_csv(os.path.join(R, "boundary_objective.csv")).pivot_table(index=["n", "seed"], columns="method", values="mutation_score")
+dd = bo["boundary_optimum"] - bo["coverage_optimum"]
+out("M. Boundary-aware vs coverage optimum, more/same/fewer faults: " +
+    str(dd.groupby(level=0).apply(lambda s: f"{(s > 0).sum()}/{(s == 0).sum()}/{(s < 0).sum()}").to_dict()))
+sc_ = pd.read_csv(os.path.join(R, "sim_check.csv"))
+out("N. esmini feasibility runs: distinct minimum gaps per controller and speed across environment combinations: " +
+    str(sc_.groupby(["model", "speed_kmh"]).min_gap_m.nunique().to_dict()))
+
 open(os.path.join(R, "analysis_extended.txt"), "w").write("\n".join(L) + "\n")
 print("\n".join(L))
