@@ -1,0 +1,11 @@
+Scenarios: 972
+Scenarios tracing to at least one clause: 971 of 972 (99.9%)
+Regulations reached per scenario: {'none': 1, 'R157': 2, 'both': 969}
+Source statements per scenario: median 9, min 0, max 13, mean 9.32
+Conditions per scenario: median 7, min 0, max 11, mean 7.33
+Scenarios tracing through a clause-anchored level (P1, P4 or P7): 936 of 972 (96.3%)
+Traced scenarios whose trace rests only on design-decided levels: 35 (3.6%)
+Source statements: 32; reaching at least one scenario: 13; reaching none: 19
+Statements serving more than one condition: [['EU1426-036', 7, 969], ['EU1426-046', 7, 969], ['R157-056', 2, 969]]
+Scenarios reached per statement (descending): [['EU1426-036', 969], ['EU1426-046', 969], ['R157-056', 969], ['EU1426-039', 648], ['EU1426-043', 648], ['EU1426-044', 648], ['EU1426-042', 648], ['EU1426-017', 648], ['R157-015', 648], ['R157-068', 648], ['R157-001', 648], ['EU1426-040', 486], ['EU1426-041', 486], ['EU1426-037', 0], ['EU1426-004', 0], ['EU1426-023', 0], ['EU1426-150', 0], ['EU1426-148', 0], ['EU1426-056', 0], ['EU1426-045', 0], ['R157-018', 0], ['R157-022', 0], ['R157-016', 0], ['R157-017', 0], ['R157-026', 0], ['R157-023', 0], ['R157-039', 0], ['R157-041', 0], ['R157-050', 0], ['R157-044', 0], ['R157-052', 0], ['R157-066', 0]]
+Conditions per predicate: {'P1': ['C01', 'C08', 'C17'], 'P2': ['C02', 'C17'], 'P3': ['C03', 'C17'], 'P4': ['C04', 'C17'], 'P5': ['C05', 'C17'], 'P6': ['C06', 'C16', 'C17'], 'P7': ['C15'], 'P8': ['C18']}
